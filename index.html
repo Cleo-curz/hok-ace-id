@@ -3,7 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kartu HoK: ACE — Terjemahan Indonesia</title>
+<title>WIKI ID — Kamus Kartu HoK: ACE</title>
+<meta name="description" content="Kamus kartu Honor of Kings: ACE dalam bahasa Indonesia, disusun dari teks Mandarin asli yang bisa dicek di tiap kartu.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="WIKI ID">
+<meta property="og:url" content="https://hok-ace-translate-id.netlify.app/">
+<meta property="og:title" content="WIKI ID — Kamus Kartu HoK: ACE">
+<meta property="og:description" content="Semua kartu Hero, Talent, Equipment, dan Effect HoK: ACE dalam bahasa Indonesia, lengkap dengan teks Mandarin aslinya.">
+<meta property="og:image" content="https://hok-ace-translate-id.netlify.app/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
@@ -333,7 +346,8 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--gold-dim)}
    disembunyikan.
    ======================================================================== */
 const CONFIG = {
-  author:      'Eun One',
+  brand:       'WIKI ID',       // teks besar di header + judul tab
+  author:      'Eun One',       // dipakai di footer
   title:       'Kamus Kartu HoK: ACE',
   bannerHero:  'Donghuang Taiyi',   // nama Hero apa saja dari daftar Hero
   links: [
@@ -676,11 +690,11 @@ const ICONS = {
 };
 
 function renderChrome(){
-  document.getElementById('byline').textContent = (CONFIG.author||'').toUpperCase();
+  document.getElementById('byline').textContent = (CONFIG.brand||CONFIG.author||'').toUpperCase();
   document.getElementById('fname').textContent = CONFIG.author||'';
   document.getElementById('sitetitle').textContent = CONFIG.title||'';
-  document.title = (CONFIG.title||'Kartu HoK: ACE') +
-                   (CONFIG.author ? ' — ' + CONFIG.author : '');
+  document.title = ((CONFIG.brand||CONFIG.author) ? (CONFIG.brand||CONFIG.author) + ' — ' : '') +
+                   (CONFIG.title||'Kartu HoK: ACE');
   const total = ['hero','talent','equip','effect']
     .reduce((n,k)=>n + DATA[k].filter(c=>!c.hidden).length, 0);
   document.getElementById('count').textContent =
