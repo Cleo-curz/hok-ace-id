@@ -102,7 +102,13 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 }
 
 /* ---------- type tabs + search ---------- */
-.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0 4px}
+.stickyhead{background:var(--ink);
+  padding:14px 0 10px;margin:0 0 4px;border-bottom:1px solid var(--line)}
+@media (min-width:1001px){
+  .stickyhead{position:sticky;top:0;z-index:6}
+}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 10px}
+.stickyhead .filters{margin-top:0;margin-bottom:0}
 .tabs{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);
   border-radius:12px;padding:4px;flex-wrap:wrap}
 .tabs button{padding:9px 16px;border-radius:9px;font-size:14px;font-weight:500;color:var(--muted);
@@ -131,7 +137,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .chip[aria-pressed="true"].c{box-shadow:inset 0 0 0 1px currentColor}
 
 /* ---------- layout ---------- */
-.cols{display:grid;grid-template-columns:minmax(0,1fr) 352px;gap:26px;align-items:start}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 352px;gap:26px}
 @media (max-width:1000px){.cols{grid-template-columns:minmax(0,1fr)}}
 
 /* ---------- groups + grid ---------- */
@@ -165,7 +171,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .empty{padding:50px 10px;text-align:center;color:var(--dim);font-size:14px}
 
 /* ---------- detail ---------- */
-.detail{position:sticky;top:16px;border:1px solid var(--line);border-radius:16px;
+.detail{position:sticky;top:calc(var(--stickyH,168px) + 16px);border:1px solid var(--line);border-radius:16px;
   background:var(--sheet);overflow:hidden;box-shadow:var(--shadow)}
 .dart{position:relative;isolation:isolate;
   background:linear-gradient(170deg,rgba(150,174,228,.18),rgba(150,174,228,.03));
@@ -213,15 +219,25 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .props dd{margin:0;padding:5px 0;text-align:right;font-variant-numeric:tabular-nums;
   border-bottom:1px solid var(--line)}
 .hint{color:var(--dim);font-size:13px;padding:26px 4px;text-align:center}
-.close{display:none}
+
+.dtoolbar{position:sticky;top:0;z-index:3;display:flex;align-items:center;gap:6px;
+  padding:8px 10px;background:var(--sheet);border-bottom:1px solid var(--line)}
+.dtoolbar .navbtn{width:29px;height:29px;flex:none;border-radius:8px;display:flex;
+  align-items:center;justify-content:center;border:1px solid var(--line);color:var(--muted);
+  font-size:16px;line-height:1}
+.dtoolbar .navbtn:disabled{opacity:.3}
+.dtoolbar .navbtn:not(:disabled):hover{color:var(--text);border-color:var(--line2)}
+.dtoolbar .pos{flex:1;text-align:center;font-size:12px;color:var(--dim);
+  font-variant-numeric:tabular-nums}
+.dtoolbar .closeX{display:none;flex:none;font-size:12.5px;color:var(--muted);
+  padding:5px 9px;border-radius:8px}
+.dtoolbar .closeX:hover{color:var(--text);background:var(--chip)}
 
 @media (max-width:1000px){
   .detail{position:fixed;inset:auto 0 0 0;z-index:40;border-radius:18px 18px 0 0;
     max-height:82vh;overflow:auto;border-bottom:0}
   .detail.hide{display:none}
-  .close{display:block;position:sticky;top:0;z-index:2;width:100%;text-align:right;
-    padding:10px 16px;background:var(--sheet);border-bottom:1px solid var(--line);
-    color:var(--muted);font-size:13px}
+  .dtoolbar .closeX{display:block}
   .dart img{max-height:190px}
 }
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--gold-dim)}
@@ -271,23 +287,23 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--gold-dim)}
 </header>
 <div class="topbar"><button class="themebtn" id="theme">Ganti tema</button></div>
 
-<div class="bar">
-  <div class="tabs" role="tablist" id="tabs"></div>
-  <div class="search">
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-         stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
-    <input id="q" type="search" placeholder="Cari nama kartu, efek, atau nama Mandarin…"
-           autocomplete="off" aria-label="Cari kartu">
+<div class="stickyhead">
+  <div class="bar">
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+      <input id="q" type="search" placeholder="Cari nama kartu, efek, atau nama Mandarin…"
+             autocomplete="off" aria-label="Cari kartu">
+    </div>
   </div>
+  <div class="filters" id="filters"></div>
 </div>
-
-<div class="filters" id="filters"></div>
 
 <div class="cols">
   <main id="list" aria-live="polite"></main>
   <aside>
     <div class="detail hide" id="detail">
-      <button class="close" id="close">Tutup ✕</button>
       <div id="dinner"><p class="hint">Pilih satu kartu untuk melihat detailnya.</p></div>
     </div>
   </aside>
@@ -297,10 +313,12 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--gold-dim)}
   <div class="fcols">
     <div>
       <p class="fname" id="fname">Eun One</p>
-      <p class="fnote">© 2026 Eun One. Proyek penggemar, tidak berafiliasi dengan Tencent atau Honor of
+      <p class="fnote">Proyek penggemar, tidak berafiliasi dengan Tencent atau Honor of
       Kings. Data kartu berasal dari klien game; terjemahan disusun ulang dari teks
       Mandarin asli, yang bisa dicek lewat tab Mandarin di tiap kartu.</p>
-      <p class="fnote">Terjemahan dan tata letak situs ini dibuat sendiri. Seluruh aset kartu, nama karakter, dan hak cipta game adalah milik Tencent / TiMi Studio Group.</p>
+      <p class="fnote" style="margin-top:8px">&copy; 2026 Eun One. Terjemahan dan tata
+      letak situs ini dibuat sendiri. Seluruh aset kartu, nama karakter, dan hak cipta
+      game adalah milik Tencent / TiMi Studio Group.</p>
     </div>
     <nav class="social" id="social" aria-label="Media sosial"></nav>
   </div>
@@ -320,7 +338,7 @@ const CONFIG = {
   bannerHero:  'Donghuang Taiyi',   // nama Hero apa saja dari daftar Hero
   links: [
     { kind:'youtube',   label:'YouTube',   url:'https://www.youtube.com/@patotogaming' },
-    { kind:'tiktok',    label:'TikTok',    url:'@wanone562' },
+    { kind:'tiktok',    label:'TikTok',    url:'https://www.tiktok.com/@wanone562' },
     { kind:'instagram', label:'Instagram', url:'' },
     { kind:'discord',   label:'Discord',   url:'' },
     { kind:'link',      label:'Website',   url:'' }
@@ -425,13 +443,8 @@ function renderFilters(){
     state.tier, v=>state.tier=v));
 }
 
-function renderList(){
-  const m = document.getElementById('list'); m.innerHTML='';
+function groupedList(){
   const arr = items();
-  if(!arr.length){
-    m.append(el('p','empty','Tidak ada kartu yang cocok. Coba ubah filter atau kata kuncinya.'));
-    return;
-  }
   const map = new Map();
   arr.forEach(c=>{const k=groupKey(c); if(!map.has(k)) map.set(k,[]); map.get(k).push(c);});
   const order = ORDER[state.kind]||[];
@@ -439,6 +452,32 @@ function renderList(){
     const i=order.indexOf(a), j=order.indexOf(b);
     return (i<0?99:i)-(j<0?99:j) || a.localeCompare(b);
   });
+  keys.forEach(k=>map.get(k).sort((a,b)=>a.tier-b.tier||a.name.localeCompare(b.name)));
+  return {keys, map};
+}
+
+/* flat reading order matching the visual grid, used for Prev/Next in the detail panel */
+function orderedList(){
+  const {keys,map} = groupedList();
+  return keys.flatMap(k=>map.get(k));
+}
+
+function stepCard(delta){
+  const list = orderedList();
+  const idx = list.indexOf(state.sel);
+  if(idx<0) return;
+  const t = list[idx+delta];
+  if(!t) return;
+  state.sel = t; state.dtab = 0; renderDetail();
+}
+
+function renderList(){
+  const m = document.getElementById('list'); m.innerHTML='';
+  const {keys, map} = groupedList();
+  if(!keys.length){
+    m.append(el('p','empty','Tidak ada kartu yang cocok. Coba ubah filter atau kata kuncinya.'));
+    return;
+  }
   keys.forEach(k=>{
     const g = el('section','group');
     const h = el('div','ghead');
@@ -449,8 +488,7 @@ function renderList(){
     h.append(el('hr'));
     g.append(h);
     const grid = el('div','grid');
-    map.get(k).sort((a,b)=>a.tier-b.tier||a.name.localeCompare(b.name))
-      .forEach(c=>grid.append(cardTile(c)));
+    map.get(k).forEach(c=>grid.append(cardTile(c)));
     g.append(grid); m.append(g);
   });
 }
@@ -489,6 +527,23 @@ function renderDetail(){
   if(!c){ box.classList.add('hide'); return; }
   box.classList.remove('hide');
   host.innerHTML='';
+
+  const list = orderedList();
+  const idx = list.indexOf(c);
+  const toolbar = el('div','dtoolbar');
+  const prevBtn = el('button','navbtn','‹'); prevBtn.setAttribute('aria-label','Kartu sebelumnya');
+  const nextBtn = el('button','navbtn','›'); nextBtn.setAttribute('aria-label','Kartu berikutnya');
+  prevBtn.disabled = idx<=0;
+  nextBtn.disabled = idx<0 || idx>=list.length-1;
+  prevBtn.onclick=()=>stepCard(-1);
+  nextBtn.onclick=()=>stepCard(1);
+  toolbar.append(prevBtn);
+  toolbar.append(el('span','pos', idx<0 ? '—' : (idx+1)+' / '+list.length));
+  toolbar.append(nextBtn);
+  const closeX = el('button','closeX','Tutup ✕');
+  closeX.onclick = ()=>{state.sel=null; renderDetail();};
+  toolbar.append(closeX);
+  host.append(toolbar);
 
   const art = el('div','dart');
   const backdrop = c.art || c.card;
@@ -540,6 +595,7 @@ function renderDetail(){
   (tabs[Math.min(state.dtab,tabs.length-1)][1])(pane, c);
   body.append(pane);
   host.append(body);
+  box.scrollTop = 0;
 }
 
 function renderDesc(p,c){
@@ -650,12 +706,26 @@ function renderChrome(){
   });
 }
 
-function renderAll(){ renderTabs(); renderFilters(); renderList(); renderDetail(); }
+function syncStickyOffset(){
+  const sh = document.querySelector('.stickyhead');
+  if(!sh) return;
+  document.documentElement.style.setProperty('--stickyH', sh.getBoundingClientRect().height+'px');
+}
+window.addEventListener('resize', syncStickyOffset);
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(syncStickyOffset);
+
+function renderAll(){ renderTabs(); renderFilters(); renderList(); renderDetail(); syncStickyOffset(); }
 
 document.getElementById('q').addEventListener('input', e=>{
   state.q = e.target.value.trim(); renderList();
 });
-document.getElementById('close').onclick = ()=>{state.sel=null; renderDetail();};
+document.addEventListener('keydown', e=>{
+  if(!state.sel) return;
+  const tag = (document.activeElement||{}).tagName;
+  if(tag==='INPUT'||tag==='TEXTAREA') return;
+  if(e.key==='ArrowRight') stepCard(1);
+  if(e.key==='ArrowLeft') stepCard(-1);
+});
 document.getElementById('theme').onclick = ()=>{
   const cur = document.documentElement.getAttribute('data-theme');
   const dark = cur ? cur==='dark'
