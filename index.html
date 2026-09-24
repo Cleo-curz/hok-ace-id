@@ -341,7 +341,7 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--gold-dim)}
 /* ---------- kontestan stage v2: teks/avatar besar + karakter di kanan ---------- */
 .k-stage .k-char{position:absolute;right:2%;top:0;height:135%;width:auto;max-width:58%;
   object-fit:contain;object-position:right top;z-index:1;pointer-events:none;
-  filter:drop-shadow(0 10px 26px rgba(0,0,0,.5))}
+  transition:opacity .25s ease}
 .k-corner{z-index:3}
 .k-inner{z-index:2;max-width:62%}
 .k-eyebrow{gap:12px;font-size:15px;margin:0 0 10px}
@@ -999,11 +999,19 @@ function kSetActive(i){ kActive=i; kPeekIdx=-1; kRenderRail(); kRenderStage(); }
    Urutan field gambar karakter dari data kontestan. Kalau gambar yang tampil
    kurang pas, ubah urutannya di sini (field pertama yang berhasil dimuat dipakai). */
 const K_PORTRAIT_FIELDS = ['banShenImg','portraitV2','portrait'];
+const K_PRELOADED = {};
+function kPreload(l){
+  if(!l || K_PRELOADED[l.id]) return;
+  const u = K_PORTRAIT_FIELDS.map(f=>l[f]).find(Boolean);
+  if(u){ const im = new Image(); im.src = u; K_PRELOADED[l.id] = im; }
+}
 function kLoadPortrait(l){
   const img = document.getElementById('kChar');
   if(!img) return;
   const urls = K_PORTRAIT_FIELDS.map(f=>l[f]).filter(Boolean);
   let i = 0;
+  img.decoding = 'async'; img.style.opacity = 0;
+  img.onload = ()=>{ img.style.opacity = ''; kPreload(LORDS[kActive+1]); kPreload(LORDS[kActive-1]); };
   img.onerror = ()=>{ i++; if(i<urls.length) img.src = urls[i]; else img.remove(); };
   if(urls.length) img.src = urls[0]; else img.remove();
 }
