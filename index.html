@@ -153,6 +153,31 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .cols{display:grid;grid-template-columns:minmax(0,1fr) 352px;gap:26px}
 @media (max-width:1000px){.cols{grid-template-columns:minmax(0,1fr)}}
 
+/* independent scroll panes: card grid (left) + detail (right) each scroll
+   on their own, below the pinned tabs/filter bar, instead of the whole page */
+@media (min-width:1001px){
+  .cols{
+    height:calc(100vh - var(--stickyH,168px) - 24px);
+    min-height:460px;
+  }
+  #list{
+    height:100%;min-height:0;overflow-y:auto;overflow-x:hidden;
+    padding-right:10px;scrollbar-gutter:stable;
+  }
+  .cols>aside{height:100%;min-height:0}
+  .detail{position:static;top:auto;height:100%;min-height:0;
+    overflow-y:auto;overflow-x:hidden;scrollbar-gutter:stable}
+}
+/* thin gold scrollbar for the two independent panes */
+#list,.detail{scrollbar-width:thin;scrollbar-color:var(--gold-dim) transparent}
+#list::-webkit-scrollbar,.detail::-webkit-scrollbar{width:8px;height:8px}
+#list::-webkit-scrollbar-track,.detail::-webkit-scrollbar-track{background:transparent}
+#list::-webkit-scrollbar-thumb,.detail::-webkit-scrollbar-thumb{
+  background-color:var(--gold-dim);border-radius:999px;
+  border:2px solid var(--sheet);background-clip:padding-box}
+#list::-webkit-scrollbar-thumb:hover,.detail::-webkit-scrollbar-thumb:hover{
+  background-color:var(--gold);background-clip:padding-box}
+
 /* ---------- groups + grid ---------- */
 .group{margin:0 0 26px}
 .ghead{display:flex;align-items:center;gap:10px;margin:0 0 12px}
@@ -184,8 +209,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .empty{padding:50px 10px;text-align:center;color:var(--dim);font-size:14px}
 
 /* ---------- detail ---------- */
-.detail{position:sticky;top:calc(var(--stickyH,168px) + 16px);border:1px solid var(--line);border-radius:16px;
-  background:var(--sheet);overflow:hidden;box-shadow:var(--shadow)}
+.detail{border:1px solid var(--line);border-radius:16px;
+  background:var(--sheet);box-shadow:var(--shadow)}
 .dart{position:relative;isolation:isolate;
   background:linear-gradient(170deg,rgba(150,174,228,.18),rgba(150,174,228,.03));
   padding:18px 18px 0;display:flex;justify-content:center;overflow:hidden}
