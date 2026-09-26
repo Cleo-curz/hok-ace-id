@@ -1,0 +1,3761 @@
+{
+ "_readme": "Key = <kategori>:<id game>[:skill:N[:enh:N]]. src_hash = sha1(10 char) dari teks Mandarin (descCn) SAAT desc ini diterjemahkan. Saat re-fetch data baru: cocokkan src_hash dengan hash descCn yang baru; kalau sama, pakai 'desc' di sini apa adanya; kalau beda, berarti teks Mandarin-nya berubah (rework/nerf) dan field itu HARUS diterjemahkan ulang, jangan pakai yang lama.",
+ "entries": {
+  "hero:1941:main": {
+   "desc": "Sacrifice: Level Su Lie +2 secara permanen.",
+   "src_hash": "53e39fa063"
+  },
+  "hero:1941:awaken": {
+   "desc": "Sacrifice: Level Su Lie +4 secara permanen.",
+   "src_hash": "36c85c5f07"
+  },
+  "hero:1941:skill:0": {
+   "desc": "Su Lie berputar satu putaran, memberikan 80+80% Physical Attack sebagai Physical Damage ke musuh di sekitarnya dan mengurangi 4 Physical Defense mereka selama 5 detik.",
+   "src_hash": "bb95417973"
+  },
+  "hero:1941:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 80+120% Physical Attack dan pengurangan Physical Defense naik jadi 8.",
+   "src_hash": "ad1023cc22"
+  },
+  "hero:1941:skill:0:enh:1": {
+   "desc": "Saat pertama kali dikalahkan dalam Combat, Su Lie Revive dengan 50% Max HP.",
+   "src_hash": "6c4f7e32f0"
+  },
+  "hero:1941:skill:0:enh:2": {
+   "desc": "Setelah Revive, HP-nya penuh 100%. Musuh dalam 1 tile terkena knock-up dan stun 1 detik serta menerima Physical Damage sebesar 10% Max HP.",
+   "src_hash": "0ad60e1455"
+  },
+  "hero:5221:main": {
+   "desc": "Level yang diperoleh Hero milikmu dari Merge +1.",
+   "src_hash": "c53815e52b"
+  },
+  "hero:5221:awaken": {
+   "desc": "Level yang diperoleh Hero milikmu dari Merge +2.",
+   "src_hash": "94635ce8a5"
+  },
+  "hero:5221:skill:0": {
+   "desc": "Yao berubah jadi bintang dan memberikan 100+130% Physical Attack sebagai Physical Damage ke target saat ini.",
+   "src_hash": "6790d4f95d"
+  },
+  "hero:5221:skill:0:enh:0": {
+   "desc": "Tiap kali memakai Skill, Yao dapat Shield sebesar 100+100% Physical Attack selama 4 detik.",
+   "src_hash": "d23a0eda1c"
+  },
+  "hero:5221:skill:0:enh:1": {
+   "desc": "Tiap pemakaian Skill ke-3 memberi knock-up dan stun 0.5 detik ke target.",
+   "src_hash": "bb1333ca31"
+  },
+  "hero:5221:skill:0:enh:2": {
+   "desc": "Setelah memakai Skill, Yao dapat 1 Basic Attack diperkuat: 130+130% Physical Attack sebagai Physical Damage dan memulihkan 200+75% Physical Attack sebagai HP.",
+   "src_hash": "c9ce416425"
+  },
+  "hero:1181:main": {
+   "desc": "Setiap kali Hero milikmu menggunakan Skill 3 kali, Level Hero tersebut +1 secara permanen.",
+   "src_hash": "0735dd71ad"
+  },
+  "hero:1181:awaken": {
+   "desc": "Setiap kali Hero milikmu menggunakan Skill 3 kali, Level Hero tersebut +2 secara permanen.",
+   "src_hash": "677687bc23"
+  },
+  "hero:1181:skill:0": {
+   "desc": "Sun Bin melempar 1 bom waktu ke musuh target. Dua detik kemudian bom meledak dan memberikan 50+100% Magic Attack sebagai Magic Damage ke target serta musuh dalam 1 tile di dekatnya.",
+   "src_hash": "b54b1dbb8c"
+  },
+  "hero:1181:skill:0:enh:0": {
+   "desc": "Damage bom naik jadi 100+175% Magic Attack.",
+   "src_hash": "658cc41758"
+  },
+  "hero:1181:skill:0:enh:1": {
+   "desc": "Tiap pemakaian Skill ke-3, bom dilempar ke 3 musuh dengan HP tertinggi.",
+   "src_hash": "9b77a2e5d0"
+  },
+  "hero:1181:skill:0:enh:2": {
+   "desc": "Selama bom menempel di tubuh musuh, target tersebut terkena silence.",
+   "src_hash": "7e8bc19f20"
+  },
+  "hero:5031:main": {
+   "desc": "Preparation: Level Akomia Core +2.",
+   "src_hash": "58b551466e"
+  },
+  "hero:5031:awaken": {
+   "desc": "Preparation: Level Akomia Core +2, memicu 2 kali.",
+   "src_hash": "11edef3e4a"
+  },
+  "hero:5031:skill:0": {
+   "desc": "Biron mengayunkan senjatanya 2 kali. Tiap ayunan memberikan 50+100% Physical Attack sebagai Physical Damage ke musuh di depannya.",
+   "src_hash": "da31e2a15b"
+  },
+  "hero:5031:skill:0:enh:0": {
+   "desc": "Saat memakai Skill, Biron dapat Shield sebesar 100+10% Max HP selama 4 detik.",
+   "src_hash": "1baed1f422"
+  },
+  "hero:5031:skill:0:enh:1": {
+   "desc": "Tiap Skill mengenai 1 musuh, nilai Shield bertambah 100.",
+   "src_hash": "681f194feb"
+  },
+  "hero:5031:skill:0:enh:2": {
+   "desc": "Saat Shield hancur, Biron memulihkan 10% Max HP.",
+   "src_hash": "c10ca12e98"
+  },
+  "hero:1111:main": {
+   "desc": "Deploy: memperoleh 1 Free Refresh.",
+   "src_hash": "76af14c2e4"
+  },
+  "hero:1111:awaken": {
+   "desc": "Deploy: memperoleh 2 Free Refresh.",
+   "src_hash": "977a1466f7"
+  },
+  "hero:1111:skill:0": {
+   "desc": "Lady Sun menembakkan 1 ballista ke musuh target, memberikan 50+100% Physical Attack sebagai Physical Damage dan mengurangi 50% Physical Defense musuh yang terkena selama 5 detik.",
+   "src_hash": "408e378c50"
+  },
+  "hero:1111:skill:0:enh:0": {
+   "desc": "Damage ballista naik jadi 50+150% Physical Attack.",
+   "src_hash": "d87307180b"
+  },
+  "hero:1111:skill:0:enh:1": {
+   "desc": "Ballista meledak setelah mengenai target dan memberikan 60% Damage Skill ke musuh di dekatnya.",
+   "src_hash": "88de983505"
+  },
+  "hero:1111:skill:0:enh:2": {
+   "desc": "Lady Sun menembakkan 1 ballista tambahan yang lebih kuat dengan Damage 1.5 kali lipat.",
+   "src_hash": "69a30adf19"
+  },
+  "hero:1971:main": {
+   "desc": "Saat Player naik Level, Player EXP +2.",
+   "src_hash": "02e92d7e06"
+  },
+  "hero:1971:awaken": {
+   "desc": "Saat Player naik Level, Player EXP +4.",
+   "src_hash": "e1a91ccf8f"
+  },
+  "hero:1971:skill:0": {
+   "desc": "Yi Xing memilih 1 baris dengan musuh terbanyak dan menggambar papan catur kehampaan. Setelah 1.5 detik papan terbentuk sempurna dan memberikan 100+50% Magic Attack sebagai Magic Damage ke musuh di dalam areanya.",
+   "src_hash": "d3f66c188b"
+  },
+  "hero:1971:skill:0:enh:0": {
+   "desc": "Damage papan naik jadi 100+100% Magic Attack.",
+   "src_hash": "0fbe889b20"
+  },
+  "hero:1971:skill:0:enh:1": {
+   "desc": "Selama papan aktif, musuh tidak bisa masuk maupun keluar dari areanya.",
+   "src_hash": "7f956885c2"
+  },
+  "hero:1971:skill:0:enh:2": {
+   "desc": "Durasi papan diperpanjang jadi 5.5 detik.",
+   "src_hash": "07ad843c78"
+  },
+  "hero:1821:main": {
+   "desc": "Saat Ganjiang Moye di arena, memperoleh Normal Equipment Twin Blade · Male.",
+   "src_hash": "4d0b9b2e56"
+  },
+  "hero:1821:awaken": {
+   "desc": "Saat Ganjiang Moye di arena, memperoleh Normal Equipment Twin Blade · Male dan Twin Blade · Female.",
+   "src_hash": "4ff72d4e60"
+  },
+  "hero:1821:skill:0": {
+   "desc": "Ganjiang Moye melepaskan sepasang pedang terbang yang memberikan 100+50% Magic Attack sebagai Magic Damage ke musuh.",
+   "src_hash": "3b9106f162"
+  },
+  "hero:1821:skill:0:enh:0": {
+   "desc": "Damage pedang terbang naik jadi 150+100% Magic Attack.",
+   "src_hash": "2cdba7071d"
+  },
+  "hero:1821:skill:0:enh:1": {
+   "desc": "Tiap pemakaian Skill ke-2 melepaskan 1 pasang pedang terbang tambahan.",
+   "src_hash": "e277564bb4"
+  },
+  "hero:1821:skill:0:enh:2": {
+   "desc": "Damage pedang terbang naik jadi 150+200% Magic Attack.",
+   "src_hash": "54a29607bc"
+  },
+  "hero:1731:main": {
+   "desc": "Preparation: menggunakan 1 Ancient Coin pada Hero [Central Plain] terdekat.",
+   "src_hash": "6b52f55bfb"
+  },
+  "hero:1731:awaken": {
+   "desc": "Preparation: menggunakan 1 Refined Ancient Coin pada Hero [Central Plain] terdekat.",
+   "src_hash": "f89cf978db"
+  },
+  "hero:1731:skill:0": {
+   "desc": "Pasif: Damage dari Skill Liyuan Fang menumpuk Mark pada target. Setelah penuh 3 stack, Mark meledak dan memberikan 100% Physical Attack sebagai Physical Damage.\nAktif: Liyuan Fang melempar dart yang memberikan 150% Physical Attack sebagai Physical Damage.",
+   "src_hash": "7d1952f177"
+  },
+  "hero:1731:skill:0:enh:0": {
+   "desc": "Damage ledakan Mark naik jadi 150% Physical Attack.",
+   "src_hash": "039bfb2446"
+  },
+  "hero:1731:skill:0:enh:1": {
+   "desc": "Basic Attack juga menumpuk 1 stack Mark.",
+   "src_hash": "c661fe3b5c"
+  },
+  "hero:1731:skill:0:enh:2": {
+   "desc": "Setelah Mark meledak, Attack Speed naik 25%, maksimum 5 stack.",
+   "src_hash": "ceeea9f2f5"
+  },
+  "hero:1681:main": {
+   "desc": "Triumph: memperoleh 1 Energy.",
+   "src_hash": "655f1d5871"
+  },
+  "hero:1681:awaken": {
+   "desc": "Triumph: memperoleh 2 Energy.",
+   "src_hash": "a910f2c11b"
+  },
+  "hero:1681:skill:0": {
+   "desc": "Niu Mo mengumpulkan tenaga sejenak lalu menebas musuh target dengan kapak raksasanya. Dia mendapat Shield 80 selama 4 detik dan memberikan 30+100% Physical Attack sebagai Physical Damage.",
+   "src_hash": "21377fc4ea"
+  },
+  "hero:1681:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 30+120% Physical Attack.",
+   "src_hash": "911ed136d2"
+  },
+  "hero:1681:skill:0:enh:1": {
+   "desc": "Target terkena knock-up dan stun 1 detik.",
+   "src_hash": "ed4b7b6c72"
+  },
+  "hero:1681:skill:0:enh:2": {
+   "desc": "Durasi knock-up dan stun diperpanjang jadi 3 detik.",
+   "src_hash": "aebb7a47d9"
+  },
+  "hero:5141:main": {
+   "desc": "Preparation: Level 1 Hero milikmu yang memakai Equipment terbanyak +2, dan Level Akomia Core +1.",
+   "src_hash": "7ea4b33382"
+  },
+  "hero:5141:awaken": {
+   "desc": "Preparation: Level 1 [Sunset Sea] Hero milikmu yang memakai Equipment terbanyak +2, dan Level Akomia Core +1 (memicu 2 kali).",
+   "src_hash": "1daa007974"
+  },
+  "hero:5141:skill:0": {
+   "desc": "Pasif: serangan Allain dengan Red Shadow memberikan Magic Damage, dengan Heart Guard memberikan Physical Damage, dan saat kedua pedang menyerang bersamaan memberikan True Damage. Basic Attack dan Damage Skill-nya bisa Crit. Tiap kali memberikan Damage ke musuh, Allain menumpuk stack Rage; tiap stack memberi 2% Damage Reduction, maksimum 10 stack.\nAktif: Allain mengayunkan kedua pedangnya dan melancarkan 3 tebasan cepat ke target di depannya — 65% Magic Attack sebagai Magic Damage dan 2 kali 65% Physical Attack sebagai Physical Damage.",
+   "src_hash": "d18892898f"
+  },
+  "hero:5141:skill:0:enh:0": {
+   "desc": "Skill naik jadi 5 tahap dan juga memberi knock-up ke musuh target.",
+   "src_hash": "d0df3a243a"
+  },
+  "hero:5141:skill:0:enh:1": {
+   "desc": "Skill naik jadi 7 tahap dan Physical Damage naik jadi 115%. Setelah memakai Skill, batas stack Rage naik jadi 20.",
+   "src_hash": "ca85d5d19d"
+  },
+  "hero:5141:skill:0:enh:2": {
+   "desc": "Area Skill berubah jadi lingkaran besar.",
+   "src_hash": "eb03707875"
+  },
+  "hero:5041:main": {
+   "desc": "Summoned Unit memperoleh 3 Temporary Level.\nPreparation: Temporary Level tersebut dan Level Akomia Core mendapat tambahan +3.",
+   "src_hash": "acf41ca0e7"
+  },
+  "hero:5041:awaken": {
+   "desc": "Summoned Unit memperoleh 6 Temporary Level.\nPreparation: Temporary Level tersebut dan Level Akomia Core mendapat tambahan +3 (memicu 2 kali).",
+   "src_hash": "d85110ebaa"
+  },
+  "hero:5041:skill:0": {
+   "desc": "Milady memanggil 1 pelayan mekanis di dekat musuh terjauh darinya, mewarisi 100% Magic Attack miliknya. Tiap serangan pelayan memberikan 50+30% Magic Attack sebagai Magic Damage. Setelah jumlah pelayan mencapai batas, pemakaian Skill berikutnya menambah 15% Attack Speed pelayan selama 5 detik.",
+   "src_hash": "5a36a2edb6"
+  },
+  "hero:5041:skill:0:enh:0": {
+   "desc": "Tiap pemanggilan menghasilkan 2 pelayan mekanis dan Damage serangannya naik jadi 50+60% Magic Attack.",
+   "src_hash": "cce1310fcb"
+  },
+  "hero:5041:skill:0:enh:1": {
+   "desc": "Pelayan mekanis dapat HP tambahan sebesar 100% Magic Attack. Setelah jumlahnya penuh, pemakaian Skill berikutnya memulihkan seluruh HP para pelayan.",
+   "src_hash": "4a4b734a01"
+  },
+  "hero:5041:skill:0:enh:2": {
+   "desc": "Batas jumlah pelayan mekanis naik jadi 4.",
+   "src_hash": "9d8b91e00c"
+  },
+  "hero:1351:main": {
+   "desc": "Sacrifice: Level semua Totem +3 secara permanen, dan pada Round ini Summoned Unit milikmu kebal terhadap CC.",
+   "src_hash": "8b5628889a"
+  },
+  "hero:1351:awaken": {
+   "desc": "Sacrifice: Level semua Totem +6 secara permanen, dan pada Round ini Summoned Unit milikmu kebal terhadap CC.",
+   "src_hash": "8b24d60dda"
+  },
+  "hero:1351:skill:0": {
+   "desc": "Pasif: saat Combat dimulai, Xiang Yu menerjang sejauh 3 tile ke depan, knockback musuh di jalurnya, lalu di akhir terjangan memberi knock-up ke musuh di depannya dengan Physical Damage sebesar 100+5% Max HP miliknya.\nAktif: Xiang Yu meraung dan memulihkan 150+5% Max HP miliknya.",
+   "src_hash": "e81ed4ed16"
+  },
+  "hero:1351:skill:0:enh:0": {
+   "desc": "Efek pemulihan naik jadi 300+8% Max HP.",
+   "src_hash": "57a977addb"
+  },
+  "hero:1351:skill:0:enh:1": {
+   "desc": "Raungannya juga mengurangi 50% Attack Speed musuh dalam 1 tile selama 5 detik.",
+   "src_hash": "a045830921"
+  },
+  "hero:1351:skill:0:enh:2": {
+   "desc": "Tiap Skill mengenai 1 musuh, Damage yang diterima Xiang Yu berkurang 10%, maksimum 5 stack, bertahan sampai Round berakhir.",
+   "src_hash": "acfa623358"
+  },
+  "hero:1891:main": {
+   "desc": "Saat di arena, memanggil Prophet Totem.",
+   "src_hash": "199f1d432d"
+  },
+  "hero:1891:awaken": {
+   "desc": "Saat di arena, memanggil dan memperkuat Prophet Totem.",
+   "src_hash": "0f6ecfa67f"
+  },
+  "hero:1891:skill:0": {
+   "desc": "Guiguzi menyelimuti 1 Hero sekutu acak dengan benih misteri, memberinya Temporary Level +5 selama 8 detik (tidak dapat di-stack).",
+   "src_hash": "3560b567c6"
+  },
+  "hero:1891:skill:0:enh:0": {
+   "desc": "Tambahan Temporary Level naik jadi 10.",
+   "src_hash": "a53157cf59"
+  },
+  "hero:1891:skill:0:enh:1": {
+   "desc": "Jumlah target buff bertambah 1.",
+   "src_hash": "c5bd5d44b7"
+  },
+  "hero:1891:skill:0:enh:2": {
+   "desc": "Efek buff dan durasinya jadi dua kali lipat.",
+   "src_hash": "3eb84af103"
+  },
+  "hero:1981:main": {
+   "desc": "Retreat: memperoleh 1 Hero Voucher Tier 1.\nDefeat: meningkatkan Hero Voucher Tier.",
+   "src_hash": "1599639235"
+  },
+  "hero:1981:awaken": {
+   "desc": "Retreat: memperoleh 2 Hero Voucher Tier 1.\nDefeat: meningkatkan Hero Voucher Tier.",
+   "src_hash": "8dcaaffe4f"
+  },
+  "hero:1981:skill:0": {
+   "desc": "Menki menyelimuti dirinya dengan gelembung dan memulihkan 8% Max HP. Satu detik kemudian gelembung pecah, memberikan 50+70% Magic Attack sebagai Magic Damage ke musuh di sekitarnya dan mengurangi 5 Physical Defense serta Magic Defense mereka selama 5 detik.",
+   "src_hash": "e2cd8f7a9a"
+  },
+  "hero:1981:skill:0:enh:0": {
+   "desc": "Pemulihan naik jadi 100+10% Max HP dan Damage pecahnya gelembung naik jadi 50+100% Magic Attack.",
+   "src_hash": "ccf2cb899c"
+  },
+  "hero:1981:skill:0:enh:1": {
+   "desc": "Menki juga melindungi 1 sekutu dengan HP terendah.",
+   "src_hash": "e87b11a742"
+  },
+  "hero:1981:skill:0:enh:2": {
+   "desc": "Pemulihan naik jadi 100+20% Max HP.",
+   "src_hash": "9ecf9fb778"
+  },
+  "hero:1211:main": {
+   "desc": "Setiap kali kamu menggunakan Kartu Effect, Level 1 Hero [Zhulu] milikmu yang memakai Equipment terbanyak +1.",
+   "src_hash": "fde4b3f175"
+  },
+  "hero:1211:awaken": {
+   "desc": "Setiap kali kamu menggunakan Kartu Effect, Level 1 [Zhulu] Hero milikmu yang memakai Equipment terbanyak +2.",
+   "src_hash": "0f568b9066"
+  },
+  "hero:1211:skill:0": {
+   "desc": "Miyue memanggil 1 pelayan bayangan untuk membantu sekutu jarak dekat dengan Level tertinggi selama 10 detik. Tiap serangan pelayan memberikan 80% Magic Attack Miyue sebagai Magic Damage, memulihkan HP sekutu itu sebesar 80% Magic Attack Miyue, sekaligus mencuri 1 Physical Defense dan Magic Defense target lalu memindahkannya ke sekutu tersebut (maksimum 30 stack, bertahan sampai Round berakhir).",
+   "src_hash": "eb50e8780d"
+  },
+  "hero:1211:skill:0:enh:0": {
+   "desc": "Damage pelayan naik jadi 100% Magic Attack dan pemulihan HP naik jadi 100% Magic Attack.",
+   "src_hash": "52210f8e96"
+  },
+  "hero:1211:skill:0:enh:1": {
+   "desc": "Jumlah pelayan naik jadi 5.",
+   "src_hash": "f8c90ff1be"
+  },
+  "hero:1211:skill:0:enh:2": {
+   "desc": "Defense yang dicuri naik jadi 2 poin.",
+   "src_hash": "f3d43952c7"
+  },
+  "hero:3121:main": {
+   "desc": "Setiap menggunakan 1 Kartu Effect pada Shen Mengxi, Max Mana pada Round ini -15.",
+   "src_hash": "434ff80ee0"
+  },
+  "hero:3121:awaken": {
+   "desc": "Setiap kali menggunakan 1 Kartu Effect pada Shen Mengxi, Max Mana pada Round ini -30.",
+   "src_hash": "61b675ee37"
+  },
+  "hero:3121:skill:0": {
+   "desc": "Shen Mengxi melempar 1 bom campuran ke titik terpadat musuh, memberikan 100+100% Magic Attack sebagai Magic Damage.",
+   "src_hash": "d74dd8aa7b"
+  },
+  "hero:3121:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 125+175% Magic Attack.",
+   "src_hash": "f6164e7c79"
+  },
+  "hero:3121:skill:0:enh:1": {
+   "desc": "Radius ledakan bom bertambah 1 tile.",
+   "src_hash": "9d7a663b4e"
+  },
+  "hero:3121:skill:0:enh:2": {
+   "desc": "Ledakan memberi stun 0.5 detik ke musuh.",
+   "src_hash": "91765c724a"
+  },
+  "hero:5091:main": {
+   "desc": "Sacrifice: memperoleh 1 Ancient Coin.",
+   "src_hash": "5249b711ce"
+  },
+  "hero:5091:awaken": {
+   "desc": "Sacrifice: memperoleh 1 Refined Ancient Coin.",
+   "src_hash": "ee07a9754f"
+  },
+  "hero:5091:skill:0": {
+   "desc": "Dunshan memasang perisainya dan masuk ke wujud bertahan, mendapat 25% Damage Reduction selama 3 detik. Selama itu, tiap detik dia memberikan 50 Magic Damage ke musuh di depannya.",
+   "src_hash": "a849b242a8"
+  },
+  "hero:5091:skill:0:enh:0": {
+   "desc": "Damage Reduction naik jadi 35% dan durasinya diperpanjang jadi 8 detik.",
+   "src_hash": "67e474b367"
+  },
+  "hero:5091:skill:0:enh:1": {
+   "desc": "Area perisai batu melebar dan mengurangi 35% Attack Speed musuh yang menyentuhnya.",
+   "src_hash": "edb9bb49ff"
+  },
+  "hero:5091:skill:0:enh:2": {
+   "desc": "Dunshan langsung masuk wujud bertahan begitu Combat dimulai dan bertahan sampai Round berakhir.",
+   "src_hash": "3bc9ad6ee9"
+  },
+  "hero:1281:main": {
+   "desc": "Preparation: secara acak memicu efek Deploy dari 1 Hero [Three Kingdoms].",
+   "src_hash": "2fab8879b7"
+  },
+  "hero:1281:awaken": {
+   "desc": "Preparation: secara acak memicu efek Deploy dari 2 [Three Kingdoms] Hero.",
+   "src_hash": "01d18b06bc"
+  },
+  "hero:1281:skill:0": {
+   "desc": "Cao Cao memusatkan kekuatannya, langsung memulihkan 100+15% Max HP dan menaikkan 20% Attack dasarnya selama 5 detik.",
+   "src_hash": "e83d9278f4"
+  },
+  "hero:1281:skill:0:enh:0": {
+   "desc": "Bonus Attack naik jadi 50%.",
+   "src_hash": "9bc94c3856"
+  },
+  "hero:1281:skill:0:enh:1": {
+   "desc": "Durasi buff +5 detik. Dalam wujud diperkuat, Basic Attack-nya melepaskan aura pedang yang bisa menembus.",
+   "src_hash": "9b8f28678e"
+  },
+  "hero:1281:skill:0:enh:2": {
+   "desc": "Selama Skill aktif, Cao Cao dapat tambahan 30% Physical Lifesteal.",
+   "src_hash": "25614339c8"
+  },
+  "hero:1741:main": {
+   "desc": "Engage: untuk setiap 1 Totem di field, Level dirinya sendiri dan 2 Hero [Riverlands] acak yang berbeda +1.",
+   "src_hash": "50bb236f18"
+  },
+  "hero:1741:awaken": {
+   "desc": "Engage: untuk setiap 1 Totem di field, Level dirinya sendiri dan 4 [Riverlands] Hero acak yang berbeda +1.",
+   "src_hash": "046083ee12"
+  },
+  "hero:1741:skill:0": {
+   "desc": "Pasif: Basic Attack Consort Yu punya 30% peluang menambah 1 serangan susulan.\nAktif: Consort Yu menerjang musuh target dan memberikan 120% Physical Attack sebagai Physical Damage, lalu berputar mundur sambil menembakkan 4 anak panah ballista cepat ke target. Tiap panah memberikan 50+80% Physical Attack sebagai Physical Damage.",
+   "src_hash": "ca801af516"
+  },
+  "hero:1741:skill:0:enh:0": {
+   "desc": "Damage panah naik jadi 50+120% Physical Attack.",
+   "src_hash": "6200f15eb1"
+  },
+  "hero:1741:skill:0:enh:1": {
+   "desc": "Saat mendarat, Attack Speed dirinya naik 50% selama 3 detik.",
+   "src_hash": "8dfc31ecbf"
+  },
+  "hero:1741:skill:0:enh:2": {
+   "desc": "Terjangan ke musuh target juga memberi stun 1.5 detik.",
+   "src_hash": "c9e498db59"
+  },
+  "hero:1321:main": {
+   "desc": "Deploy: Level dirinya sendiri dan Akomia Core +2.",
+   "src_hash": "64b440e4bd"
+  },
+  "hero:1321:awaken": {
+   "desc": "Deploy: Level dirinya sendiri dan Akomia Core +4.",
+   "src_hash": "84e2f8e43a"
+  },
+  "hero:1321:skill:0": {
+   "desc": "Marco Polo mengeluarkan revolver mewahnya dan menembakkan 8 peluru beruntun ke arah hadapannya. Tiap peluru memberikan 25+15% Physical Attack sebagai Physical Damage. Setelah mengalahkan musuh lewat Skill ini, pemakaian Skill berikutnya menambah 8 peluru.",
+   "src_hash": "5067814089"
+  },
+  "hero:1321:skill:0:enh:0": {
+   "desc": "Damage peluru naik jadi 40+30% Physical Attack.",
+   "src_hash": "69d4f71e6a"
+  },
+  "hero:1321:skill:0:enh:1": {
+   "desc": "Jumlah peluru naik jadi 16.",
+   "src_hash": "8ea203252d"
+  },
+  "hero:1321:skill:0:enh:2": {
+   "desc": "Musuh yang terkena peluru Marco Polo diberi Mark permanen. Sekutu yang menyerang musuh ber-Mark mendapat 50% Attack Speed.",
+   "src_hash": "daf805aed3"
+  },
+  "hero:1071:main": {
+   "desc": "Deploy: Level dirinya sendiri dan 2 Hero lain secara acak +1.",
+   "src_hash": "a78076bea7"
+  },
+  "hero:1071:awaken": {
+   "desc": "Deploy: Level dirinya sendiri dan 2 Hero lain secara acak +2.",
+   "src_hash": "74020b10e5"
+  },
+  "hero:1071:skill:0": {
+   "desc": "Zhao Yun menusukkan tombak naganya 4 kali dengan cepat ke musuh target. Tiap tusukan memberikan 60+60% Physical Attack sebagai Physical Damage dan memulihkan 40 HP miliknya.",
+   "src_hash": "81cb5b6cdc"
+  },
+  "hero:1071:skill:0:enh:0": {
+   "desc": "Damage per tusukan naik jadi 60+100% Physical Attack dan pemulihan HP naik jadi 80.",
+   "src_hash": "ef396916d0"
+  },
+  "hero:1071:skill:0:enh:1": {
+   "desc": "Saat HP di bawah 50%, jumlah tusukan tombak +3.",
+   "src_hash": "b1f9db04aa"
+  },
+  "hero:1071:skill:0:enh:2": {
+   "desc": "Saat HP di bawah 30%, Damage dan pemulihan Skill jadi 1.5 kali lipat. Pertama kali HP turun di bawah 30%, dia dapat Shield sebesar 100+30% Max HP.",
+   "src_hash": "757d034456"
+  },
+  "hero:1911:main": {
+   "desc": "Setiap kali Hero milikmu memicu efek Deploy sebanyak 2 kali, Max Mana Da Qiao -5 secara permanen.",
+   "src_hash": "03f28dede7"
+  },
+  "hero:1911:awaken": {
+   "desc": "Setiap kali Hero milikmu memicu efek Deploy, Max Mana Da Qiao -5 secara permanen.",
+   "src_hash": "9ebb89c768"
+  },
+  "hero:1911:skill:0": {
+   "desc": "Da Qiao memanggil 1 gelombang yang bergerak maju, memberi knock-up dan stun 1 detik ke musuh di jalurnya serta memberikan 100+100% Magic Attack sebagai Magic Damage.",
+   "src_hash": "44df5b0926"
+  },
+  "hero:1911:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 100+150% Magic Attack.",
+   "src_hash": "030700f2ea"
+  },
+  "hero:1911:skill:0:enh:1": {
+   "desc": "Tiap pemakaian Skill ke-3 melepaskan 1 gelombang raksasa dengan Damage 100+200% Magic Attack.",
+   "src_hash": "a3ef760932"
+  },
+  "hero:1911:skill:0:enh:2": {
+   "desc": "Tiap pemakaian Skill melepaskan gelombang raksasa.",
+   "src_hash": "1fda07f4a7"
+  },
+  "hero:1991:main": {
+   "desc": "Steal.\nEngage: untuk setiap 1 Hero yang sudah Awakening di field, Attack Speed +15%.",
+   "src_hash": "8910246e7a"
+  },
+  "hero:1991:awaken": {
+   "desc": "Steal.\nEngage: untuk setiap 1 Hero yang sudah Awakening di field, Attack Speed +30%.",
+   "src_hash": "10c4b17bbe"
+  },
+  "hero:1991:skill:0": {
+   "desc": "Arli melempar payung kertasnya ke arah target. Payung melayang sejenak di titik terjauh lalu kembali. Payung memberikan 100% Physical Attack sebagai Physical Damage ke semua musuh yang pertama kali terkena, dan selama melayang memberikan 100% Physical Attack sebagai Physical Damage tiap detik ke musuh yang menyentuhnya sambil mengurangi 40% Movement Speed mereka.",
+   "src_hash": "bbe9f3e261"
+  },
+  "hero:1991:skill:0:enh:0": {
+   "desc": "Saat payung tidak di tangan, Attack Speed naik 30%. Musuh pertama yang terkena payung mengalami knockback dan stun 1.5 detik.",
+   "src_hash": "7476fb0bc3"
+  },
+  "hero:1991:skill:0:enh:1": {
+   "desc": "Bonus Attack Speed saat payung terlepas naik jadi 50%.",
+   "src_hash": "416fd7474e"
+  },
+  "hero:1991:skill:0:enh:2": {
+   "desc": "Durasi CC diperpanjang jadi 2.5 detik dan jarak knockback bertambah jauh.",
+   "src_hash": "978f2c6ec7"
+  },
+  "hero:1961:main": {
+   "desc": "Setiap kali Hero yang memiliki efek Sacrifice milikmu gugur, Max Mana Baili Shouyue -20 pada Round ini.",
+   "src_hash": "38ff11de5a"
+  },
+  "hero:1961:awaken": {
+   "desc": "Setiap kali Hero yang memiliki efek Sacrifice milikmu gugur, Max Mana Baili Shouyue -40 pada Round ini.",
+   "src_hash": "6dd9c48644"
+  },
+  "hero:1961:skill:0": {
+   "desc": "Baili Shouyue membidik musuh terjauh (Hero diprioritaskan). Pelurunya memberikan 50+700% Physical Attack sebagai Physical Damage ke musuh pertama yang terkena.",
+   "src_hash": "7cf5065f6b"
+  },
+  "hero:1961:skill:0:enh:0": {
+   "desc": "Damage tembakan naik jadi 200+800% Physical Attack.",
+   "src_hash": "de5f37d4c0"
+  },
+  "hero:1961:skill:0:enh:1": {
+   "desc": "Peluru terus melaju setelah mengalahkan musuh, tetapi Damage-nya berkurang 30% tiap kali, maksimum berkurang 60%.",
+   "src_hash": "caedea5408"
+  },
+  "hero:1961:skill:0:enh:2": {
+   "desc": "Damage peluru tidak lagi berkurang.",
+   "src_hash": "0f9b6500eb"
+  },
+  "hero:1081:main": {
+   "desc": "Saat Shield unit sekutu dihancurkan, Max HP unit tersebut +30 secara permanen.",
+   "src_hash": "8fe2045790"
+  },
+  "hero:1081:awaken": {
+   "desc": "Saat Shield unit sekutu dihancurkan, Max HP unit tersebut +60 secara permanen.",
+   "src_hash": "9d267c04f1"
+  },
+  "hero:1081:skill:0": {
+   "desc": "Mozi mengendarai golem mekanisnya dan membentangkan barrier energi tinggi. Musuh yang menyentuh barrier menerima 30+50% Magic Attack sebagai Magic Damage tiap 0.5 detik. Barrier bertahan maksimum 2 detik.",
+   "src_hash": "3717569495"
+  },
+  "hero:1081:skill:0:enh:0": {
+   "desc": "Damage barrier naik jadi 50+75% Magic Attack.",
+   "src_hash": "0e1cefa1ed"
+  },
+  "hero:1081:skill:0:enh:1": {
+   "desc": "Damage barrier juga memberi stun 0.5 detik ke musuh.",
+   "src_hash": "a182068c0d"
+  },
+  "hero:1081:skill:0:enh:2": {
+   "desc": "Durasi barrier diperpanjang jadi 5 detik.",
+   "src_hash": "62a0458d30"
+  },
+  "hero:1951:main": {
+   "desc": "Flash.\nPreparation: untuk setiap Hero musuh yang dikalahkan oleh Flash Hero milikmu di Round sebelumnya, Level 1 Flash Hero acak +1 (jumlah kalahkan: 0).",
+   "src_hash": "e46cb06ded"
+  },
+  "hero:1951:awaken": {
+   "desc": "Flash.\nPreparation: untuk setiap Hero musuh yang dikalahkan Flash Hero milikmu di Round sebelumnya, Level 1 Flash Hero acak +2 (jumlah kalahkan: 0).",
+   "src_hash": "e310a1b433"
+  },
+  "hero:1951:skill:0": {
+   "desc": "Baili Xuance mengayunkan sabit rantainya ke musuh target, memberikan 50+100% Physical Attack sebagai Physical Damage, lalu melemparnya ke belakang dirinya. Saat mendarat, target menerima 50+100% Physical Attack sebagai Physical Damage dan stun 1 detik.",
+   "src_hash": "b98136e6d2"
+  },
+  "hero:1951:skill:0:enh:0": {
+   "desc": "Damage sabit rantai naik jadi 50+130% Physical Attack.",
+   "src_hash": "0b47a63eee"
+  },
+  "hero:1951:skill:0:enh:1": {
+   "desc": "Sabit rantai mengait target selama 6 detik. Saat musuh mendarat, Baili Xuance langsung melesat ke belakangnya dan memberikan 100+200% Physical Attack sebagai Physical Damage ke musuh di jalurnya. Basic Attack-nya ke target yang terkait memberikan 120% Physical Attack sebagai Physical Damage.",
+   "src_hash": "8abb7f66d9"
+  },
+  "hero:1951:skill:0:enh:2": {
+   "desc": "Saat memakai Skill, target diberi Mark dan Physical Defense serta Magic Defense-nya berkurang 10. Saat target ber-Mark dikalahkan, Baili Xuance masuk wujud amuk (Attack Speed +150%, Movement Speed +40%) selama 5 detik.",
+   "src_hash": "4f84be0320"
+  },
+  "hero:1051:main": {
+   "desc": "Saat Lian Po menggunakan Skill, Hero lain milikmu memperoleh 5 Shield. Setiap kali menggunakan Kartu Tactic akan meningkatkan Shield tersebut.",
+   "src_hash": "ee13de7ad4"
+  },
+  "hero:1051:awaken": {
+   "desc": "Saat Lian Po menggunakan Skill, Hero lain milikmu memperoleh 10 Shield. Setiap kali menggunakan Kartu Tactic akan meningkatkan Shield tersebut.",
+   "src_hash": "aefdf67c4b"
+  },
+  "hero:1051:skill:0": {
+   "desc": "Lian Po menghantamkan sarung lengannya ke musuh target, mendapat Shield 100 selama 4 detik dan memberikan 50+80% Physical Attack sebagai Physical Damage.",
+   "src_hash": "62659d498d"
+  },
+  "hero:1051:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 50+120% Physical Attack dan Shield naik jadi 250.",
+   "src_hash": "e838be6b5a"
+  },
+  "hero:1051:skill:0:enh:1": {
+   "desc": "Tiap pemakaian Skill menambah 40 nilai Shield, maksimum 5 kali.",
+   "src_hash": "4b379595b9"
+  },
+  "hero:1051:skill:0:enh:2": {
+   "desc": "Sekali pakai Skill dia langsung mendapat nilai Shield maksimum (tidak perlu menumpuk lagi) dan memulihkan 10% Max HP.",
+   "src_hash": "c190b54c7e"
+  },
+  "hero:5271:main": {
+   "desc": "Sacrifice: memanggil 2 Xuanyong Soldier dengan Level yang sama seperti dirinya sendiri.",
+   "src_hash": "d074dcb026"
+  },
+  "hero:5271:awaken": {
+   "desc": "Sacrifice: memanggil 4 Xuanyong Soldier dengan Level yang sama seperti dirinya sendiri.",
+   "src_hash": "8a2b4e3bca"
+  },
+  "hero:5271:skill:0": {
+   "desc": "Meng Tian memanggil 1 Xuanyong Soldier untuk bertempur dalam formasi selama 20 detik (maksimum 2 prajurit). Tiap prajurit menanggung 5% Damage yang diterima Meng Tian.",
+   "src_hash": "9d2be98beb"
+  },
+  "hero:5271:skill:0:enh:0": {
+   "desc": "Damage yang ditanggung prajurit naik jadi 12%.",
+   "src_hash": "1be1f030a2"
+  },
+  "hero:5271:skill:0:enh:1": {
+   "desc": "Tiap pemanggilan menghasilkan 2 prajurit (maksimum 4).",
+   "src_hash": "444b4fba89"
+  },
+  "hero:5271:skill:0:enh:2": {
+   "desc": "Tiap pemanggilan menghasilkan 4 prajurit.",
+   "src_hash": "2706975ecb"
+  },
+  "hero:1841:main": {
+   "desc": "Setiap kali kamu menggunakan Kartu Hero [Three Kingdoms], Level 3 Hero [Three Kingdoms] lain dengan Level terendah +1.",
+   "src_hash": "0d5539733d"
+  },
+  "hero:1841:awaken": {
+   "desc": "Setiap kali kamu menggunakan Kartu Hero [Three Kingdoms], Level 3 Hero [Three Kingdoms] lain dengan Level terendah +2.",
+   "src_hash": "2939eb5b57"
+  },
+  "hero:1841:skill:0": {
+   "desc": "Pasif: alunan pipa Cai Yan memulihkan 30 HP tiap detik untuk sekutu dalam 1 tile di sekitarnya.",
+   "src_hash": "43bf86fe63"
+  },
+  "hero:1841:skill:0:enh:0": {
+   "desc": "Sekutu di dalam area juga mendapat 6 Physical Defense dan Magic Defense.",
+   "src_hash": "99643ba6fe"
+  },
+  "hero:1841:skill:0:enh:1": {
+   "desc": "Pemulihan HP naik jadi 80 dan bonus Defense naik jadi 12.",
+   "src_hash": "7921a546b7"
+  },
+  "hero:1841:skill:0:enh:2": {
+   "desc": "Area Skill melebar jadi 2 tile dan pemulihan HP naik jadi 150.",
+   "src_hash": "d17afe4097"
+  },
+  "hero:5061:main": {
+   "desc": "Flash.\nEngage: untuk setiap 1 Equipment yang dikenakan Hero milikmu, Level Hero tersebut +1 secara permanen.",
+   "src_hash": "2ee4f78683"
+  },
+  "hero:5061:awaken": {
+   "desc": "Flash.\nEngage: untuk setiap 1 Equipment yang dikenakan Hero milikmu, Level Hero tersebut +2 secara permanen.",
+   "src_hash": "3076b55618"
+  },
+  "hero:5061:skill:0": {
+   "desc": "Cirrus membentangkan sayapnya dan menembakkan anak panah ke sekeliling dalam 1 tile, memberikan 50+80% Physical Attack sebagai Physical Damage ke musuh yang terkena serta 2 stack efek Rend.\nRend: memberikan Physical Damage sebesar 2% HP musuh saat ini tiap detik selama 5 detik, maksimum 5 stack.",
+   "src_hash": "a4400c9e30"
+  },
+  "hero:5061:skill:0:enh:0": {
+   "desc": "Damage panah naik jadi 50+120% Physical Attack.",
+   "src_hash": "a29243f2f1"
+  },
+  "hero:5061:skill:0:enh:1": {
+   "desc": "Basic Attack juga memberi 1 stack Rend ke target.",
+   "src_hash": "7d6748127f"
+  },
+  "hero:5061:skill:0:enh:2": {
+   "desc": "Area Damage panah bertambah 1 tile.",
+   "src_hash": "2e456bbf81"
+  },
+  "hero:5641:main": {
+   "desc": "Setelah kamu menjual 4 Hero di field, memperoleh 1 Temporary Refresh.",
+   "src_hash": "926c588294"
+  },
+  "hero:5641:awaken": {
+   "desc": "Setelah kamu menjual 2 Hero di field, memperoleh 1 Temporary Refresh.",
+   "src_hash": "ca5dfa72f1"
+  },
+  "hero:5641:skill:0": {
+   "desc": "Mayene menendang musuh dengan tendangan terbang, memberikan 150+100% Physical Attack sebagai Physical Damage dan mendorongnya ke arah kerumunan Hero musuh. Dorongan berhenti saat menabrak musuh lain.",
+   "src_hash": "955a729260"
+  },
+  "hero:5641:skill:0:enh:0": {
+   "desc": "Damage tendangan naik jadi 150+150% Physical Attack.",
+   "src_hash": "83393344e2"
+  },
+  "hero:5641:skill:0:enh:1": {
+   "desc": "Skill memberi Mark selama 5 detik. Selama itu Damage Mayene dan sekutunya ke musuh ber-Mark naik 40%.",
+   "src_hash": "142b34efa1"
+  },
+  "hero:5641:skill:0:enh:2": {
+   "desc": "Setelah knockback, Mayene melenting ke udara (mendapat 70% Damage Reduction selama itu) lalu menghantam target saat ini, memberikan 150% Physical Attack sebagai Physical Damage dan knock-up ke musuh di areanya.",
+   "src_hash": "48a878db53"
+  },
+  "hero:1771:main": {
+   "desc": "Saat Summoned Unit milikmu gugur, akan memberikan 25 Physical Damage kepada musuh di sekitar. Setiap kali memanggil, Damage tersebut akan bertambah lagi.",
+   "src_hash": "368fa06755"
+  },
+  "hero:1771:awaken": {
+   "desc": "Saat Summoned Unit milikmu gugur, akan memberikan 50 Physical Damage kepada musuh di sekitar. Setiap kali memanggil, Damage tersebut akan bertambah lagi.",
+   "src_hash": "d8a569fcaa"
+  },
+  "hero:1771:skill:0": {
+   "desc": "Pasif: Wolf Spirit mewarisi Attack Speed Chano. Tiap serangan Wolf Spirit memberi Chano 2% Physical Attack, maksimum 30%.\nAktif: Chano memanggil 1 Wolf Spirit (maksimum 3) untuk menerjang ke posisi musuh target, memberikan 50+120% Physical Attack sebagai Physical Damage. Basic Attack-nya berubah jadi tembakan ganda: peluru pertama 60% Physical Attack dan peluru kedua 80% Physical Attack sebagai Physical Damage. Wujud ini bertahan 8 detik dan Mana tidak pulih selama itu. Jika semua Wolf Spirit gugur sebelum waktunya, Mana mulai pulih lagi.",
+   "src_hash": "0cf0a65a56"
+  },
+  "hero:1771:skill:0:enh:0": {
+   "desc": "Damage Basic Attack Wolf Spirit naik jadi 120% Physical Attack.",
+   "src_hash": "ce5ac0e0cd"
+  },
+  "hero:1771:skill:0:enh:1": {
+   "desc": "Batas Attack yang bisa diberikan Wolf Spirit ke Chano naik jadi 60%.",
+   "src_hash": "497ccf0b50"
+  },
+  "hero:1771:skill:0:enh:2": {
+   "desc": "Memanggil 3 Wolf Spirit sekaligus untuk menerjang.",
+   "src_hash": "5ac9230fa2"
+  },
+  "hero:1931:main": {
+   "desc": "Revive.\nSacrifice: Hero [Central Plain] milikmu memperoleh 5 Temporary Level.",
+   "src_hash": "02801602c9"
+  },
+  "hero:1931:awaken": {
+   "desc": "Perfect Revive.\nSacrifice: [Central Plain] Hero milikmu memperoleh 10 Temporary Level.",
+   "src_hash": "d1e47ec272"
+  },
+  "hero:1931:skill:0": {
+   "desc": "Kaizer memakai zirah iblisnya dan mendapat 15 Damage Reduction (Damage setelah pengurangan tidak akan lebih rendah dari 5).",
+   "src_hash": "3b06f50f6f"
+  },
+  "hero:1931:skill:0:enh:0": {
+   "desc": "Damage Reduction zirah naik jadi 20. Selama aktif, tiap Basic Attack ke-3 memberi Shield 200 (tidak dapat di-stack).",
+   "src_hash": "4abe20ac9a"
+  },
+  "hero:1931:skill:0:enh:1": {
+   "desc": "Dalam wujud zirah, tiap Basic Attack ke-3 memberikan tambahan 100% Physical Attack sebagai Magic Damage ke target.",
+   "src_hash": "84809db9ee"
+  },
+  "hero:1931:skill:0:enh:2": {
+   "desc": "Kaizer langsung memakai zirah iblisnya begitu Combat dimulai.",
+   "src_hash": "3fd67972c0"
+  },
+  "hero:1201:main": {
+   "desc": "Saat setiap Round pertama kali menggunakan Kartu Effect, memperoleh 1 Support Tactic.",
+   "src_hash": "61267e8eb3"
+  },
+  "hero:1201:awaken": {
+   "desc": "Saat setiap Round pertama kali menggunakan Kartu Effect, memperoleh 1 Advanced Support Tactic.",
+   "src_hash": "6f3bb163ef"
+  },
+  "hero:1201:skill:0": {
+   "desc": "Bai Qi meraung, langsung memulihkan 10% Max HP dan memberi taunt ke musuh dalam 1 tile selama 1 detik.",
+   "src_hash": "4b6cec7a90"
+  },
+  "hero:1201:skill:0:enh:0": {
+   "desc": "Saat memakai Skill, dia dapat Shield sebesar 20% Max HP selama 4 detik.",
+   "src_hash": "34dc6a1704"
+  },
+  "hero:1201:skill:0:enh:1": {
+   "desc": "Shield naik jadi 200+30% Max HP.",
+   "src_hash": "d7467f265c"
+  },
+  "hero:1201:skill:0:enh:2": {
+   "desc": "Durasi taunt diperpanjang jadi 4 detik.",
+   "src_hash": "6873ac0165"
+  },
+  "hero:5011:main": {
+   "desc": "Hero terdekat: 2 Level dari Temporary Level-nya dapat diubah menjadi Permanent Level.\nDeploy: jumlah Level yang bisa diubah +2.",
+   "src_hash": "558de941c4"
+  },
+  "hero:5011:awaken": {
+   "desc": "Hero terdekat: 4 Level dari Temporary Level-nya dapat diubah menjadi Permanent Level.\nDeploy: jumlah Level yang bisa diubah +4.",
+   "src_hash": "f032a250cb"
+  },
+  "hero:5011:skill:0": {
+   "desc": "Pasif: pada fase persiapan, Ming Shiyin menghubungkan dirinya dengan 1 Hero sekutu terdekat lewat pusakanya.\nAktif: Ming Shiyin memulihkan 100+60% Magic Attack sebagai HP untuk dirinya dan Hero yang terhubung.",
+   "src_hash": "c65c4d0733"
+  },
+  "hero:5011:skill:0:enh:0": {
+   "desc": "Efek pemulihan naik jadi 100+90% Magic Attack.",
+   "src_hash": "4260e94e6b"
+  },
+  "hero:5011:skill:0:enh:1": {
+   "desc": "Skill juga menambah 25 Physical Defense dan Magic Defense target selama 5 detik.",
+   "src_hash": "6859a6f680"
+  },
+  "hero:5011:skill:0:enh:2": {
+   "desc": "Skill juga memulihkan tambahan 20% Max HP.",
+   "src_hash": "5edba279b8"
+  },
+  "hero:1161:main": {
+   "desc": "Flash.\nDeploy: Level dirinya sendiri dan 1 Hero acak lainnya +1; setiap kali Player HP berkurang 10, ulangi 1 kali.",
+   "src_hash": "6c23eb6d36"
+  },
+  "hero:1161:awaken": {
+   "desc": "Flash.\nDeploy: Level dirinya sendiri dan 1 Hero acak lainnya +2; setiap kali Player HP berkurang 10, ulangi 1 kali.",
+   "src_hash": "1deac4d4c8"
+  },
+  "hero:1161:skill:0": {
+   "desc": "Arke mengayunkan sepasang belatinya untuk melancarkan 2 serangan. Tiap serangan memberikan 30+100% Physical Attack sebagai Physical Damage.",
+   "src_hash": "800bbc59a6"
+  },
+  "hero:1161:skill:0:enh:0": {
+   "desc": "Damage per serangan naik jadi 30+130% Physical Attack.",
+   "src_hash": "4fae729c85"
+  },
+  "hero:1161:skill:0:enh:1": {
+   "desc": "Selama 20 detik pertama Combat, Arke tidak jadi target prioritas serangan.",
+   "src_hash": "4b63518842"
+  },
+  "hero:1161:skill:0:enh:2": {
+   "desc": "Arke tidak pernah jadi target prioritas selama Combat dan Skill-nya selalu Crit.",
+   "src_hash": "d2501e1f61"
+  },
+  "hero:5181:main": {
+   "desc": "Saat memberikan efek CC milikmu, Ma Chao memperoleh 15 Mana dan 5% Crit Rate.",
+   "src_hash": "9167106a39"
+  },
+  "hero:5181:awaken": {
+   "desc": "Saat memberikan efek CC milikmu, Ma Chao memperoleh 30 Mana dan 10% Crit Rate.",
+   "src_hash": "577d60ff10"
+  },
+  "hero:5181:skill:0": {
+   "desc": "Pasif: saat Ma Chao mendekati Frostlight Spear, dia mengambilnya kembali, memulihkan 100+75% Physical Attack sebagai HP dan menambah 5 Physical Attack.\nAktif: Ma Chao langsung memulihkan 100 HP, melesat ke musuh terjauh dalam 3 tile, memberikan 50+100% Physical Attack sebagai Physical Damage, dan meninggalkan 1 Frostlight Spear di sana.",
+   "src_hash": "8de422dc78"
+  },
+  "hero:5181:skill:0:enh:0": {
+   "desc": "Damage serangan naik jadi 50+150% Physical Attack.",
+   "src_hash": "c97a90b77a"
+  },
+  "hero:5181:skill:0:enh:1": {
+   "desc": "Saat Damage serangan Crit, semua Frostlight Spear di field ditarik kembali dan musuh di jalurnya menerima 50% Physical Attack sebagai Physical Damage.",
+   "src_hash": "47080a2540"
+  },
+  "hero:5181:skill:0:enh:2": {
+   "desc": "Tiap 3 Frostlight Spear yang diambil kembali, Skill berikutnya berubah jadi serangan beruntun hingga 6 kali di seluruh field.",
+   "src_hash": "87e98be59b"
+  },
+  "hero:5021:main": {
+   "desc": "Flash.\nPreparation: secara acak memperoleh Temporary Level sebesar setengah Level 1 Hero lain, tidak dapat di-stack.",
+   "src_hash": "8a88bf1b02"
+  },
+  "hero:5021:awaken": {
+   "desc": "Flash.\nPreparation: secara acak memperoleh Temporary Level sebesar Level 1 Hero lain, tidak dapat di-stack.",
+   "src_hash": "a0a4cf451d"
+  },
+  "hero:5021:skill:0": {
+   "desc": "Pei Qin Hu berubah jadi harimau, menambah 20 Physical Attack serta 5 Physical Defense dan Magic Defense. Jika sudah dalam wujud harimau, dia menghantam musuh target dan memberikan 120% Physical Attack sebagai Physical Damage.",
+   "src_hash": "734bf4542f"
+  },
+  "hero:5021:skill:0:enh:0": {
+   "desc": "Damage hantaman naik jadi 150% Physical Attack.",
+   "src_hash": "8e846162b4"
+  },
+  "hero:5021:skill:0:enh:1": {
+   "desc": "Langsung berubah jadi harimau saat Combat dimulai, dan menambah 30% Attack Speed serta Movement Speed.",
+   "src_hash": "d6f096fe76"
+  },
+  "hero:5021:skill:0:enh:2": {
+   "desc": "Bonus atribut wujud harimau jadi dua kali lipat dan Damage hantaman naik jadi 200% Physical Attack.",
+   "src_hash": "212c97967f"
+  },
+  "hero:1391:main": {
+   "desc": "Saat setiap Round pertama kali Merge, memperoleh 1 Recruitment Tactic.",
+   "src_hash": "7a187dccfe"
+  },
+  "hero:1391:awaken": {
+   "desc": "Saat setiap Round pertama kali Merge, memperoleh 1 Advanced Recruitment Tactic.",
+   "src_hash": "e270c50d5e"
+  },
+  "hero:1391:skill:0": {
+   "desc": "Lao Fuzi melepaskan aura tempurnya dan mendapat 30% Damage Reduction selama 3 detik.",
+   "src_hash": "8e7e0a801d"
+  },
+  "hero:1391:skill:0:enh:0": {
+   "desc": "Damage Reduction naik jadi 45%.",
+   "src_hash": "d29fbfb40e"
+  },
+  "hero:1391:skill:0:enh:1": {
+   "desc": "Selama Skill aktif, tiap kali menerima Damage dia memulihkan 20 HP, maksimum 160 HP.",
+   "src_hash": "0718883783"
+  },
+  "hero:1391:skill:0:enh:2": {
+   "desc": "Pemulihan HP tidak lagi dibatasi.",
+   "src_hash": "6ffdd8ab33"
+  },
+  "hero:5231:main": {
+   "desc": "Preparation: memperoleh 1 Simulation Tactic.",
+   "src_hash": "efe99e00e3"
+  },
+  "hero:5231:awaken": {
+   "desc": "Preparation: memperoleh 1 Advanced Simulation Tactic.",
+   "src_hash": "ff2fae74a5"
+  },
+  "hero:5231:skill:0": {
+   "desc": "Xishi melepaskan bola energi selama 3 detik ke posisi 1 musuh acak, memberikan 50+100% Magic Attack sebagai Magic Damage. Tiga detik kemudian bola meledak dan memberikan 100+100% Magic Attack sebagai Magic Damage ke unit di sana.",
+   "src_hash": "6af8a9875b"
+  },
+  "hero:5231:skill:0:enh:0": {
+   "desc": "Damage kemunculan bola naik jadi 100+120% Magic Attack dan Damage ledakan naik jadi 100+150% Magic Attack.",
+   "src_hash": "e413e28737"
+  },
+  "hero:5231:skill:0:enh:1": {
+   "desc": "Jika target keluar dari petak tempat bola energi berada, dia ditarik kembali ke petak itu. Begitu sampai, bola langsung meledak dan menghilang, memberikan 100 Magic Damage dan stun 2 detik ke unit musuh di sekitarnya.",
+   "src_hash": "3d2cd0329c"
+  },
+  "hero:5231:skill:0:enh:2": {
+   "desc": "Durasi stun diperpanjang jadi 3.5 detik.",
+   "src_hash": "cc2ffa745a"
+  },
+  "hero:1141:main": {
+   "desc": "Saat Hero milikmu menggunakan Skill, Hero tersebut memperoleh 2 Temporary Level.",
+   "src_hash": "4224129825"
+  },
+  "hero:1141:awaken": {
+   "desc": "Saat Hero milikmu menggunakan Skill, Hero tersebut memperoleh 4 Temporary Level.",
+   "src_hash": "13e951e6cb"
+  },
+  "hero:1141:skill:0": {
+   "desc": "Liu Shan mengendalikan cakar mekanisnya ke musuh target, memberikan 50+100% Physical Attack sebagai Physical Damage dan stun 1 detik, serta memberi dirinya Shield 100 selama 4 detik.",
+   "src_hash": "e0913f3224"
+  },
+  "hero:1141:skill:0:enh:0": {
+   "desc": "Shield naik jadi 300.",
+   "src_hash": "7319fa2458"
+  },
+  "hero:1141:skill:0:enh:1": {
+   "desc": "Shield naik jadi 400 dan mengurangi 30% Damage yang diterima selama aktif.",
+   "src_hash": "aaf0c1f2ee"
+  },
+  "hero:1141:skill:0:enh:2": {
+   "desc": "Shield naik jadi 600+5% Max HP dan stun jadi 3 detik.",
+   "src_hash": "dd282b5def"
+  },
+  "hero:5111:main": {
+   "desc": "Steal.\nSetiap kali Hero Tier 3 ke bawah melakukan Merge, Level Hero lain dengan Tier yang sama +1.",
+   "src_hash": "ae7bd008b0"
+  },
+  "hero:5111:awaken": {
+   "desc": "Steal.\nSetiap kali Hero Tier 3 ke bawah melakukan Merge, Level Hero lain dengan Tier yang sama +2.",
+   "src_hash": "369ff13785"
+  },
+  "hero:5111:skill:0": {
+   "desc": "Pasif: tiap Zhu Bajie menerima total 600 Damage, Max HP-nya naik 45 secara permanen dan tubuhnya membesar, tetapi Movement Speed-nya berkurang 1%. Maksimum 30 stack.\nAktif: Zhu Bajie melompat tinggi dan mengguncang tanah saat mendarat, memberikan Magic Damage sebesar 7% Max HP ke musuh dalam 1 tile.",
+   "src_hash": "3a7243d85d"
+  },
+  "hero:5111:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 10% Max HP.",
+   "src_hash": "51eb309cd0"
+  },
+  "hero:5111:skill:0:enh:1": {
+   "desc": "Batas stack Max HP naik jadi 60.",
+   "src_hash": "d27405e6fe"
+  },
+  "hero:5111:skill:0:enh:2": {
+   "desc": "Batas stack dihapus dan Movement Speed tidak lagi berkurang, maksimum 100 stack per Round. Saat memakai Skill, dia melompat ke titik terpadat musuh.",
+   "src_hash": "6f446f8f09"
+  },
+  "hero:1441:main": {
+   "desc": "Preparation: memperoleh 1 Ancient Coin, menggunakan 1 Ancient Coin pada dirinya sendiri.",
+   "src_hash": "ee64ed9490"
+  },
+  "hero:1441:awaken": {
+   "desc": "Preparation: memperoleh 1 Refined Ancient Coin, menggunakan 1 Refined Ancient Coin pada dirinya sendiri.",
+   "src_hash": "446c81d140"
+  },
+  "hero:1441:skill:0": {
+   "desc": "Cheng Yaojin meledakkan semangat keadilannya dan memulihkan 35+10% Max HP selama 3 detik.",
+   "src_hash": "506980b24a"
+  },
+  "hero:1441:skill:0:enh:0": {
+   "desc": "Efek pemulihan naik jadi 60+10% Max HP.",
+   "src_hash": "c072d97336"
+  },
+  "hero:1441:skill:0:enh:1": {
+   "desc": "Selama Skill aktif, dia mendapat 15% Damage Reduction.",
+   "src_hash": "e37e797035"
+  },
+  "hero:1441:skill:0:enh:2": {
+   "desc": "Saat memakai Skill, dia langsung memulihkan 25% HP yang sudah hilang.",
+   "src_hash": "125b6a5033"
+  },
+  "hero:1331:main": {
+   "desc": "Saat menggunakan Ancient Coin pada Di Renjie, Attack Speed miliknya +5% secara permanen.",
+   "src_hash": "1dec4fc8fc"
+  },
+  "hero:1331:awaken": {
+   "desc": "Saat menggunakan Ancient Coin pada Di Renjie, Attack Speed miliknya +10% secara permanen.",
+   "src_hash": "43cb520cb1"
+  },
+  "hero:1331:skill:0": {
+   "desc": "Di Renjie membangkitkan potensinya dan mendapat 1 stack efek Swift, menambah 40% Attack Speed dasar selama 5 detik. Jika Attack Speed sudah di batas maksimum, dia mendapat 3% Physical Attack. Maksimum 3 stack.",
+   "src_hash": "2504584d34"
+  },
+  "hero:1331:skill:0:enh:0": {
+   "desc": "Bonus Attack Speed dasar naik jadi 90%.",
+   "src_hash": "80c82fc5ed"
+  },
+  "hero:1331:skill:0:enh:1": {
+   "desc": "Tiap 3 Basic Attack, dia menarik 1 kartu biru yang memberikan 150% Physical Attack sebagai Physical Damage ke target.",
+   "src_hash": "826cbdffe5"
+  },
+  "hero:1331:skill:0:enh:2": {
+   "desc": "Semua Basic Attack berubah jadi kartu biru, dan tiap 10 Basic Attack dia menarik 1 kartu kuning yang memberi tambahan stun 0.5 detik.",
+   "src_hash": "614c7f024a"
+  },
+  "hero:1561:main": {
+   "desc": "Setiap kali unit milikmu memicu efek Engage, Level 3 Hero milikmu secara acak di field +1 secara permanen.",
+   "src_hash": "c1388cbdc9"
+  },
+  "hero:1561:awaken": {
+   "desc": "Setiap kali unit milikmu memicu efek Engage, Level semua Hero +1 secara permanen.",
+   "src_hash": "5f2118bd53"
+  },
+  "hero:1561:skill:0": {
+   "desc": "Zhang Liang menangkap 1 musuh dengan ilmu mantranya selama 1.5 detik. Selama itu target menerima 100 Magic Damage tiap 0.5 detik dan terus tersuppress.",
+   "src_hash": "e7319648ff"
+  },
+  "hero:1561:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 100+50% Magic Attack.",
+   "src_hash": "b228af5c18"
+  },
+  "hero:1561:skill:0:enh:1": {
+   "desc": "Skill juga mengurangi 5 Mana musuh target tiap 0.5 detik.",
+   "src_hash": "a64a140ff8"
+  },
+  "hero:1561:skill:0:enh:2": {
+   "desc": "Durasi naik jadi 3 detik dan Mana musuh dikosongkan.",
+   "src_hash": "a22a51f541"
+  },
+  "hero:5771:main": {
+   "desc": "Saat di arena, memanggil Bond Totem.",
+   "src_hash": "0f1a5ca894"
+  },
+  "hero:5771:awaken": {
+   "desc": "Saat di arena, memanggil dan memperkuat Bond Totem.",
+   "src_hash": "bc41bdf628"
+  },
+  "hero:5771:skill:0": {
+   "desc": "Dyadia menuntun sekawanan Yuanzai terbang maju, memulihkan 100+50% Magic Attack sebagai HP untuk sekutu di jalurnya.",
+   "src_hash": "b5a2a727ef"
+  },
+  "hero:5771:skill:0:enh:0": {
+   "desc": "Pemulihan naik jadi 150+100% Magic Attack.",
+   "src_hash": "b3b62ef62d"
+  },
+  "hero:5771:skill:0:enh:1": {
+   "desc": "Sekutu di jalurnya juga mendapat 30% Attack Speed selama 4 detik.",
+   "src_hash": "008fc2a244"
+  },
+  "hero:5771:skill:0:enh:2": {
+   "desc": "Musuh di jalurnya menerima 150+50% Magic Attack sebagai Magic Damage dan Damage mereka berkurang 15% selama 5 detik.",
+   "src_hash": "225f3f6253"
+  },
+  "hero:1661:main": {
+   "desc": "Setiap kali kamu menggunakan Kartu Hero [Sunset Sea], Level Akomia Core +3.",
+   "src_hash": "b1cf1bb391"
+  },
+  "hero:1661:awaken": {
+   "desc": "Setiap kali kamu menggunakan Kartu Hero [Sunset Sea], Level Akomia Core +6.",
+   "src_hash": "c327204a1e"
+  },
+  "hero:1661:skill:0": {
+   "desc": "Arthur memanggil perisai suci yang berputar mengelilingi dirinya selama 5 detik. Tiap detik perisai memberikan 50% Physical Attack sebagai Physical Damage ke musuh dalam 1 tile dan memberi 15% Damage Reduction. Tiap kali Arthur ikut mengalahkan musuh, Max HP-nya naik 30.",
+   "src_hash": "6e7f26ddf1"
+  },
+  "hero:1661:skill:0:enh:0": {
+   "desc": "Damage perisai naik jadi 80% Physical Attack dan Damage Reduction naik jadi 25%.",
+   "src_hash": "8fa70ac85e"
+  },
+  "hero:1661:skill:0:enh:1": {
+   "desc": "Durasi Damage Reduction diperpanjang jadi 8 detik.",
+   "src_hash": "47555eec36"
+  },
+  "hero:1661:skill:0:enh:2": {
+   "desc": "Arthur mengangkat pedang sucinya dan melompat ke kerumunan musuh terpadat, memberikan tambahan Magic Damage sebesar 15% Max HP miliknya dan mencegah semua musuh di area memulihkan Mana selama 3 detik.",
+   "src_hash": "6c76eaeb9d"
+  },
+  "hero:1751:main": {
+   "desc": "Dirinya sendiri dan Hero dalam 1 kotak di kiri-kanannya memperoleh efek Sacrifice: Level Hero yang mengalahkannya berkurang sementara 10% (maksimal 1 kali per Combat).",
+   "src_hash": "00a173e3b9"
+  },
+  "hero:1751:awaken": {
+   "desc": "Dirinya sendiri dan Hero 1 kotak di kiri-kanannya memperoleh efek Sacrifice: Level Hero yang mengalahkannya berkurang sementara 20% (maksimal 1 kali per Combat).",
+   "src_hash": "7f6b1fcfd6"
+  },
+  "hero:1751:skill:0": {
+   "desc": "Zhong Kui melempar rantai kaitnya, menarik 1 musuh terjauh ke dekatnya, memberikan 50+100% Magic Attack sebagai Magic Damage, dan menjadikannya target prioritas serangan sekutu.",
+   "src_hash": "f6b49be250"
+  },
+  "hero:1751:skill:0:enh:0": {
+   "desc": "Mana penuh saat Combat dimulai.",
+   "src_hash": "a33a01b50c"
+  },
+  "hero:1751:skill:0:enh:1": {
+   "desc": "Damage Skill naik jadi 50+150% Magic Attack.",
+   "src_hash": "9a240bcfcf"
+  },
+  "hero:1751:skill:0:enh:2": {
+   "desc": "Max Mana berkurang 50.",
+   "src_hash": "8b76997c77"
+  },
+  "hero:1411:main": {
+   "desc": "Deploy: Level Hero [Three Kingdoms] +1.",
+   "src_hash": "fed378e038"
+  },
+  "hero:1411:awaken": {
+   "desc": "Deploy: Level Hero [Three Kingdoms] +2.",
+   "src_hash": "b79a157bc3"
+  },
+  "hero:1411:skill:0": {
+   "desc": "Diao Chan melepaskan 5 bola bunga ke musuh acak dalam 2 tile. Tiap bola memberikan 50+40% Magic Attack sebagai Magic Damage dan mengurangi 70% HP Regen musuh selama 5 detik.",
+   "src_hash": "a9f5152672"
+  },
+  "hero:1411:skill:0:enh:0": {
+   "desc": "Damage bola bunga naik jadi 50+60% Magic Attack.",
+   "src_hash": "42e16c93e1"
+  },
+  "hero:1411:skill:0:enh:1": {
+   "desc": "Jumlah bola bunga +4.",
+   "src_hash": "5c52b5c1ae"
+  },
+  "hero:1411:skill:0:enh:2": {
+   "desc": "Saat memakai Skill, Diao Chan menjauh dari musuh.",
+   "src_hash": "cc69595202"
+  },
+  "hero:1421:main": {
+   "desc": "Preparation: Level dirinya sendiri dan Akomia Core +2.",
+   "src_hash": "d879f48b81"
+  },
+  "hero:1421:awaken": {
+   "desc": "Preparation: Level dirinya sendiri dan Akomia Core +2, memicu 2 kali.",
+   "src_hash": "1b24f75a50"
+  },
+  "hero:1421:skill:0": {
+   "desc": "Angela menyalurkan sihirnya ke arah dengan musuh terbanyak dan melepaskan sinar membara selama 3 detik, memberikan 10% Magic Attack sebagai Magic Damage tiap 0.1 detik ke musuh di jalurnya.",
+   "src_hash": "9c81b2a4f6"
+  },
+  "hero:1421:skill:0:enh:0": {
+   "desc": "Damage sinar naik jadi 17% Magic Attack.",
+   "src_hash": "31486174bb"
+  },
+  "hero:1421:skill:0:enh:1": {
+   "desc": "Jumlah sinar bertambah jadi 3.",
+   "src_hash": "5175a30883"
+  },
+  "hero:1421:skill:0:enh:2": {
+   "desc": "Tiap mengalahkan 1 musuh, durasi sinar bertambah 2 detik dan Damage-nya naik 15%.",
+   "src_hash": "4c729e6a13"
+  },
+  "hero:5051:main": {
+   "desc": "Engage: Normal Equipment pertama miliknya dibagikan secara acak kepada 3 Hero sekutu (selama 15 detik).",
+   "src_hash": "3019c9385c"
+  },
+  "hero:5051:awaken": {
+   "desc": "Engage: Normal Equipment pertama miliknya dibagikan secara acak kepada 3 Hero sekutu.",
+   "src_hash": "b61d015e67"
+  },
+  "hero:5051:skill:0": {
+   "desc": "Pasif: pada fase persiapan, Yaria memilih Hero sekutu terdekat sebagai target perlindungan dan merasukinya saat Combat dimulai. Rasukan memberi Shield sebesar 200+20% Max HP Yaria, 10 Physical Attack dan Magic Attack, serta 5 Physical Defense dan Magic Defense sampai target dikalahkan. Selama merasuki, tiap 2 detik Yaria menyerang hingga 2 musuh acak dengan 50+50% Magic Damage.",
+   "src_hash": "8110e21f52"
+  },
+  "hero:5051:skill:0:enh:0": {
+   "desc": "Rasukan memberi tambahan 30 Physical Attack dan Magic Attack serta 10 Physical Defense dan Magic Defense. Shield naik jadi 300+25% Max HP.",
+   "src_hash": "078c1f23f5"
+  },
+  "hero:5051:skill:0:enh:1": {
+   "desc": "Serangan saat merasuki memberi stun 0.5 detik ke target.",
+   "src_hash": "11f04b110d"
+  },
+  "hero:5051:skill:0:enh:2": {
+   "desc": "Yaria membagikan 30% atribut utamanya ke target perlindungan (Max HP, Physical & Magic Attack, Physical & Magic Defense, Attack Speed).",
+   "src_hash": "cb5290c7a6"
+  },
+  "hero:5311:main": {
+   "desc": "Flash.\nSetiap menggunakan 2 Kartu Effect, Level +1.",
+   "src_hash": "b44697aa68"
+  },
+  "hero:5311:awaken": {
+   "desc": "Flash.\nSetiap menggunakan 2 Kartu Effect, Level +2.",
+   "src_hash": "ec7465ce9e"
+  },
+  "hero:5311:skill:0": {
+   "desc": "Jing berputar menyerang dan memberikan 60+80% Physical Attack sebagai Physical Damage ke musuh target.",
+   "src_hash": "fc9615f7f1"
+  },
+  "hero:5311:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 80+120% Physical Attack.",
+   "src_hash": "8086e4d578"
+  },
+  "hero:5311:skill:0:enh:1": {
+   "desc": "Damage Skill naik jadi 80+150% Physical Attack dan memunculkan 1 bayangan cermin yang ikut menyerang.",
+   "src_hash": "413da2b45a"
+  },
+  "hero:5311:skill:0:enh:2": {
+   "desc": "Memunculkan 2 bayangan cermin yang ikut menyerang dan memulihkan 450 HP.",
+   "src_hash": "424399d154"
+  },
+  "hero:1591:main": {
+   "desc": "Setiap kali Hero milikmu memicu efek Preparation, Level 3 Hero acak dan Akomia Core +1.",
+   "src_hash": "2dd6138558"
+  },
+  "hero:1591:awaken": {
+   "desc": "Setiap kali Hero milikmu memicu efek Preparation, Level semua Hero milikmu dan Akomia Core +1.",
+   "src_hash": "6d90990716"
+  },
+  "hero:1591:skill:0": {
+   "desc": "Pasif: di dalam area air yang dia buat sendiri, Dolia berubah jadi wujud duyung. Basic Attack-nya memulihkan tambahan 5 Mana dan memberikan tambahan 50% Magic Attack sebagai Magic Damage ke target. Jika Skill dipakai lagi saat berada di area air, area lama hilang dan area baru terbentuk.\nAktif: Dolia melompat ke titik terpadat sekutu dalam 3 tile dan menciptakan area air selama 10 detik, dan di dalamnya dia berubah jadi wujud duyung. Saat mendarat, dia langsung memulihkan 75+100% Magic Attack sebagai HP dan 10 Mana untuk sekutu di area (pemulihan Mana tidak berlaku untuk Dolia). Tiap detik, area air memulihkan 50% Magic Attack sebagai HP untuk sekutu di dalamnya. Saat Dolia keluar dari area air, area itu hilang dan dia kembali ke wujud manusia.",
+   "src_hash": "872f171e41"
+  },
+  "hero:1591:skill:0:enh:0": {
+   "desc": "Pemulihan HP saat mendarat naik jadi 100+150% Magic Attack dan pemulihan Mana naik jadi 20.",
+   "src_hash": "2918a553b6"
+  },
+  "hero:1591:skill:0:enh:1": {
+   "desc": "Area air bertahan sampai Round berakhir. Dalam wujud duyung, Mana yang dipulihkan lewat Basic Attack dibagikan ke sekutu di dalam area air.",
+   "src_hash": "e739032955"
+  },
+  "hero:1591:skill:0:enh:2": {
+   "desc": "Saat mendarat, sekutu di area air langsung memulihkan 100% Max Mana.",
+   "src_hash": "b6909198f6"
+  },
+  "hero:5451:main": {
+   "desc": "Setelah setiap kali kamu menjual 2 Hero di field, Level Akomia Core +1.",
+   "src_hash": "a6cbc1242f"
+  },
+  "hero:5451:awaken": {
+   "desc": "Setelah setiap kali kamu menjual Hero di field, Level Akomia Core +1.",
+   "src_hash": "67cba8d283"
+  },
+  "hero:5451:skill:0": {
+   "desc": "Pasif: tiap 8 Basic Attack, Alessio menembakkan 1 misil diperkuat lewat Firehawk kecilnya, memberikan 150% Physical Attack sebagai Physical Damage ke target dan 50% Physical Attack sebagai Physical Damage ke musuh dalam 1 tile. Jika belum ditembakkan, misil menumpuk 1 stack, maksimum 5 stack.\nAktif: Alessio melempar granat asap dan menciptakan 1 kepulan asap. Hero di dalam asap tidak jadi target prioritas dan mendapat 30% Attack Speed.",
+   "src_hash": "c63df693bc"
+  },
+  "hero:5451:skill:0:enh:0": {
+   "desc": "Bonus Attack Speed naik jadi 50%.",
+   "src_hash": "b15fc5a05b"
+  },
+  "hero:5451:skill:0:enh:1": {
+   "desc": "Alessio menyerang target yang sama dengan sekutu di dalam asap. Tiap kali sekutu di asap memberikan Damage ke musuh, Firehawk kecil Alessio ikut terisi 1 stack.",
+   "src_hash": "04d93b1b5a"
+  },
+  "hero:5451:skill:0:enh:2": {
+   "desc": "Saat memakai Skill, dia masuk mode tembak cepat: langsung menembakkan 5 misil diperkuat dan batas stack naik jadi 10 selama 5 detik.",
+   "src_hash": "577d1496b9"
+  },
+  "hero:5131:main": {
+   "desc": "Preparation: secara acak menggunakan 1 Ancient Coin pada 3 Hero [Central Plain] yang berbeda.",
+   "src_hash": "c74ff99f67"
+  },
+  "hero:5131:awaken": {
+   "desc": "Preparation: secara acak menggunakan 1 Ancient Coin pada 6 [Central Plain] Hero yang berbeda.",
+   "src_hash": "d503b9e1ae"
+  },
+  "hero:5131:skill:0": {
+   "desc": "Shangguan Wan'er menyapukan satu goresan tinta ke musuh terjauh, memberikan 100+100% Magic Attack sebagai Magic Damage ke musuh di jalurnya.",
+   "src_hash": "f74ac5d2d6"
+  },
+  "hero:5131:skill:0:enh:0": {
+   "desc": "Damage tinta naik jadi 100+150% Magic Attack.",
+   "src_hash": "ecf3dde2a7"
+  },
+  "hero:5131:skill:0:enh:1": {
+   "desc": "Tiap goresan tinta mengenai 1 musuh, Damage-nya naik 50%, maksimum 150%.",
+   "src_hash": "085a7d11f3"
+  },
+  "hero:5131:skill:0:enh:2": {
+   "desc": "Damage tinta naik jadi 100+240% Magic Attack.",
+   "src_hash": "f7e6017469"
+  },
+  "hero:3551:main": {
+   "desc": "Engage: Erin memperoleh Attack Speed sebesar Level dirinya sendiri x1%.",
+   "src_hash": "8f3f065c6e"
+  },
+  "hero:3551:awaken": {
+   "desc": "Engage: Erin memperoleh Attack Speed sebesar Level dirinya sendiri x2%.",
+   "src_hash": "d3d7229a48"
+  },
+  "hero:3551:skill:0": {
+   "desc": "Pasif: tiap Basic Attack, Erin menumpuk 1 stack Laurel Blessing. Saat mencapai 10 dan 20 stack, Skill-nya berevolusi.\nAktif: Erin melepaskan seberkas daun laurel ke musuh target, memberikan 100% Magic Attack sebagai Magic Damage.\nEvolusi 10 stack: jika ada musuh dalam 2 tile, Erin berpindah ke titik dengan musuh lebih sedikit lalu melepaskan 1 lembar daun laurel terbang ke target dengan Damage 100% Magic Attack.\nEvolusi 20 stack: jika ada musuh dalam 2 tile, Erin berpindah ke titik dengan musuh lebih sedikit lalu melepaskan 5 lembar daun laurel terbang, tiap lembar memberikan 100% Magic Attack sebagai Magic Damage.",
+   "src_hash": "e6d25823f2"
+  },
+  "hero:3551:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 150% Magic Attack.",
+   "src_hash": "80f63b8acb"
+  },
+  "hero:3551:skill:0:enh:1": {
+   "desc": "Pada 30 stack, Erin mendapat 1 evolusi tambahan: tiap Basic Attack memberi 2 Magic Attack dan membawa tambahan 10% Magic Attack sebagai Magic Damage.",
+   "src_hash": "2810f5239d"
+  },
+  "hero:3551:skill:0:enh:2": {
+   "desc": "Saat Combat dimulai, Erin terbang mengelilingi arena dengan jangkauan serangan tak terbatas. Saat memakai Skill, Basic Attack-nya mendapat efek tembus selama 5 detik.",
+   "src_hash": "91e3197be6"
+  },
+  "hero:1191:main": {
+   "desc": "Saat Shield unit sekutu dihancurkan, memberikan Magic Damage sebesar 10% Max HP Hero tersebut kepada musuh di sekitar (Cooldown 1 detik).",
+   "src_hash": "3b2b14903f"
+  },
+  "hero:1191:awaken": {
+   "desc": "Saat Shield unit sekutu dihancurkan, memberikan Magic Damage sebesar 20% Max HP Hero tersebut kepada musuh di sekitar (Cooldown 1 detik).",
+   "src_hash": "08146f56b9"
+  },
+  "hero:1191:skill:0": {
+   "desc": "Dr. Bian melempar botol ramuan ke 3 unit dengan persentase HP terendah di field. Botol pecah saat menyentuh tanah dan meninggalkan cairan selama 5 detik. Sekutu di dalam cairan memulihkan 20+60% Magic Attack sebagai HP tiap detik, sedangkan musuh di dalamnya menerima 20+60% Magic Attack sebagai Magic Damage tiap detik. Efeknya dapat di-stack.",
+   "src_hash": "2525883801"
+  },
+  "hero:1191:skill:0:enh:0": {
+   "desc": "Damage cairan naik jadi 20+90% Magic Attack dan pemulihan HP naik jadi 20+90% Magic Attack.",
+   "src_hash": "53f644c66b"
+  },
+  "hero:1191:skill:0:enh:1": {
+   "desc": "Jumlah botol naik jadi 5.",
+   "src_hash": "edd8b69242"
+  },
+  "hero:1191:skill:0:enh:2": {
+   "desc": "Cairan menambah 40% Attack Speed sekutu dan mengurangi 40% Attack Speed musuh.",
+   "src_hash": "23852b3b73"
+  },
+  "hero:1101:main": {
+   "desc": "Engage: Magic Attack +7. Setiap kali menggunakan Kartu Tactic, bonus tersebut akan meningkat.",
+   "src_hash": "b391522458"
+  },
+  "hero:1101:awaken": {
+   "desc": "Engage: Magic Attack +14. Setiap kali menggunakan Kartu Tactic, bonus tersebut akan meningkat.",
+   "src_hash": "38daabdd06"
+  },
+  "hero:1101:skill:0": {
+   "desc": "Yin Zheng menampilkan kedaulatannya, mengunci musuh terdekat, dan selama 5 detik memerintahkan 80 pedang terbang menyerbu ke arahnya. Tiap pedang memberikan 10+10% Magic Attack sebagai Magic Damage. Jika tidak ada musuh di jalur saat ini, Yin Zheng langsung beralih ke target berikutnya.",
+   "src_hash": "24efe31e60"
+  },
+  "hero:1101:skill:0:enh:0": {
+   "desc": "Damage pedang terbang naik jadi 15+15% Magic Attack.",
+   "src_hash": "3762ce1e66"
+  },
+  "hero:1101:skill:0:enh:1": {
+   "desc": "Jumlah dasar pedang terbang naik jadi 100, dan tiap mengalahkan 1 musuh durasi Skill bertambah 2 detik.",
+   "src_hash": "0e92f76159"
+  },
+  "hero:1101:skill:0:enh:2": {
+   "desc": "Jumlah dasar pedang terbang naik jadi 120, dan tiap mengalahkan 1 musuh area bertambah 2 tile, maksimum 4 tile.",
+   "src_hash": "0b447f519b"
+  },
+  "hero:5071:main": {
+   "desc": "Setiap kali Hero yang memiliki efek Sacrifice milikmu gugur, Temporary Level Li Xin +7.",
+   "src_hash": "c494a3e71e"
+  },
+  "hero:5071:awaken": {
+   "desc": "Setiap kali Hero yang memiliki efek Sacrifice milikmu gugur, Temporary Level Li Xin +14.",
+   "src_hash": "6d0e3f9e79"
+  },
+  "hero:5071:skill:0": {
+   "desc": "Li Xin kebal CC dan mengumpulkan tenaga sejenak, lalu melepaskan 1 aura pedang ke arah hadapannya, memberikan 50+180% Physical Attack sebagai Physical Damage ke musuh yang terkena.",
+   "src_hash": "971a76e362"
+  },
+  "hero:5071:skill:0:enh:0": {
+   "desc": "Damage aura pedang naik jadi 100+220% Physical Attack.",
+   "src_hash": "6fef090128"
+  },
+  "hero:5071:skill:0:enh:1": {
+   "desc": "Jumlah aura pedang naik jadi 3.",
+   "src_hash": "cee02974e4"
+  },
+  "hero:5071:skill:0:enh:2": {
+   "desc": "Setelah Li Xin gugur, dia Perfect Revive dalam wujud amuk dengan Skill khusus.",
+   "src_hash": "4375c349c2"
+  },
+  "hero:1311:main": {
+   "desc": "Flash.\nKartu Ancient Coin akan memberikan tambahan 4 Temporary Level. Jika targetnya Li Bai, Temporary Level tersebut mendapat tambahan +3.",
+   "src_hash": "b5598716f6"
+  },
+  "hero:1311:awaken": {
+   "desc": "Flash.\nKartu Ancient Coin akan memberikan tambahan 8 Temporary Level. Jika targetnya Li Bai, Temporary Level tersebut mendapat tambahan +6.",
+   "src_hash": "3f50dd661c"
+  },
+  "hero:1311:skill:0": {
+   "desc": "Pasif: tiap kali memakai Skill, Li Bai menumpuk 1 aura pedang, maksimum 4. Tiap aura menambah 10% Physical Attack dasar.\nAktif: Li Bai membentangkan formasi pedang, mengurangi 6 Physical Defense musuh target dan musuh di sebelahnya, lalu berubah jadi aura pedang dan melancarkan 6 tebasan. Tiap tebasan memberikan 80% Physical Attack sebagai Physical Damage yang dibagi rata ke musuh di area.",
+   "src_hash": "dd16c4cf2a"
+  },
+  "hero:1311:skill:0:enh:0": {
+   "desc": "Damage tebasan naik jadi 120% Physical Attack.",
+   "src_hash": "6a5cafb9af"
+  },
+  "hero:1311:skill:0:enh:1": {
+   "desc": "Damage tebasan naik jadi 150% Physical Attack.",
+   "src_hash": "f27832dd0a"
+  },
+  "hero:1311:skill:0:enh:2": {
+   "desc": "Li Bai tidak dapat ditarget selama tebasan berlangsung.",
+   "src_hash": "6ad98a7475"
+  },
+  "hero:1831:main": {
+   "desc": "Engage: secara acak memicu efek Preparation dari 2 Hero [Sunset Sea].",
+   "src_hash": "d704be81dc"
+  },
+  "hero:1831:awaken": {
+   "desc": "Engage: secara acak memicu efek Preparation dari 4 [Sunset Sea] Hero.",
+   "src_hash": "a57e50adcd"
+  },
+  "hero:1831:skill:0": {
+   "desc": "Athena mengangkat perisai sucinya, mendapat kebal CC dan Shield sebesar 15% Max HP selama 6 detik. Setelah 2 detik, Athena membalas dengan perisainya dan memberikan 30 Magic Damage ke musuh dalam 1 tile.",
+   "src_hash": "fe596dab94"
+  },
+  "hero:1831:skill:0:enh:0": {
+   "desc": "Shield naik jadi 35% Max HP.",
+   "src_hash": "0378a6f398"
+  },
+  "hero:1831:skill:0:enh:1": {
+   "desc": "Musuh juga terkena stun 1.5 detik.",
+   "src_hash": "e2a0373ee3"
+  },
+  "hero:1831:skill:0:enh:2": {
+   "desc": "Area Skill bertambah 1 tile.",
+   "src_hash": "a14ed1a179"
+  },
+  "hero:1861:main": {
+   "desc": "Engage: membuat 1 Hero terdekat memperoleh Revive.",
+   "src_hash": "7961ac6c19"
+  },
+  "hero:1861:awaken": {
+   "desc": "Engage: membuat 1 Hero terdekat memperoleh Perfect Revive.",
+   "src_hash": "1ac1deb9ec"
+  },
+  "hero:1861:skill:0": {
+   "desc": "Taiyi Zhenren menarik dirinya ke musuh terjauh dan memberi taunt ke musuh dalam 1 tile.",
+   "src_hash": "ba13b37e33"
+  },
+  "hero:1861:skill:0:enh:0": {
+   "desc": "Saat memakai Skill, dia mendapat Shield 400.",
+   "src_hash": "c10f953f89"
+  },
+  "hero:1861:skill:0:enh:1": {
+   "desc": "Saat Shield hancur, musuh dalam 1 tile menerima 400 Magic Damage.",
+   "src_hash": "1df27eed44"
+  },
+  "hero:1861:skill:0:enh:2": {
+   "desc": "Selama melesat ke target, musuh dalam 1 tile di sekitarnya terkena knock-up 1 detik.",
+   "src_hash": "c16c15d6b5"
+  },
+  "hero:1671:main": {
+   "desc": "Flash, Steal.\nPreparation: Level Hero yang memiliki efek Flash +2.",
+   "src_hash": "49d54ec571"
+  },
+  "hero:1671:awaken": {
+   "desc": "Flash, Steal.\nPreparation: Level Hero yang memiliki efek Flash +4.",
+   "src_hash": "c068da4f47"
+  },
+  "hero:1671:skill:0": {
+   "desc": "Sun Wukong mengayunkan tongkat emasnya ke depan, memberikan 100+400% Physical Attack sebagai Physical Damage.",
+   "src_hash": "001315b1bf"
+  },
+  "hero:1671:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 100+500% Physical Attack.",
+   "src_hash": "3d228d9703"
+  },
+  "hero:1671:skill:0:enh:1": {
+   "desc": "Damage Skill naik jadi 100+700% Physical Attack dan areanya melebar jadi 2 tile.",
+   "src_hash": "7e0ebf78a7"
+  },
+  "hero:1671:skill:0:enh:2": {
+   "desc": "Area Skill melebar jadi 4 tile.",
+   "src_hash": "1328b8d19a"
+  },
+  "hero:1271:main": {
+   "desc": "Deploy: memperoleh 1 Kartu Hero Deploy lainnya.",
+   "src_hash": "5477c84789"
+  },
+  "hero:1271:awaken": {
+   "desc": "Deploy: memilih 1 dari 3 kartu Hero Deploy lainnya.",
+   "src_hash": "fd89b04112"
+  },
+  "hero:1271:skill:0": {
+   "desc": "Zhenji melepaskan arus air yang menghantam musuh target lalu memantul ke musuh terjauh dalam 3 tile, maksimum 4 pantulan. Tiap pantulan memberikan 30+40% Magic Attack sebagai Magic Damage. Musuh yang terkena 3 kali arus air dalam 3 detik akan terkena freeze 1 detik. Jika tidak ada musuh lain di dekat target, target langsung menerima Damage arus air 3 kali lipat dan langsung terkena freeze.",
+   "src_hash": "abde4dd207"
+  },
+  "hero:1271:skill:0:enh:0": {
+   "desc": "Damage arus air naik jadi 30+75% Magic Attack.",
+   "src_hash": "8b333bd68b"
+  },
+  "hero:1271:skill:0:enh:1": {
+   "desc": "Durasi freeze +1 detik, dan saat freeze berakhir target menerima tambahan 50+100% Magic Attack sebagai Magic Damage.",
+   "src_hash": "4005ca94f0"
+  },
+  "hero:1271:skill:0:enh:2": {
+   "desc": "Batas jumlah pantulan +4.",
+   "src_hash": "108b659230"
+  },
+  "hero:1061:main": {
+   "desc": "Setiap kali Hero milikmu memicu efek Deploy, Level 3 Hero acak +1.",
+   "src_hash": "77f503c28c"
+  },
+  "hero:1061:awaken": {
+   "desc": "Setiap kali Hero milikmu memicu efek Deploy, Level semua Hero +1.",
+   "src_hash": "008dd9ac7c"
+  },
+  "hero:1061:skill:0": {
+   "desc": "Xiao Qiao menyalurkan 1 angin puyuh yang mengangkat musuh terdekat, membuatnya melayang dan menerima 10% Magic Attack sebagai Magic Damage tiap 0.2 detik, maksimum 3 detik.",
+   "src_hash": "a2cf9fa875"
+  },
+  "hero:1061:skill:0:enh:0": {
+   "desc": "Damage angin puyuh naik jadi 15% Magic Attack.",
+   "src_hash": "4ec212a3d1"
+  },
+  "hero:1061:skill:0:enh:1": {
+   "desc": "Mengangkat 1 musuh terdekat tambahan.",
+   "src_hash": "9d22e3f154"
+  },
+  "hero:1061:skill:0:enh:2": {
+   "desc": "Mengangkat 1 musuh terjauh tambahan.",
+   "src_hash": "745ff56442"
+  },
+  "hero:5171:main": {
+   "desc": "Saat di arena, memanggil Rebirth Totem.\nSetiap kali kamu memicu efek Sacrifice: Level Rebirth Totem +2 secara permanen dan memperoleh 50 Mana.",
+   "src_hash": "79d8b54efd"
+  },
+  "hero:5171:awaken": {
+   "desc": "Saat di arena, memanggil Rebirth Totem.\nSetiap kali kamu memicu efek Sacrifice, Level Rebirth Totem +4 secara permanen dan memperoleh 50 Mana.",
+   "src_hash": "65f1388c2e"
+  },
+  "hero:5171:skill:0": {
+   "desc": "Pasif: Basic Attack Augran menghubungkan dirinya dengan musuh dan memberikan 5 kali Damage dalam 3 detik, tiap kali 50% Physical Attack sebagai Physical Damage.\nAktif: Augran melepaskan seluruh kekuatan dukunnya, turun dari langit dan memberikan 150+200% Physical Attack sebagai Physical Damage ke musuh dalam 2 tile serta memulihkan 100+5% Max HP. Bersamaan itu dia memusatkan roh dari 1 musuh di area untuk membantu bertempur (dihitung sebagai Summoned Unit). Setelah itu dia masuk wujud dukun: Mana tidak bisa pulih, tetapi Basic Attack-nya memulihkan 10+1% Max HP.\nRoh mewarisi sebagian atribut Augran, dan saat Augran menyerang dalam wujud dukun, roh mendapat efek pemulihan HP yang sama.",
+   "src_hash": "c919adf88b"
+  },
+  "hero:5171:skill:0:enh:0": {
+   "desc": "Efek pemulihan naik jadi 250+10% Max HP.",
+   "src_hash": "70049b8238"
+  },
+  "hero:5171:skill:0:enh:1": {
+   "desc": "Dalam wujud dukun, Augran bisa menyerang hingga 3 musuh di area sekaligus.",
+   "src_hash": "7a42399294"
+  },
+  "hero:5171:skill:0:enh:2": {
+   "desc": "Batas jumlah roh naik jadi 3.",
+   "src_hash": "2bebc77c8f"
+  },
+  "hero:1131:main": {
+   "desc": "Deploy: Level dirinya sendiri +2 dan memperoleh 1 Recruitment Tactic.",
+   "src_hash": "39fbb74f72"
+  },
+  "hero:1131:awaken": {
+   "desc": "Deploy: Level dirinya sendiri +4 dan memperoleh 1 Advanced Recruitment Tactic.",
+   "src_hash": "a5ba1bdfc1"
+  },
+  "hero:1131:skill:0": {
+   "desc": "Zhuang Zhou menjelmakan alam mimpi untuk melindungi rekan dan dirinya, membersihkan debuff dari dirinya dan sekutu dalam 2 tile di kiri dan kanannya, serta memberi Shield 200 selama 5 detik.",
+   "src_hash": "3c1142d37e"
+  },
+  "hero:1131:skill:0:enh:0": {
+   "desc": "Shield naik jadi 300.",
+   "src_hash": "7319fa2458"
+  },
+  "hero:1131:skill:0:enh:1": {
+   "desc": "Kebal CC selama Shield masih aktif.",
+   "src_hash": "5e4605ab90"
+  },
+  "hero:1131:skill:0:enh:2": {
+   "desc": "Area Skill melebar ke seluruh sekutu.",
+   "src_hash": "22a83fc8ab"
+  },
+  "hero:1491:main": {
+   "desc": "Engage: menghancurkan semua Totem milikmu; setiap 1 yang dihancurkan, Level Liu Bang +5 secara permanen.",
+   "src_hash": "9b7ab9dbcb"
+  },
+  "hero:1491:awaken": {
+   "desc": "Engage: menghancurkan semua Totem milikmu; setiap 1 yang dihancurkan, Level Liu Bang +10 secara permanen.",
+   "src_hash": "e1c896c255"
+  },
+  "hero:1491:skill:0": {
+   "desc": "Selama 4 detik, Basic Attack Liu Bang berubah jadi sapuan area dan tiap detik dia mendapat Shield 50. Musuh yang tersapu diberi Mark. Saat sekutu memberikan Damage, Mark itu dikonsumsi dan memberikan 50+30% Magic Attack sebagai Magic Damage.",
+   "src_hash": "59f8bdf9db"
+  },
+  "hero:1491:skill:0:enh:0": {
+   "desc": "Shield per detik naik jadi 80. Tiap 15 Magic Attack yang dimiliki menambah 20% Attack Speed.",
+   "src_hash": "fa444197b3"
+  },
+  "hero:1491:skill:0:enh:1": {
+   "desc": "Selama Skill aktif, tiap detik sekutu dalam 1 tile mendapat Shield 80.",
+   "src_hash": "0c92513e8e"
+  },
+  "hero:1491:skill:0:enh:2": {
+   "desc": "Saat Shield hancur, musuh dalam 1 tile menerima 100+50% Magic Attack sebagai Magic Damage.",
+   "src_hash": "a0c6de8f9d"
+  },
+  "hero:1901:main": {
+   "desc": "Saat Hero lain milikmu menggunakan Skill, Zhuge Liang memperoleh 15 Mana dan 4 Temporary Level.",
+   "src_hash": "b5f7cf8240"
+  },
+  "hero:1901:awaken": {
+   "desc": "Saat Hero lain milikmu menggunakan Skill, Zhuge Liang memperoleh 30 Mana dan 8 Temporary Level.",
+   "src_hash": "ddda79c974"
+  },
+  "hero:1901:skill:0": {
+   "desc": "Zhuge Liang menembakkan bola energi ke target saat ini, memberikan 150+100% Magic Attack sebagai Magic Damage, dan 40% dari Damage itu ke musuh di sebelahnya.",
+   "src_hash": "6ad69754b5"
+  },
+  "hero:1901:skill:0:enh:0": {
+   "desc": "Damage bola energi naik jadi 150+200% Magic Attack.",
+   "src_hash": "88b5b03e5e"
+  },
+  "hero:1901:skill:0:enh:1": {
+   "desc": "Saat bola energi mengalahkan musuh, Zhuge Liang memulihkan 70% Max Mana.",
+   "src_hash": "3a00d408a3"
+  },
+  "hero:1901:skill:0:enh:2": {
+   "desc": "Damage bola energi naik jadi 250+300% Magic Attack, dan dia menembakkan 4 bola energi kecil tambahan dengan 25% Damage.",
+   "src_hash": "404bda6c56"
+  },
+  "hero:1501:main": {
+   "desc": "Flash.\nSetiap kali Hero milikmu memicu efek Preparation atau Engage, Level Han Xin +2 secara permanen.",
+   "src_hash": "ee05a8001b"
+  },
+  "hero:1501:awaken": {
+   "desc": "Flash.\nSetiap kali Hero milikmu memicu efek Preparation atau Engage, Level Han Xin +2 secara permanen.",
+   "src_hash": "ee05a8001b"
+  },
+  "hero:1501:skill:0": {
+   "desc": "Pasif: tiap Basic Attack ke-3 Han Xin memberi knock-up 1 detik dan 160% Physical Attack sebagai Physical Damage. Tiap mengalahkan 1 musuh, Attack Speed dasarnya naik 10%.\nAktif: Han Xin menusuk musuh dengan tombaknya, memberi knock-up dan 100 Physical Damage.",
+   "src_hash": "d956fabb74"
+  },
+  "hero:1501:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 100+150% Physical Attack.",
+   "src_hash": "e72a638dd7"
+  },
+  "hero:1501:skill:0:enh:1": {
+   "desc": "Menambah tusukan susulan dengan 100+200% Physical Attack sebagai Physical Damage. Jika target dikalahkan, Han Xin langsung menerjang ke target berikutnya dan melemparnya ke udara dengan 100+200% Physical Attack sebagai Physical Damage.",
+   "src_hash": "961d01358d"
+  },
+  "hero:1501:skill:0:enh:2": {
+   "desc": "Skill berubah jadi 3 tahap Damage area: 100+200% Physical Attack sebagai Physical Damage ke target utama, 200 Physical Damage ke target lain, dan tahap terakhir memberi knock-up ke musuh dalam 1 tile.",
+   "src_hash": "3f1082866f"
+  },
+  "hero:5241:main": {
+   "desc": "Deploy: memperoleh 1 Special Training Tactic.",
+   "src_hash": "246c6d553a"
+  },
+  "hero:5241:awaken": {
+   "desc": "Deploy: memperoleh 1 Advanced Special Training Tactic.",
+   "src_hash": "2191b9e902"
+  },
+  "hero:5241:skill:0": {
+   "desc": "Meng Ya menembakkan 8 rudal ke musuh acak. Tiap rudal memberikan 30+100% Physical Attack sebagai Physical Damage. Jika beberapa rudal mengenai target yang sama, Damage berikutnya berkurang 40%.",
+   "src_hash": "0769a9c1fb"
+  },
+  "hero:5241:skill:0:enh:0": {
+   "desc": "Damage rudal naik jadi 30+150% Physical Attack.",
+   "src_hash": "96b5c0fd41"
+  },
+  "hero:5241:skill:0:enh:1": {
+   "desc": "Pengurangan Damage untuk rudal beruntun turun jadi 10%.",
+   "src_hash": "d93403ed10"
+  },
+  "hero:5241:skill:0:enh:2": {
+   "desc": "Jumlah rudal naik jadi 11. Tiap pemakaian Skill menambah 1 rudal untuk Skill berikutnya, maksimum 20.",
+   "src_hash": "bf73e8fe39"
+  },
+  "hero:1871:main": {
+   "desc": "Totem tidak akan diprioritaskan sebagai target serangan.\nEngage: memperoleh Temporary Level sebesar 15% dari jumlah Level setiap Totem.",
+   "src_hash": "618a8939f6"
+  },
+  "hero:1871:awaken": {
+   "desc": "Totem tidak akan diprioritaskan sebagai target serangan.\nEngage: memperoleh Temporary Level sebesar 30% dari jumlah Level setiap Totem.",
+   "src_hash": "bbd482ae79"
+  },
+  "hero:1871:skill:0": {
+   "desc": "Pasif: Donghuang Taiyi menciptakan 3 bola energi yang berputar mengelilinginya. Saat bola menyentuh musuh, musuh itu menerima Magic Damage sebesar 3% Max HP-nya dan Donghuang Taiyi memulihkan 3% Max HP miliknya.\nAktif: Donghuang Taiyi menjalankan kontrak dewa jatuh dan mensuppress musuh target selama 5 detik. Selama itu kedua pihak menerima Damage yang sama besar. Jika target terlalu jauh, efeknya terputus lebih awal.",
+   "src_hash": "cad3d445ee"
+  },
+  "hero:1871:skill:0:enh:0": {
+   "desc": "Koefisien Damage dan pemulihan Max HP bola energi naik jadi 5%.",
+   "src_hash": "582f2fcc0f"
+  },
+  "hero:1871:skill:0:enh:1": {
+   "desc": "Saat suppress berlangsung, kecepatan putar bola energi naik 50%.",
+   "src_hash": "0639afc241"
+  },
+  "hero:1871:skill:0:enh:2": {
+   "desc": "Efek Skill berlanjut sampai salah satu pihak gugur.",
+   "src_hash": "8d475ef323"
+  },
+  "hero:5191:main": {
+   "desc": "Selama Combat, setiap Totem memberikan 16% Attack Speed dan 4 Temporary Level untuk Ao Yin setiap 4 detik.",
+   "src_hash": "38c56354e8"
+  },
+  "hero:5191:awaken": {
+   "desc": "Selama Combat, setiap Totem memberikan 32% Attack Speed dan 8 Temporary Level untuk Ao Yin setiap 4 detik.",
+   "src_hash": "e2415ad672"
+  },
+  "hero:5191:skill:0": {
+   "desc": "Ao Yin memanggil naga putih untuk menerjang titik terpadat musuh, memberikan 100+75% Physical Attack sebagai Physical Damage.",
+   "src_hash": "3429ec9eb5"
+  },
+  "hero:5191:skill:0:enh:0": {
+   "desc": "Membuka salah satu dari dua senjata secara acak yang memberikan Damage area.\nSunfire Palm: Basic Attack membawa tambahan True Damage sebesar 10% Physical Attack.\nSkybearing Rain: Basic Attack memulihkan 20 HP dan pemakaian Skill memulihkan tambahan 100 HP.",
+   "src_hash": "91cae7d4b9"
+  },
+  "hero:5191:skill:0:enh:1": {
+   "desc": "Sunfire Palm: True Damage naik jadi 15% Physical Attack.\nSkybearing Rain: pemulihan Basic Attack naik jadi 20+2% Max HP dan pemulihan Skill naik jadi 350.",
+   "src_hash": "37e73f77bd"
+  },
+  "hero:5191:skill:0:enh:2": {
+   "desc": "Kedua efek senjata dimiliki sekaligus.",
+   "src_hash": "3af3518a1e"
+  },
+  "hero:5251:main": {
+   "desc": "Saat Master Luban di arena, memanggil 1 Mechanical Puppet dengan Level yang sama seperti dirinya sendiri.",
+   "src_hash": "8c8cca6a1d"
+  },
+  "hero:5251:awaken": {
+   "desc": "Saat Master Luban di arena, memanggil 1 Mechanical Puppet · Reformed dengan Level yang sama seperti dirinya sendiri.",
+   "src_hash": "0d9f3a18ca"
+  },
+  "hero:5251:skill:0": {
+   "desc": "Master Luban melompat ke titik terpadat musuh, mengaitkan 1 musuh dalam 3 tile dan menyeretnya paksa. Saat mendarat, dia memberikan 50+60% Magic Attack sebagai Magic Damage dan stun 0.5 detik.",
+   "src_hash": "fde41c49fa"
+  },
+  "hero:5251:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 50+90% Magic Attack dan dia mendapat Shield 250.",
+   "src_hash": "12282719ba"
+  },
+  "hero:5251:skill:0:enh:1": {
+   "desc": "Jumlah target yang bisa dikendalikan naik jadi maksimum 3.",
+   "src_hash": "c5e7f4a833"
+  },
+  "hero:5251:skill:0:enh:2": {
+   "desc": "Jumlah target yang bisa dikendalikan naik jadi maksimum 6.",
+   "src_hash": "f942107740"
+  },
+  "hero:1541:main": {
+   "desc": "Setiap menggunakan 5 Kartu Ancient Coin pada Round ini, memperoleh 1 Revive (total Revive: 1).\nSacrifice: Temporary Level +10.",
+   "src_hash": "89114d9fe2"
+  },
+  "hero:1541:awaken": {
+   "desc": "Setiap menggunakan 5 Kartu Ancient Coin pada Round ini, memperoleh 1 Revive (total Revive: 1).\nSacrifice: Temporary Level +20.",
+   "src_hash": "3da39a837d"
+  },
+  "hero:1541:skill:0": {
+   "desc": "Pasif: Hua Mulan bisa berganti wujud lewat pedang yang ada di medan tempur. Atribut dasar kedua wujud berbeda.\nAktif — pedang ringan: dia mengayunkan dua pedangnya dan melancarkan 7 tahap serangan ke target, tiap tahap memberikan 80% Physical Attack sebagai Physical Damage.\nAktif — pedang berat: setelah mengumpulkan tenaga 3 detik, dia memberi knock-up dan stun 1.5 detik ke musuh di area depan dengan 80+60% Physical Attack sebagai Physical Damage. Selama mengumpulkan tenaga, dia kebal CC.",
+   "src_hash": "9dafa4a0a1"
+  },
+  "hero:1541:skill:0:enh:0": {
+   "desc": "Pedang ringan: Damage naik jadi 105% Physical Attack.\nPedang berat: stun diperpanjang jadi 2.5 detik.",
+   "src_hash": "eeaf8b42b8"
+  },
+  "hero:1541:skill:0:enh:1": {
+   "desc": "Pedang ringan: tebasan berlanjut sampai target gugur.\nPedang berat: mendapat 40% kekebalan Damage selama mengumpulkan tenaga.",
+   "src_hash": "0cd768a6ef"
+  },
+  "hero:1541:skill:0:enh:2": {
+   "desc": "Pedang ringan: jika target dikalahkan, Mana langsung penuh dan dia menerjang ke musuh acak.\nPedang berat: area Skill melebar ke seluruh arena.",
+   "src_hash": "22b3b944ab"
+  },
+  "hero:5371:main": {
+   "desc": "Saat Hero lain milikmu memperoleh Temporary Level, Sikong Zhen memperoleh setengah efeknya (tidak melebihi 1x Level asli dirinya sendiri).",
+   "src_hash": "d6f155177d"
+  },
+  "hero:5371:awaken": {
+   "desc": "Saat Hero lain milikmu memperoleh Temporary Level, Sikong Zhen memperoleh semua efeknya (tidak melebihi 2x Level asli dirinya sendiri).",
+   "src_hash": "f48ae995dc"
+  },
+  "hero:5371:skill:0": {
+   "desc": "Sikong Zhen naik ke udara dan menghantam seluruh musuh di arena dengan genderang petir, memberikan 50+65% Magic Attack sebagai Magic Damage.\nRaja Petir: Attack Speed dasar naik 15%. Basic Attack menghasilkan rantai petir yang menular hingga 3 kali dengan 75+50% Magic Attack sebagai Magic Damage, dan Damage berkurang 25% tiap tular. 40% dari Damage rantai petir diubah jadi Shield untuk dirinya, maksimum 300.",
+   "src_hash": "bc3bb88a0d"
+  },
+  "hero:5371:skill:0:enh:0": {
+   "desc": "Damage genderang petir naik jadi 50+100% Magic Attack.",
+   "src_hash": "bcb756e5c4"
+  },
+  "hero:5371:skill:0:enh:1": {
+   "desc": "Setelah menghantam, dia berubah jadi Raja Petir selama 8 detik.",
+   "src_hash": "d3f24cf9ab"
+  },
+  "hero:5371:skill:0:enh:2": {
+   "desc": "Saat Combat dimulai, dia langsung berubah jadi Raja Petir dan menghantam seluruh arena dengan Magic Damage. Wujud ini bertahan sampai Round berakhir.",
+   "src_hash": "4128dbc64f"
+  },
+  "hero:1481:main": {
+   "desc": "Setiap kali kamu menggunakan Kartu Hero dari faksi yang tidak ada di arena atau No Faction, Level Jiang Ziya dan 3 Hero lain secara acak dari faksi berbeda +1.",
+   "src_hash": "a6d28e7570"
+  },
+  "hero:1481:awaken": {
+   "desc": "Setiap kali kamu menggunakan Kartu Hero dari faksi yang tidak ada di arena atau No Faction, Level Jiang Ziya dan 3 Hero lain secara acak dari faksi berbeda +2.",
+   "src_hash": "f0841b9dcc"
+  },
+  "hero:1481:skill:0": {
+   "desc": "Jiang Ziya berubah ke wujud celestial, mendapat kebal CC, dan memusatkan energi langit-bumi ke arah musuh terjauh selama 2 detik, lalu melepaskan 1 gelombang kejut yang memberikan 80+80% Magic Attack sebagai Magic Damage ke musuh di jalurnya. Jika satu unit terkena beberapa gelombang, Damage berkurang 15% tiap kali, maksimum 60%.",
+   "src_hash": "347dafdd66"
+  },
+  "hero:1481:skill:0:enh:0": {
+   "desc": "Damage gelombang kejut naik jadi 140+140% Magic Attack.",
+   "src_hash": "2d1b827ace"
+  },
+  "hero:1481:skill:0:enh:1": {
+   "desc": "Melepaskan 2 gelombang kejut tambahan dan mengurangi 50% HP Regen musuh selama 5 detik (tidak dapat di-stack).",
+   "src_hash": "d16b00cbfb"
+  },
+  "hero:1481:skill:0:enh:2": {
+   "desc": "Gelombang kejut berubah jadi sebaran ke 8 arah di sekelilingnya.",
+   "src_hash": "28004fe15d"
+  },
+  "hero:1361:main": {
+   "desc": "Kenaikan Level dari Kartu Ancient Coin +1.\nDeploy: memperoleh 1 Refined Ancient Coin.",
+   "src_hash": "299a1fd3e0"
+  },
+  "hero:1361:awaken": {
+   "desc": "Kenaikan Level dari Kartu Ancient Coin +2.\nDeploy: memperoleh 2 Refined Ancient Coin.",
+   "src_hash": "cc2efa158d"
+  },
+  "hero:1361:skill:0": {
+   "desc": "Wu Zetian menjalankan sanksi dengan otoritas kaisarnya, menyalurkan Skill selama 8 detik. Tiap 0.75 detik dia memilih 1 musuh acak, memanggil lingkaran sihir di bawah kakinya, lalu meledakkannya: memberikan 100+75% Magic Attack sebagai Magic Damage dan mengurangi 50% HP Regen target selama 6 detik (tidak dapat di-stack). Jika lingkaran sihir mengenai musuh yang sama dalam 3 detik, Damage berkurang 15%, maksimum 45%.",
+   "src_hash": "a1dd8214f3"
+  },
+  "hero:1361:skill:0:enh:0": {
+   "desc": "Damage lingkaran sihir naik jadi 100+100% Magic Attack.",
+   "src_hash": "aeafda37d8"
+  },
+  "hero:1361:skill:0:enh:1": {
+   "desc": "Saat penyaluran selesai, muncul 1 lingkaran sihir raksasa tambahan yang memberikan 100+125% Magic Attack sebagai Magic Damage ke semua musuh.",
+   "src_hash": "ef1b9604bf"
+  },
+  "hero:1361:skill:0:enh:2": {
+   "desc": "Penyaluran berlanjut sampai Round berakhir, dan tiap 5 kali memberikan Damage dia memunculkan lingkaran sihir raksasa yang memberikan 100+125% Magic Attack sebagai Magic Damage ke semua musuh.",
+   "src_hash": "54b60445c3"
+  },
+  "hero:1231:main": {
+   "desc": "Engage: Level tertinggi 3 Hero [Three Kingdoms] memperoleh 20% Physical dan Magic Lifesteal; jika targetnya Lu Bu, efek menjadi dua kali lipat.",
+   "src_hash": "b011d5c25f"
+  },
+  "hero:1231:awaken": {
+   "desc": "Engage: Level tertinggi 6 Hero [Three Kingdoms] memperoleh 20% Physical dan Magic Lifesteal; jika targetnya Lu Bu, efek menjadi dua kali lipat.",
+   "src_hash": "8cb7c07d17"
+  },
+  "hero:1231:skill:0": {
+   "desc": "Pasif: Basic Attack Lu Bu memberikan Damage area ke musuh di depannya.\nAktif: Lu Bu melompat ke area terpadat musuh, memberi knock-up 1 detik ke musuh dalam 2 tile dengan 120+120% Physical Attack sebagai Physical Damage dan mengurangi 70% HP Regen mereka selama 5 detik. Tiap mengenai 1 musuh, dia memulihkan 5% Max HP dan mendapat 20% Physical Lifesteal selama 5 detik berikutnya.",
+   "src_hash": "530d68babd"
+  },
+  "hero:1231:skill:0:enh:0": {
+   "desc": "Damage Skill naik jadi 120+200% Physical Attack.",
+   "src_hash": "b111dba7c5"
+  },
+  "hero:1231:skill:0:enh:1": {
+   "desc": "Dalam 5 detik itu, Attack Speed dirinya juga naik 100%.",
+   "src_hash": "b8abc2ac8e"
+  },
+  "hero:1231:skill:0:enh:2": {
+   "desc": "Area Skill melebar ke seluruh medan tempur.",
+   "src_hash": "6ac51c0bc1"
+  },
+  "hero:5211:main": {
+   "desc": "Sacrifice: mengurung Hero musuh dengan Level tertinggi ke dalam Water Moon Illusion Realm selama 4 detik (CC), dan memberikan True Damage sebesar HP Haya.",
+   "src_hash": "4cc1e00a9a"
+  },
+  "hero:5211:awaken": {
+   "desc": "Sacrifice: mengurung Hero musuh dengan Level tertinggi ke dalam Water Moon Illusion Realm selama 4 detik (CC), dan memberikan True Damage sebesar 150% HP Haya.",
+   "src_hash": "917e161a0d"
+  },
+  "hero:5211:skill:0": {
+   "desc": "Pasif: HP Regen Haya berkurang drastis, tetapi tiap kali mendapat Shield, 25% nilai Shield diubah jadi Max HP.\nAktif: Haya melepaskan 3 bola arcane giok. Bola pertama memberikan 100+150% Magic Attack sebagai Magic Damage ke musuh target, dua bola berikutnya memberikan setengah Damage ke musuh di dekatnya.",
+   "src_hash": "ccba9e33b2"
+  },
+  "hero:5211:skill:0:enh:0": {
+   "desc": "Damage bola arcane giok naik jadi 100+250% Magic Attack.",
+   "src_hash": "7932abd2ee"
+  },
+  "hero:5211:skill:0:enh:1": {
+   "desc": "Saat memakai Skill, dia mendapat Shield sebesar 50+10% Max HP yang dapat di-stack selama 5 detik.",
+   "src_hash": "fa0db4a5bd"
+  },
+  "hero:5211:skill:0:enh:2": {
+   "desc": "Saat pertama kali memakai Skill, dia menciptakan Water Moon Illusion Realm: tiap 5 detik memberi sekutu Shield 100 dan 10 Mana, serta memberi musuh stun 0.5 detik dan True Damage sebesar 5% Max HP.",
+   "src_hash": "001d2b96a3"
+  },
+  "hero:1121:main": {
+   "desc": "Setiap Hero milikmu melakukan Merge 3 kali, secara acak memperoleh 1 Kartu Tactic.",
+   "src_hash": "53f3d8a479"
+  },
+  "hero:1121:awaken": {
+   "desc": "Hero milikmu setiap Merge 3 kali, secara acak memperoleh 1 Kartu Tactic tingkat lanjut.",
+   "src_hash": "a83c8b0f1b"
+  },
+  "hero:1121:skill:0": {
+   "desc": "Luban No.7 memanggil kapal udara buntal untuk menjatuhkan 4 bom ke medan tempur. Bom memberikan 50+80% Physical Attack sebagai Physical Damage ke musuh yang terkena dan meninggalkan kawah. Musuh di dalam kawah menerima 80% Physical Attack sebagai Physical Damage tiap detik dan HP Regen-nya berkurang 70% selama 4 detik. Efek ini tidak dapat di-stack.",
+   "src_hash": "9118ba8414"
+  },
+  "hero:1121:skill:0:enh:0": {
+   "desc": "Damage bom naik jadi 50+100% Physical Attack dan Damage kawah naik jadi 100% Physical Attack.",
+   "src_hash": "1883397d4c"
+  },
+  "hero:1121:skill:0:enh:1": {
+   "desc": "Jumlah bom yang dijatuhkan naik jadi 8.",
+   "src_hash": "b64c6bf44f"
+  },
+  "hero:1121:skill:0:enh:2": {
+   "desc": "Setelah menjatuhkan semua bom, kapal udara jatuh dan memberikan 200+300% Physical Attack sebagai Physical Damage ke semua musuh.",
+   "src_hash": "128758830e"
+  },
+  "hero:5631:main": {
+   "desc": "Setiap kali Level Akomia Core meningkat, Level Core mendapat tambahan +1.",
+   "src_hash": "2b04025047"
+  },
+  "hero:5631:awaken": {
+   "desc": "Setiap kali Level Akomia Core meningkat, Level Core mendapat tambahan +2.",
+   "src_hash": "45e32bb9eb"
+  },
+  "hero:5631:skill:0": {
+   "desc": "Heino melempar tongkat takdir berenergi ke arah target, memberikan 100+150% Magic Attack sebagai Magic Damage ke musuh yang terkena, lalu melempar tongkat kecil ke 2 musuh di dekat target dengan 50+100% Magic Attack sebagai Magic Damage.",
+   "src_hash": "0d5e7cea71"
+  },
+  "hero:5631:skill:0:enh:0": {
+   "desc": "Damage tongkat utama naik jadi 150+250% Magic Attack dan Damage tongkat kecil naik jadi 100+150% Magic Attack.",
+   "src_hash": "bdc07a9613"
+  },
+  "hero:5631:skill:0:enh:1": {
+   "desc": "Skill dipakai 2 kali beruntun.",
+   "src_hash": "9e63d9042c"
+  },
+  "hero:5631:skill:0:enh:2": {
+   "desc": "Tongkat kecil dilempar ke hingga 14 musuh di field.",
+   "src_hash": "7b0ab314a3"
+  },
+  "hero:1461:main": {
+   "desc": "Flash.\nDeploy: Level Akomia Core +2, dan secara acak memicu efek Preparation dari 2 Hero.",
+   "src_hash": "eda016f87c"
+  },
+  "hero:1461:awaken": {
+   "desc": "Flash.\nDeploy: Level Akomia Core +4, dan secara acak memicu efek Preparation dari 4 Hero.",
+   "src_hash": "3dd376473e"
+  },
+  "hero:1461:skill:0": {
+   "desc": "Luna menandai musuh terjauh dengan cahaya bulan lalu melesat ke arahnya (tidak dapat ditarget selama itu), memberikan 100+100% Magic Attack sebagai Magic Damage ke semua musuh di jalurnya, sekaligus mengonsumsi Mark untuk memberikan tambahan Magic Damage sebesar 15% Max HP musuh target.",
+   "src_hash": "9587a7a728"
+  },
+  "hero:1461:skill:0:enh:0": {
+   "desc": "Koefisien Damage serangan naik jadi 100+200% Magic Attack.",
+   "src_hash": "679415b41e"
+  },
+  "hero:1461:skill:0:enh:1": {
+   "desc": "Saat mengalahkan musuh, dia memulihkan 15 Mana.",
+   "src_hash": "92faf7e66a"
+  },
+  "hero:1461:skill:0:enh:2": {
+   "desc": "Dapat melakukan 2 serangan beruntun.",
+   "src_hash": "b226aac84b"
+  },
+  "hero:1761:main": {
+   "desc": "Saat Yang Yuhuan di arena, setiap 3 Round memperoleh 1 String Note.\nRetreat: memperoleh 1 String Note.",
+   "src_hash": "209fa777fb"
+  },
+  "hero:1761:awaken": {
+   "desc": "Saat Yang Yuhuan di arena, setiap 3 Round memperoleh 1 Wondrous Note.\nRetreat: memperoleh 1 Wondrous Note.",
+   "src_hash": "16dd44d019"
+  },
+  "hero:1761:skill:0": {
+   "desc": "Yang Yuhuan memainkan pipa dan mengaktifkan salah satu efek lagu secara bergantian.\nQingping: memulihkan 100+80% Magic Attack sebagai HP untuk 3 sekutu dengan HP terendah.\nPozhen: memberikan 100+80% Magic Attack sebagai Magic Damage ke 3 musuh dengan persentase HP tertinggi.",
+   "src_hash": "ae4700fe2e"
+  },
+  "hero:1761:skill:0:enh:0": {
+   "desc": "Tiap Skill ke-3 mengaktifkan Qingping dan Pozhen sekaligus, dan berlaku di seluruh arena.",
+   "src_hash": "59c5313f62"
+  },
+  "hero:1761:skill:0:enh:1": {
+   "desc": "Pemulihan Qingping naik jadi 150+125% Magic Attack. Damage Pozhen naik jadi 100+125% Magic Attack.",
+   "src_hash": "459798c985"
+  },
+  "hero:1761:skill:0:enh:2": {
+   "desc": "Tiap pemakaian Skill mengaktifkan Qingping dan Pozhen sekaligus, dan berlaku di seluruh arena.",
+   "src_hash": "d789b8f833"
+  },
+  "hero:1241:main": {
+   "desc": "Deploy: Level semua Hero +1.",
+   "src_hash": "9b2a35f480"
+  },
+  "hero:1241:awaken": {
+   "desc": "Deploy: Level semua Hero +2.",
+   "src_hash": "c46080d450"
+  },
+  "hero:1241:skill:0": {
+   "desc": "Zhou Yu memanggil api yang memberikan 100+50% Magic Attack sebagai Magic Damage ke musuh dalam 2 tile dan memulihkan 100+50% Magic Attack sebagai HP miliknya, sekaligus meninggalkan tanah hangus yang bertahan sampai Zhou Yu dikalahkan. Musuh di tanah hangus menerima Magic Damage sebesar 1% Max HP mereka tiap detik, sedangkan Zhou Yu memulihkan 10% Magic Attack + 2% Max HP sebagai HP tiap detik.",
+   "src_hash": "d010128b0c"
+  },
+  "hero:1241:skill:0:enh:0": {
+   "desc": "Damage api naik jadi 100+120% Magic Attack, pemulihan api naik jadi 100+120% Magic Attack, dan pemulihan tanah hangus naik jadi 20% Magic Attack + 2% Max HP.",
+   "src_hash": "bbf81e3a20"
+  },
+  "hero:1241:skill:0:enh:1": {
+   "desc": "Saat memakai Skill, badai api dipanggil ke musuh di tanah hangus, memberikan 100+150% Magic Attack sebagai Magic Damage dan stun 1.5 detik.",
+   "src_hash": "1b75d2fe49"
+  },
+  "hero:1241:skill:0:enh:2": {
+   "desc": "Saat Combat dimulai, seluruh medan tempur berubah jadi tanah hangus.",
+   "src_hash": "32b378685c"
+  },
+  "effect:7038": {
+   "desc": "Pilih 1 dari 4 kartu (Kartu Hero).",
+   "src_hash": "7805b976d9"
+  },
+  "effect:7051": {
+   "desc": "Pilih 1 dari 3 kartu (Kartu Hero Tier 1).",
+   "src_hash": "238b720fdf"
+  },
+  "effect:7059": {
+   "desc": "Memperoleh 3 Player EXP.",
+   "src_hash": "18ddf117b4"
+  },
+  "effect:7002": {
+   "desc": "Secara acak memperoleh 1 Kartu Hero dengan Tier tertentu (Player Level +1).",
+   "src_hash": "4f12ff3227"
+  },
+  "effect:313001": {
+   "desc": "Instant.\nSemua Hero [Zhulu] memperoleh 50 Shield pada Round ini (+25 untuk tiap Kartu Tactic yang dimainkan, saat ini: 75).",
+   "src_hash": "d7a8bcc9bf"
+  },
+  "effect:311002": {
+   "desc": "Instant.\nLevel 1 Hero [Central Plain] yang dipilih +2.",
+   "src_hash": "aaa5641e39"
+  },
+  "effect:7087": {
+   "desc": "Memperoleh 3 Free Refresh.",
+   "src_hash": "6b7f5aafde"
+  },
+  "effect:7541": {
+   "desc": "Membuat 1 Hero melakukan Steal ke Akomia Core, hingga maksimum 5 Level.",
+   "src_hash": "d2604e8ceb"
+  },
+  "effect:7523": {
+   "desc": "Secara acak memperoleh 1 Kartu Hero [Riverlands] yang berkaitan dengan Totem.",
+   "src_hash": "b33c0461e8"
+  },
+  "effect:7519": {
+   "desc": "Memperoleh 2 kartu Hero Tier 2.",
+   "src_hash": "8f1ccac1e1"
+  },
+  "effect:7502": {
+   "desc": "Memperoleh 2 Ancient Coin.",
+   "src_hash": "3e2b2c9163"
+  },
+  "effect:307001": {
+   "desc": "Pilih 1 Hero Tier 1-3, membuat progres Awakening-nya +1.",
+   "src_hash": "478b791f8b"
+  },
+  "effect:7052": {
+   "desc": "Pilih 1 dari 3 kartu (Kartu Hero Tier 2).",
+   "src_hash": "96392356bf"
+  },
+  "effect:7073": {
+   "desc": "Pilih 1 Hero, memicu efek Preparation miliknya.",
+   "src_hash": "c20dba9c06"
+  },
+  "effect:7074": {
+   "desc": "Pilih 1 Hero, memicu efek Deploy miliknya.",
+   "src_hash": "bb7b9cb885"
+  },
+  "effect:313013": {
+   "desc": "Instant.\nLevel semua Hero +1.",
+   "src_hash": "8ad35eb09e"
+  },
+  "effect:313011": {
+   "desc": "Instant.\nPilih 1 Hero [Zhulu], Max Mana-nya pada Round ini {Simulation Tactic:-5} (tiap kali kartu ini dipakai, efeknya meningkat; batas maksimum 20).",
+   "src_hash": "fe8f2ed99b"
+  },
+  "effect:313007": {
+   "desc": "Instant.\nLevel 1 Hero yang dipilih +4.",
+   "src_hash": "a72a6c6657"
+  },
+  "effect:313003": {
+   "desc": "Instant.\nSecara acak memperoleh 1 Kartu Hero [Zhulu].",
+   "src_hash": "80d35def90"
+  },
+  "effect:7040": {
+   "desc": "Level 1 Hero yang dipilih +3, Level 1 Hero acak +2.",
+   "src_hash": "073398327a"
+  },
+  "effect:311003": {
+   "desc": "Instant.\nLevel 1 Hero [Central Plain] yang dipilih +4.",
+   "src_hash": "334752c7e6"
+  },
+  "effect:7511": {
+   "desc": "Memperoleh 2 Kartu Hero No Faction.",
+   "src_hash": "6a8917241f"
+  },
+  "effect:7062": {
+   "desc": "Level 1 Hero yang dipilih +4, Level 1 Hero acak +3.",
+   "src_hash": "3fa05ae107"
+  },
+  "effect:7061": {
+   "desc": "Memperoleh 4 Player EXP.",
+   "src_hash": "fa32056089"
+  },
+  "effect:7537": {
+   "desc": "Level 1 Hero yang dipilih +2. Untuk setiap 1 faksi di field, efek ini terpicu tambahan 1 kali.",
+   "src_hash": "5f7f0e17f8"
+  },
+  "effect:7053": {
+   "desc": "Pilih 1 dari 3 kartu (Kartu Hero Tier 3).",
+   "src_hash": "5b1cbc183d"
+  },
+  "effect:7533": {
+   "desc": "Semua Hero memperoleh Level yang setara dengan jumlah Equipment miliknya sendiri.",
+   "src_hash": "9c97692f7f"
+  },
+  "effect:7041": {
+   "desc": "Pilih 1 Hero di field untuk dihapus, lalu pindahkan Level-nya (kecuali Temporary Level) ke 1 Hero acak.",
+   "src_hash": "71f5f8d798"
+  },
+  "effect:7037": {
+   "desc": "Pilih 1 Hero, secara acak memperoleh 1 Kartu Hero dari faksi yang sama dengannya.",
+   "src_hash": "c23807fa96"
+  },
+  "effect:7513": {
+   "desc": "Memperoleh 2 kartu Hero yang memiliki efek Preparation.",
+   "src_hash": "c611479adc"
+  },
+  "effect:7512": {
+   "desc": "Memperoleh 2 kartu Hero yang memiliki efek Deploy.",
+   "src_hash": "c43a4df179"
+  },
+  "effect:7063": {
+   "desc": "Pilih 2 dari 5 kartu (Kartu Hero).",
+   "src_hash": "1742e499f0"
+  },
+  "effect:7510": {
+   "desc": "Memperoleh 2 Kartu Hero [Riverlands].",
+   "src_hash": "5cae555123"
+  },
+  "effect:7509": {
+   "desc": "Memperoleh 2 Kartu Hero [Sunset Sea].",
+   "src_hash": "ddc525284d"
+  },
+  "effect:7508": {
+   "desc": "Memperoleh 2 Kartu Hero [Zhulu].",
+   "src_hash": "62ffda2b9d"
+  },
+  "effect:7507": {
+   "desc": "Memperoleh 2 Kartu Hero [Three Kingdoms].",
+   "src_hash": "473430eb1d"
+  },
+  "effect:7506": {
+   "desc": "Memperoleh 2 Kartu Hero [Central Plain].",
+   "src_hash": "b4a61b571f"
+  },
+  "effect:7505": {
+   "desc": "Pilih 1 Hero [Three Kingdoms], tukar Level dengan Hero [Three Kingdoms] terdekat darinya.",
+   "src_hash": "4aa989b564"
+  },
+  "effect:7032": {
+   "desc": "Secara acak memperoleh 1 Kartu Hero yang ada di field.",
+   "src_hash": "e4cb25e34f"
+  },
+  "effect:7501": {
+   "desc": "Level Akomia Core +2; untuk setiap 1 Hero [Sunset Sea] di field, efek ini terulang 1 kali.",
+   "src_hash": "f873253a36"
+  },
+  "effect:7088": {
+   "desc": "Memperoleh 4 Free Refresh.",
+   "src_hash": "794ae5389b"
+  },
+  "effect:7536": {
+   "desc": "Pilih 1 Hero, lakukan Steal terhadap Level dari 1 Hero milikmu yang terdekat (maksimum 10 Level, Temporary Level tidak termasuk).",
+   "src_hash": "97ae23207c"
+  },
+  "effect:7521": {
+   "desc": "Memperoleh 2 kartu Hero Tier 4.",
+   "src_hash": "5f0a13e964"
+  },
+  "effect:313014": {
+   "desc": "Instant.\nLevel semua Hero +2.",
+   "src_hash": "6dc3414510"
+  },
+  "effect:7081": {
+   "desc": "Pilih 1 Hero, hancurkan semua Equipment miliknya, lalu secara acak memperoleh Basic Equipment sejumlah itu +1.",
+   "src_hash": "7a6f238d59"
+  },
+  "effect:7503": {
+   "desc": "Level 1 Hero acak dari masing-masing faksi +4.",
+   "src_hash": "afb3aeef87"
+  },
+  "effect:7504": {
+   "desc": "Secara acak memperoleh 2 Kartu Tactic.",
+   "src_hash": "f5f76fbf4a"
+  },
+  "effect:313010": {
+   "desc": "Instant.\nPilih 1 dari 3 Kartu Hero [Zhulu].",
+   "src_hash": "e1a70d513c"
+  },
+  "effect:313009": {
+   "desc": "Instant.\nLevel 1 Hero yang dipilih +8.",
+   "src_hash": "036f9e3e56"
+  },
+  "effect:313008": {
+   "desc": "Instant.\nSemua Hero [Zhulu] memperoleh 100 Shield pada Round ini (+50 untuk tiap Kartu Tactic yang dimainkan, saat ini: 150).",
+   "src_hash": "b15b934d4f"
+  },
+  "effect:7054": {
+   "desc": "Pilih 1 dari 3 kartu (Hero Tier 4).",
+   "src_hash": "2d692377f7"
+  },
+  "effect:7066": {
+   "desc": "Membuat Hero dengan Level terendah di field (Temporary Level dikecualikan) naik 9 Level.",
+   "src_hash": "bbbb7134b2"
+  },
+  "effect:307002": {
+   "desc": "Pilih 1 Hero, membuat progres Awakening-nya +1.",
+   "src_hash": "aba746df18"
+  },
+  "effect:7540": {
+   "desc": "Pilih 1 dari 3 kartu (Kartu Hero Deploy).",
+   "src_hash": "f0d0d59456"
+  },
+  "effect:7538": {
+   "desc": "Pilih 1 Hero, ia memperoleh Temporary Level sebesar Tier dirinya sendiri x3.",
+   "src_hash": "197b67418c"
+  },
+  "effect:7535": {
+   "desc": "Semua Hero No Faction memperoleh Level sebesar 2x jumlah Hero No Faction di field.",
+   "src_hash": "cb7e1539b8"
+  },
+  "effect:7514": {
+   "desc": "Memperoleh 2 kartu Hero yang memiliki efek Sacrifice.",
+   "src_hash": "f9be0a733c"
+  },
+  "effect:7515": {
+   "desc": "Memperoleh 2 kartu Hero yang memiliki efek Flash.",
+   "src_hash": "fcd637a20f"
+  },
+  "effect:7516": {
+   "desc": "Memperoleh 2 kartu Hero yang memiliki efek Engage.",
+   "src_hash": "a200c53a87"
+  },
+  "effect:7529": {
+   "desc": "Secara acak memperoleh 1 dari 5 Equipment eksklusif [Sunset Sea] (tidak akan didapat berulang).",
+   "src_hash": "9eecd1daa6"
+  },
+  "effect:7534": {
+   "desc": "Secara acak memperoleh 1 Kartu Effect yang berkaitan dengan faksi utama di field milikmu.",
+   "src_hash": "f13fec334f"
+  },
+  "effect:7083": {
+   "desc": "Pilih 1 Hero di field dengan Level 10 atau lebih, lalu bagikan Level-nya secara acak ke 3 Hero lain (tidak akan dibagikan ke Hero yang sama).",
+   "src_hash": "17720eca86"
+  },
+  "effect:313012": {
+   "desc": "Instant.\nPilih 1 Hero [Zhulu], Max Mana-nya pada Round ini {Advanced Simulation Tactic:-10} (tiap kali kartu ini dipakai, efeknya meningkat; batas maksimum 40).",
+   "src_hash": "2b9e8ea163"
+  },
+  "effect:7525": {
+   "desc": "Memperoleh 1 Special Equipment Sage's Ward. Dapat dikenakan oleh Hero [Central Plain]; saat pertama kali dikalahkan, pemakainya akan Revive 2 detik kemudian, tapi HP yang pulih hanya 30%.",
+   "src_hash": "4b8645a129"
+  },
+  "effect:7089": {
+   "desc": "Pilih 1 Hero, hancurkan semua Equipment miliknya:\nMenghancurkan 1 buah memberi 4 Energy; 2 buah memberi 1 Wondrous Note; 3 buah memberi 1 Treasure Chest.",
+   "src_hash": "4da201b250"
+  },
+  "effect:7530": {
+   "desc": "Pilih 1 Hero [Zhulu] yang sudah Awakening, lalu peroleh 1 kartu Hero tersebut.",
+   "src_hash": "6c713c83d4"
+  },
+  "effect:7531": {
+   "desc": "Memperoleh 1 Special Equipment Mechanism Codex. Dapat dikenakan oleh Hero [Zhulu], memberinya efek: saat Combat dimulai, memanggil 2 \"Broken Robot\".",
+   "src_hash": "6e28bff5d7"
+  },
+  "effect:7532": {
+   "desc": "Level 1 Hero [Riverlands] acak +5. Untuk setiap 1 Totem di field, efek ini terpicu tambahan 1 kali.",
+   "src_hash": "fb126ca949"
+  },
+  "effect:7090": {
+   "desc": "Pilih 1 dari 3 kartu (Special Equipment atau Talent Equipment).",
+   "src_hash": "9217813b7c"
+  },
+  "effect:7085": {
+   "desc": "Pada pertarungan berikutnya, 1 Hero acak memperoleh Level sebesar setengah Level Hero musuh tertinggi saat ini (termasuk Temporary Level).",
+   "src_hash": "3f9062c5e5"
+  },
+  "effect:7522": {
+   "desc": "Memperoleh 2 kartu Hero Tier 5.",
+   "src_hash": "5d6393f8a4"
+  },
+  "effect:7055": {
+   "desc": "Pilih 1 dari 3 kartu (Hero Tier 5).",
+   "src_hash": "00a8fe01e8"
+  },
+  "effect:7076": {
+   "desc": "Pilih 1 Hero, Level semua Hero di field dengan Tier yang sama dengannya +3.",
+   "src_hash": "08baf20942"
+  },
+  "effect:7064": {
+   "desc": "Pilih 1 Hero, temukan 3 Kartu Hero dari faksi yang sama dengannya, lalu pilih 1.",
+   "src_hash": "d587df292a"
+  },
+  "effect:7539": {
+   "desc": "Pilih 1 Hero [Three Kingdoms], pada pertarungan berikutnya ia akan langsung menggunakan Skill saat Combat dimulai.",
+   "src_hash": "e7f326ffd1"
+  },
+  "effect:10403": {
+   "desc": "Pilih 1 Hero, dalam 15 detik pertama setelah Combat dimulai pada Round ini, ia dapat menggunakan Skill tanpa batas.",
+   "src_hash": "2d1235cbba"
+  },
+  "effect:7075": {
+   "desc": "Memperoleh 5 Energy.",
+   "src_hash": "5ef665f43a"
+  },
+  "effect:7079": {
+   "desc": "Langsung memicu efek Deploy semua Hero.",
+   "src_hash": "812a0f5476"
+  },
+  "effect:7080": {
+   "desc": "Langsung memicu efek Preparation semua Hero.",
+   "src_hash": "e834666023"
+  },
+  "effect:7082": {
+   "desc": "Pilih 1 dari 4 kartu (Basic Equipment).",
+   "src_hash": "0c7bb8cf0f"
+  },
+  "effect:7107": {
+   "desc": "Level semua Hero milikmu +10. Setiap kali kartu ini bertahan 1 Round, efek ini menguat 5 Level.",
+   "src_hash": "56ef7d94ec"
+  },
+  "effect:7084": {
+   "desc": "Pada Round ini Refresh Shop tidak menghabiskan Energy.",
+   "src_hash": "7ca09b7d0f"
+  },
+  "effect:7109": {
+   "desc": "Secara acak memperoleh 3 kartu Basic Equipment.",
+   "src_hash": "224acd4461"
+  },
+  "effect:10404": {
+   "desc": "Pilih 1 Hero, Steal 10 Level dari masing-masing Hero lain.",
+   "src_hash": "3313f12301"
+  },
+  "effect:7108": {
+   "desc": "Memperoleh 4 Hero Voucher Tier 5.",
+   "src_hash": "f628f44778"
+  },
+  "effect:7111": {
+   "desc": "Secara acak memperoleh 4 Kartu Effect Tier 5.",
+   "src_hash": "e83040bd2e"
+  },
+  "effect:7102": {
+   "desc": "Pilih 1 Hero, Level-nya langsung naik 20, lalu naik lagi 10 Level tiap Round setelahnya.",
+   "src_hash": "56dc0fdb3b"
+  },
+  "effect:7123": {
+   "desc": "Memperoleh 3 Wondrous Note (Wondrous Note: pilih 1 Hero, membuat progres Awakening-nya +1).",
+   "src_hash": "267e6c2444"
+  },
+  "effect:7112": {
+   "desc": "Player HP berubah menjadi 1, lalu secara acak memperoleh 10 Kartu Effect.",
+   "src_hash": "143cb3c48d"
+  },
+  "effect:7113": {
+   "desc": "Pilih 1 Hero Tier 1-3, ubah secara acak menjadi Hero Tier 5 yang belum ada di arena, langsung Awakening, dan Level-nya saat ini (termasuk Temporary Level) tetap dipertahankan.",
+   "src_hash": "b1a045cb56"
+  },
+  "effect:7104": {
+   "desc": "Secara acak memperoleh 3 Kartu Hero yang sama, dari salah satu Hero yang ada di field.",
+   "src_hash": "9172631d41"
+  },
+  "effect:7115": {
+   "desc": "Memperoleh 2 Blade of Fate. Saat Player HP milikmu turun ke 0 untuk pertama kalinya di pertandingan ini, kamu tidak akan tereliminasi dan Player HP tersisa 1.",
+   "src_hash": "7d3918c2d7"
+  },
+  "effect:7116": {
+   "desc": "Secara acak memperoleh 10-20 Energy.",
+   "src_hash": "43e3ddd833"
+  },
+  "effect:7120": {
+   "desc": "Player Level naik 1. Jika sudah mencapai Level maksimum, sebagai gantinya memperoleh 10 Energy.",
+   "src_hash": "8897670b35"
+  },
+  "effect:7106": {
+   "desc": "Memperoleh 3 Fast Start (Fast Start: pilih 1 Hero yang dapat menggunakan Skill tanpa batas dalam 15 detik pertama permainan).",
+   "src_hash": "e0344d8101"
+  },
+  "effect:7105": {
+   "desc": "Pilih 1 dari 5 kartu, lalu kartu yang dipilih akan terbagi menjadi 4.",
+   "src_hash": "9d1fb459ef"
+  },
+  "effect:7121": {
+   "desc": "Jumlah Hero yang bisa di field +1.",
+   "src_hash": "61854343e3"
+  },
+  "effect:7122": {
+   "desc": "Secara acak memperoleh 1 Kartu Effect Tier 6 lainnya.",
+   "src_hash": "79ec058fc9"
+  },
+  "equip:643100": {
+   "desc": "Dikenakan pada Hero, dapat ditempa menjadi 1 Normal Equipment tipe Damage.",
+   "src_hash": "be45417f3d"
+  },
+  "equip:643800": {
+   "desc": "Dikenakan pada Hero, dapat ditempa menjadi 1 Normal Equipment tipe Magic.",
+   "src_hash": "50372f1eb4"
+  },
+  "equip:643700": {
+   "desc": "Dikenakan pada Hero, dapat ditempa menjadi 1 Normal Equipment tipe Damage.",
+   "src_hash": "be45417f3d"
+  },
+  "equip:643600": {
+   "desc": "Dikenakan pada Hero, dapat ditempa menjadi 1 Normal Equipment tipe Pertahanan.",
+   "src_hash": "893c016e94"
+  },
+  "equip:643500": {
+   "desc": "Dikenakan pada Hero, dapat ditempa menjadi 1 Normal Equipment tipe Pertahanan.",
+   "src_hash": "893c016e94"
+  },
+  "equip:643400": {
+   "desc": "Dikenakan pada Hero, dapat ditempa menjadi 1 Normal Equipment tipe Fungsi.",
+   "src_hash": "2b7a5cc6a0"
+  },
+  "equip:643300": {
+   "desc": "Dikenakan pada Hero, dapat ditempa menjadi 1 Normal Equipment tipe Damage.",
+   "src_hash": "be45417f3d"
+  },
+  "equip:643200": {
+   "desc": "Dikenakan pada Hero, dapat ditempa menjadi 1 Normal Equipment tipe Damage.",
+   "src_hash": "be45417f3d"
+  },
+  "equip:643503": {
+   "desc": "Magic Defense +30. Saat Combat dimulai, memperoleh Level x5 Magic Shield.",
+   "src_hash": "1351e55720"
+  },
+  "equip:643602": {
+   "desc": "Unique. Saat terkena Basic Attack, mengurangi 20% Attack Speed penyerang selama 2 detik. Setelah menerima 5 kali Basic Attack dari penyerang yang sama, penyerang akan freeze 1 detik jika jarak jauh, atau setengah durasi itu jika jarak dekat.",
+   "src_hash": "30c359ed3c"
+  },
+  "equip:643805": {
+   "desc": "Unique. Saat Combat dimulai, memperoleh Shield sebesar Level x15. Saat Shield hancur, memberikan stun 1 detik kepada musuh di sekitar 1 tile (durasi dua kali lipat untuk yang menghancurkan Shield tersebut).",
+   "src_hash": "7170f52ae9"
+  },
+  "equip:643804": {
+   "desc": "Unique. Saat menerima Damage, memulihkan 5% Max HP untuk dirinya sendiri dan unit sekutu di sekitar 1 tile (Cooldown 2 detik).",
+   "src_hash": "757005b0f4"
+  },
+  "equip:643803": {
+   "desc": "Unique. Saat pertama kali menerima efek CC, memperoleh 300 Shield dan kebal terhadap efek CC selama 15 detik berikutnya (suppress dikecualikan).",
+   "src_hash": "e81fb5e979"
+  },
+  "equip:643802": {
+   "desc": "Unique. Max Mana -10. Setelah menggunakan Skill, memperoleh 20% Magic Attack dasar, maksimum stack 6 kali.",
+   "src_hash": "66a9d6dc3e"
+  },
+  "equip:643304": {
+   "desc": "Unique. Saat Combat dimulai dan setiap 8 detik setelahnya, dengan cepat melakukan 4 kali Basic Attack.",
+   "src_hash": "c2fc61b420"
+  },
+  "equip:643103": {
+   "desc": "Crit Rate +30%, Crit Damage +60%. Crit Damage tidak dapat di-stack.",
+   "src_hash": "151c1fbd48"
+  },
+  "equip:643104": {
+   "desc": "Unique. Saat memberikan Damage, mengurangi 30% HP Regen dan efek Shield target selama 10 detik, tidak dapat di-stack. Jika berupa Basic Attack, efek meningkat menjadi 70%.",
+   "src_hash": "45ca455325"
+  },
+  "equip:643105": {
+   "desc": "Unique. Setiap 2 detik memperoleh 10 Magic Attack, sekaligus menghapus debuff pada dirinya sendiri.",
+   "src_hash": "c06c92c30e"
+  },
+  "equip:643705": {
+   "desc": "Unique. Saat menggunakan Skill, ada peluang 35% untuk menggunakannya sekali lagi. Untuk setiap 7 Level, peluang ini bertambah 1%.",
+   "src_hash": "37f8a1d141"
+  },
+  "equip:643202": {
+   "desc": "Unique. Memperoleh 15 Magic Penetration.",
+   "src_hash": "d177ad7dd4"
+  },
+  "equip:643205": {
+   "desc": "Unique. Basic Attack mengurangi 15% Movement Speed target selama 5 detik, maksimum stack 5 kali. Setelah stack penuh, Damage yang diterima target meningkat 20% selama 5 detik (Cooldown 10 detik).",
+   "src_hash": "e885410e7a"
+  },
+  "equip:643208": {
+   "desc": "Unique. Magic Attack +20%. Untuk pemakai jarak jauh, setiap menghabiskan 40 Mana (80 Mana untuk jarak dekat), 1 musuh acak akan berubah menjadi babi kecil selama 2 detik.",
+   "src_hash": "8d041abf58"
+  },
+  "equip:643207": {
+   "desc": "Unique. Memperoleh 30% (+15% Magic Attack) Attack Speed. Setiap kali Basic Attack disertai 20 (+30% Magic Attack) Magic Damage.",
+   "src_hash": "4331e8bdf1"
+  },
+  "equip:643704": {
+   "desc": "Unique. Saat tidak ada sekutu di sekitar 1 tile, memperoleh 25% bonus Damage. Setiap menerima Damage sebesar 3% Max HP, memperoleh 1% bonus Damage tambahan (maksimum 100%).",
+   "src_hash": "8a8aac8116"
+  },
+  "equip:643301": {
+   "desc": "Attack Speed +50%.",
+   "src_hash": "14b85de568"
+  },
+  "equip:643302": {
+   "desc": "Setiap Basic Attack mengurangi 3 Physical Defense target selama 5 detik. Saat Physical Defense target pertama kali turun ke 0, memberikan tambahan Physical Damage sebesar 15% Max HP target.",
+   "src_hash": "9320887773"
+  },
+  "equip:641010": {
+   "desc": "Unique. Crit Rate +20%. Setiap kali terkena serangan, Crit Rate meningkat 1%; saat Crit Rate mencapai 100%, Movement Speed meningkat 100%.",
+   "src_hash": "348f11d43f"
+  },
+  "equip:641015": {
+   "desc": "Unique, khusus Hero jarak jauh. Basic Attack akan melepaskan panah terbang yang memberikan Physical Damage sebesar 45% Physical Attack kepada 2 musuh dengan HP terendah.",
+   "src_hash": "4f472bdc4a"
+  },
+  "equip:643703": {
+   "desc": "Unique. Saat pertama kali menerima Damage fatal, pemakai memasuki kondisi kebal dan tidak dapat ditarget selama 1.5 detik.",
+   "src_hash": "afd79ae4df"
+  },
+  "equip:643401": {
+   "desc": "Unique. Saat Magic Damage dalam satu serangan melebihi 8% Max HP target, target akan terbakar: menerima True Damage sebesar 75% Magic Attack tiap detik selama 3 detik.",
+   "src_hash": "dffc499a07"
+  },
+  "equip:643402": {
+   "desc": "Unique. Setiap detik memulihkan 5 Mana.",
+   "src_hash": "47805adc47"
+  },
+  "equip:643403": {
+   "desc": "Unique. Saat Combat dimulai, Mana +15, sekaligus stun 1 Hero acak dari 3 Hero musuh dengan Level tertinggi selama 1 detik. Untuk setiap 10 Level target, durasi stun bertambah 0.5 detik (maksimum 5 detik).",
+   "src_hash": "a69be36474"
+  },
+  "equip:643404": {
+   "desc": "Unique. Saat terkena serangan, memperoleh tambahan 10 Mana (maksimum 100). Setelah mencapai batas maksimum, memulihkan 20% Max HP.",
+   "src_hash": "522d40dde2"
+  },
+  "equip:643702": {
+   "desc": "Unique. Untuk setiap 1 unit musuh di sekitar 1 tile pemakai, memperoleh 10 Physical Defense dan 15% Physical Attack dasar.",
+   "src_hash": "ab40d11f83"
+  },
+  "equip:643501": {
+   "desc": "Unique. Saat HP di atas 70%, memperoleh 40% Damage Reduction.",
+   "src_hash": "3118808437"
+  },
+  "equip:643502": {
+   "desc": "Unique. Menambah 15% HP dasar; HP Regen dan efek Shield meningkat 30%.",
+   "src_hash": "f385e70cb9"
+  },
+  "equip:643604": {
+   "desc": "Unique. Memantulkan 30% dari Damage yang diterima sebagai True Damage kepada target.",
+   "src_hash": "f2f7708e63"
+  },
+  "equip:643504": {
+   "desc": "Unique. Setiap 2 detik memberikan 20 (+5% Max HP pemakai) Magic Damage kepada musuh di sekitar (radius 1 tile), dan mengurangi 50% HP Regen dan efek Lifesteal target, selama 3 detik.",
+   "src_hash": "600a7fb9ea"
+  },
+  "equip:643603": {
+   "desc": "Unique. Saat Combat dimulai, unit sekutu di sekitar 1 tile memperoleh 10 Physical dan Magic Defense; pemakai sendiri memperoleh efek dua kali lipat (tidak dapat di-stack).",
+   "src_hash": "c91d837226"
+  },
+  "equip:643601": {
+   "desc": "Unique. Dalam 15 detik pertama Combat, memblokir 50% Damage dari Basic Attack; jika Attack Speed penyerang minimal 1.5, blokir meningkat jadi 70%.",
+   "src_hash": "123f337505"
+  },
+  "equip:644103": {
+   "desc": "Unique. Saat memberikan Damage, mengurangi 20% batas Max HP unit musuh untuk sisa Combat ini (tidak dapat di-stack).",
+   "src_hash": "f836bfb5e2"
+  },
+  "equip:641006": {
+   "desc": "Unique. Saat Combat dimulai, Hero dari faksi yang sama dengan pemakai memperoleh 30% Max HP tambahan.",
+   "src_hash": "cabce3c9f4"
+  },
+  "equip:643206": {
+   "desc": "Unique. Magic Attack +35%. Saat memberikan Magic Damage, menambahkan Nightmare Mark selama 5 detik. Saat unit yang bertanda ini gugur, memberikan Magic Damage sebesar 2x Magic Attack pemakai kepada unit musuh di sekitar 1 tile.",
+   "src_hash": "5892409cfa"
+  },
+  "equip:6363182": {
+   "desc": "Hanya dapat dikenakan oleh Hero [Three Kingdoms]. 30% dari Damage yang diberikan diubah menjadi Heal, dibagi rata ke semua Hero [Three Kingdoms].",
+   "src_hash": "c4d08054b1"
+  },
+  "equip:644111": {
+   "desc": "Unique. Crit Rate +50%, Magic Damage dapat Crit.",
+   "src_hash": "8ae78280de"
+  },
+  "equip:644110": {
+   "desc": "Unique. Saat gugur, memberikan True Damage sebesar 35% Max HP kepada musuh di sekitar 1 tile.",
+   "src_hash": "5ddbe4c149"
+  },
+  "equip:644109": {
+   "desc": "Unique. Saat Combat dimulai, unit di sekitar 1 tile memulihkan 4 Mana tiap detik. Max Mana pemakai -10.",
+   "src_hash": "ecca493331"
+  },
+  "equip:644107": {
+   "desc": "Unique. Attack Speed +50%, Physical dan Magic Lifesteal +30%. Saat Combat dimulai, mengurangi 50% Max HP.",
+   "src_hash": "500aa8c86c"
+  },
+  "equip:644102": {
+   "desc": "Unique. Hanya dapat dikenakan Hero Tier 1-3. Saat Combat dimulai, memperoleh bonus Damage dan Attack Speed sebesar Level x1% (maksimum 50%).",
+   "src_hash": "6697e3b10a"
+  },
+  "equip:644104": {
+   "desc": "Unique. Magic Attack +25%. Saat Combat dimulai, memperoleh 100% Magic Attack dari Hero 1 kotak di kiri dan kanan.",
+   "src_hash": "5afe6ea24f"
+  },
+  "equip:643303": {
+   "desc": "Unique. Basic Attack mengurangi 2% Max HP target dan memulihkan HP pemakai sebesar jumlah yang sama. Efek menjadi dua kali lipat jika pemakai adalah Hero jarak dekat.",
+   "src_hash": "5c1609916d"
+  },
+  "equip:644106": {
+   "desc": "Unique. Setiap detik memulihkan 50+4% Max HP.",
+   "src_hash": "b5a580f333"
+  },
+  "equip:644105": {
+   "desc": "Unique. Setiap 4 detik memperoleh Shield sebesar 25% HP dasar. Selama masih memiliki Shield, Damage meningkat 25%; bonus ini hilang saat Shield hancur.",
+   "src_hash": "966e039512"
+  },
+  "equip:644004": {
+   "desc": "Unique. Memperoleh Flash. Setiap kali Flash, Basic Attack berikutnya disertai 1 pukulan berat: memberikan 300% Damage dan stun musuh 1 detik. Setiap kali mengalahkan unit musuh, Flash terpicu lagi.",
+   "src_hash": "fdc54f7f79"
+  },
+  "equip:644101": {
+   "desc": "Unique. Movement Speed meningkat 60%. 50% dari Damage yang diberikan diubah menjadi True Damage. Kebal terhadap efek slow.",
+   "src_hash": "d5d64d38d1"
+  },
+  "equip:641023": {
+   "desc": "Unique. Saat Combat dimulai dan setiap 3 detik setelahnya, memperoleh Temporary Level sebesar 2x jumlah sekutu di field yang mengenakan Indomitable Will. Saat gugur, 30% dari Level dirinya sendiri dibagi rata kepada sekutu yang mengenakan Indomitable Will.",
+   "src_hash": "a6029042ed"
+  },
+  "equip:641001": {
+   "desc": "Unique.\nSetiap Round dimulai, Level +8% (minimal +3 Level) dan Max Mana -2.",
+   "src_hash": "eb6c4cd5fa"
+  },
+  "equip:644114": {
+   "desc": "Unique. Attack Speed +100%. Seluruh Damage yang diterima dipindahkan ke unit yang mengenakan Silver Lotus Blessing.",
+   "src_hash": "67244b2b06"
+  },
+  "equip:643801": {
+   "desc": "Magic Attack +100, Magic Lifesteal +60%.",
+   "src_hash": "ea42a5439c"
+  },
+  "equip:643701": {
+   "desc": "Physical Lifesteal +30%. Saat HP di bawah 50%, efek Lifesteal ini menjadi dua kali lipat.",
+   "src_hash": "b8a25d3b1a"
+  },
+  "equip:641014": {
+   "desc": "Unique, tidak dapat dilepas. Setiap Combat berakhir, memperoleh tambahan Max HP permanen sebesar 200 (dua kali lipat jika menang). Setelah tambahan HP melebihi 2000, Max HP bertambah lagi 15%.",
+   "src_hash": "f8bf9cb511"
+  },
+  "equip:641009": {
+   "desc": "Unique. Setelah menggunakan Skill, 2 Hero musuh dengan Level tertinggi tidak dapat memulihkan Mana selama 5 detik; selama itu, tiap 0.5 detik mereka menerima Magic Damage sebesar 20% Magic Attack pemakai.",
+   "src_hash": "939331ad21"
+  },
+  "equip:641005": {
+   "desc": "Unique. Setiap mengalahkan 1 Hero, memperoleh 1 Energy. Saat mengalahkan minimal 5 Hero dalam 1 Round, memperoleh Konversi Energy. Konversi Energy: menghabiskan 3 Energy, memperoleh 1 kartu Effect Lucky Bag yang sesuai dengan Level Player (maksimal Tier 5).",
+   "src_hash": "5a770002d7"
+  },
+  "equip:641004": {
+   "desc": "Unique. Saat Combat dimulai, memanggil 1 salinan yang menerima 350% Damage (tanpa efek kartu).",
+   "src_hash": "76869f0da5"
+  },
+  "equip:644113": {
+   "desc": "Unique. Setiap 2 detik, memanggil 2 sambaran petir yang menghantam 2 unit acak dari kedua belah pihak (pemakai dikecualikan), memberikan Magic Damage sebesar 30% Max HP target (tidak memicu Lifesteal jika mengenai sekutu). Jika mengenai Sikong Zhen, efeknya berubah menjadi membuatnya menyerang cepat 4 kali.",
+   "src_hash": "da9899b432"
+  },
+  "equip:641021": {
+   "desc": "Unique, khusus Hero jarak dekat. Crit Rate +40%. Skill pemakai digantikan oleh Azure Lotus Sword Song.",
+   "src_hash": "eecef156c3"
+  },
+  "equip:644115": {
+   "desc": "Unique. Physical dan Magic Defense +10. Menanggung Damage menggantikan Hero yang mengenakan Wrathlotus Thorn.",
+   "src_hash": "b675d224bf"
+  },
+  "equip:644116": {
+   "desc": "Unique. Saat Combat dimulai, Attack Speed Hero dikunci di 0.4 dan memperoleh 60% bonus Damage. Kebal terhadap efek negatif.",
+   "src_hash": "5afba59a25"
+  },
+  "equip:644117": {
+   "desc": "Unique. Ikut serta dalam pembagian Level Akomia Core. Pemakai dan unit di sekitar 1 tile memulihkan 4 Mana dan 2% Max HP tiap detik. Sekutu yang melewatinya memperoleh efek yang sama selama 8 detik.",
+   "src_hash": "ece4addc73"
+  },
+  "equip:644119": {
+   "desc": "Unique. Setiap kali menerima Damage, jumlahnya tidak akan melebihi 15% Max HP.",
+   "src_hash": "ac4b968117"
+  },
+  "equip:641002": {
+   "desc": "Unique, tidak dapat dilepas. Physical Attack +30. Setiap mengalahkan 1 Hero, memperoleh 5 Physical Attack secara permanen (dua kali lipat jika menang Combat). Sudah mengalahkan: 0.",
+   "src_hash": "a913f9bcbc"
+  },
+  "equip:641008": {
+   "desc": "Unique. 30% dari Damage yang diterima pemakai akan dipindahkan ke tubuh Fawn.",
+   "src_hash": "139ed8b008"
+  },
+  "equip:641003": {
+   "desc": "Unique, tidak dapat dilepas. Magic Attack +30. Basic Attack disertai Magic Damage tambahan sebesar 70% Magic Attack milik sendiri. Setiap mengalahkan 1 Hero, memperoleh 5 Magic Attack secara permanen (dua kali lipat jika menang Combat). Sudah mengalahkan: 0.",
+   "src_hash": "0e67fa27af"
+  },
+  "talent:623002": {
+   "desc": "Memperoleh 2 kartu Talent Copier: pilih 1 Hero Tier 1-3, lalu peroleh kartu Hero tersebut.",
+   "src_hash": "ed67069191"
+  },
+  "talent:613003": {
+   "desc": "Saat Player mencapai Level 5, memperoleh 6 Energy, 1 Equipment Box.",
+   "src_hash": "7c89c6ec3c"
+  },
+  "talent:635041": {
+   "desc": "Memperoleh 2 Energy, dan secara acak 1 Kartu Hero [Three Kingdoms] Tier 2-3.",
+   "src_hash": "66565e324a"
+  },
+  "talent:613005": {
+   "desc": "Jika tidak ada Kartu Hero yang dimainkan pada Round ini, memperoleh 2 Energy saat Round berikutnya dimulai.",
+   "src_hash": "90662e0682"
+  },
+  "talent:613006": {
+   "desc": "Setelah memilih Talent ini, setiap kamu kalah 2 kali Combat, memperoleh 6 Player EXP.",
+   "src_hash": "29f9576078"
+  },
+  "talent:613007": {
+   "desc": "Damage yang diterima Player berkurang 2 tiap kali.",
+   "src_hash": "3a9887b08a"
+  },
+  "talent:635036": {
+   "desc": "Memperoleh 2 Energy, dan secara acak 1 Kartu Hero [Sunset Sea] Tier 2-3.",
+   "src_hash": "9199785c11"
+  },
+  "talent:671003": {
+   "desc": "Memperoleh 3 Energy. Saat Round berakhir, tiap 7 Energy yang kamu miliki, dapat 1 Energy tambahan.",
+   "src_hash": "3be091a393"
+  },
+  "talent:635031": {
+   "desc": "Memperoleh 2 Energy, dan secara acak 1 Kartu Hero [Riverlands] Tier 2-3.",
+   "src_hash": "eee3045f4e"
+  },
+  "talent:681028": {
+   "desc": "Saat Shop otomatis Refresh di awal Round, akan muncul 1 Kartu Hero dengan Tier 1 tingkat lebih tinggi.",
+   "src_hash": "d9baf40bc9"
+  },
+  "talent:635026": {
+   "desc": "Memperoleh 2 Energy, dan secara acak 1 Kartu Hero [Zhulu] Tier 2-3.",
+   "src_hash": "a6ffc3998b"
+  },
+  "talent:671010": {
+   "desc": "Memperoleh 1 kartu Talent Duality Collapse: secara acak mengaktifkan 1 efek dari cara mendapatkan kartu Hero (lihat kartu terkait untuk detail).",
+   "src_hash": "7768489d9b"
+  },
+  "talent:635014": {
+   "desc": "Memperoleh 2 Energy, dan secara acak 1 Kartu Hero [Central Plain] Tier 2-3.",
+   "src_hash": "6e4cbbb52d"
+  },
+  "talent:671012": {
+   "desc": "Memperoleh masing-masing 1 Kartu Talent Victory Prophecy dan Defeat Prophecy: memprediksi hasil Combat, dan dapat hadiah jika tebakan benar.",
+   "src_hash": "77848e103b"
+  },
+  "talent:614005": {
+   "desc": "Pada fase persiapan, saat total Level Hero mencapai 30, memperoleh 6 Player EXP.",
+   "src_hash": "19e9b11f0d"
+  },
+  "talent:681026": {
+   "desc": "Memperoleh 1 Kartu Talent Graceful Exit: pilih 1 Hero untuk dihapus, lalu peroleh Energy. Jika progres Awakening Hero itu 0/1/2/3, peroleh 3/5/7/9 Energy.",
+   "src_hash": "9761dc4657"
+  },
+  "talent:681025": {
+   "desc": "Memperoleh 1 Kartu Talent Contract Bottle: saat menang, kumpulkan 3 Kartu Hero acak; saat kalah, kehilangan setengah dari Kartu Hero yang terkumpul.",
+   "src_hash": "8d166fb0dc"
+  },
+  "talent:634020": {
+   "desc": "Saat Combat dimulai, Level 1 Hero milikmu dengan Tier tertinggi +4 secara permanen.",
+   "src_hash": "524ae8e234"
+  },
+  "talent:681024": {
+   "desc": "Tiap Round, dapatkan 1 angka Tier. Saat memainkan Kartu Hero dengan Tier yang sama, dapat tambahan +4 Level.",
+   "src_hash": "1bcb023840"
+  },
+  "talent:681022": {
+   "desc": "Setiap kali melakukan Refresh Shop secara manual, selalu ada 1 kartu di Shop yang biaya Energy-nya -1.",
+   "src_hash": "8442585dfa"
+  },
+  "talent:633003": {
+   "desc": "Memperoleh 2 Kartu Talent Accelerated Growth: pilih 1 Hero, Level-nya +5.",
+   "src_hash": "59a8d1a802"
+  },
+  "talent:681021": {
+   "desc": "Saat memainkan Kartu Hero yang sudah Awakening, Hero itu memperoleh 22% Crit Rate dan 11% Physical serta Magic Lifesteal (hanya 1 kali per Hero).",
+   "src_hash": "6e515fbe5b"
+  },
+  "talent:622001": {
+   "desc": "Secara acak memperoleh 2 Kartu Hero Tier 2-3.",
+   "src_hash": "3c56351a5d"
+  },
+  "talent:681009": {
+   "desc": "Saat Combat dimulai, 2 Hero musuh acak berubah menjadi babi kecil selama 3 detik.",
+   "src_hash": "c92d4d36dc"
+  },
+  "talent:681020": {
+   "desc": "Setelah Hero mencapai Level 20, Max Mana -10.",
+   "src_hash": "20e06169df"
+  },
+  "talent:632008": {
+   "desc": "Saat Combat dimulai, Hero di 2 baris belakang milikmu memperoleh 3% Attack Speed dan 3 Physical Attack tiap kali Basic Attack, maksimum 10 stack.",
+   "src_hash": "ddf153430e"
+  },
+  "talent:632006": {
+   "desc": "Saat menjual Hero di field, Level 1 Hero acak +2.",
+   "src_hash": "da63ab41d4"
+  },
+  "talent:681018": {
+   "desc": "Memperoleh Electromagnetic Spring Level 2: bangun 1 Electromagnetic Spring Level 2 di posisi pilihan (musuh yang menginjaknya akan terlempar ke baris belakang medan tempur).",
+   "src_hash": "e9e26aa7ed"
+  },
+  "talent:632002": {
+   "desc": "Memperoleh 1 Kartu Talent Five Blessings: secara acak peroleh 5 Kartu Hero.",
+   "src_hash": "cbd99595be"
+  },
+  "talent:632001": {
+   "desc": "Memperoleh 5 Energy.",
+   "src_hash": "5ef665f43a"
+  },
+  "talent:623003": {
+   "desc": "Player HP -10. Saat Combat dimulai, tiap Hero milikmu +2 Temporary Level. Saat memenangkan Combat, memperoleh 1 Player HP dan Temporary Level tambahan +1.",
+   "src_hash": "334f18189f"
+  },
+  "talent:671017": {
+   "desc": "Memperoleh 1 Kartu Talent Leave It to Fate: hapus 4 Hero dengan Level terendah, masing-masing memberikan sejumlah sumber daya.",
+   "src_hash": "6e3ff1c877"
+  },
+  "talent:671006": {
+   "desc": "Saat Combat dimulai, jika kamu memiliki minimal 4 Hero Tier 1-3 di field, Hero Tier 4-5 memperoleh 30% bonus Damage dan 60% Attack Speed.",
+   "src_hash": "5ca5da9305"
+  },
+  "talent:623007": {
+   "desc": "Memperoleh 2 Energy. Saat memenangkan Combat, dapat 2 Energy lagi.",
+   "src_hash": "1bdb025760"
+  },
+  "talent:623008": {
+   "desc": "Memperoleh 2 kartu Talent Ultimate Copier: pilih 1 Hero, lalu peroleh kartu Hero tersebut.",
+   "src_hash": "ef48f03e4b"
+  },
+  "talent:681014": {
+   "desc": "Memperoleh 3 kartu Hero yang memiliki efek Engage.",
+   "src_hash": "92175f5769"
+  },
+  "talent:622009": {
+   "desc": "Jika kamu sudah menang minimal 2 kali beruntun, dapat 2 Energy dan 4 Player HP saat memenangkan Combat.",
+   "src_hash": "efa0f0f387"
+  },
+  "talent:622006": {
+   "desc": "Memainkan Kartu Hero Tier 3, dapat tambahan +4 Level.",
+   "src_hash": "65479ef8c8"
+  },
+  "talent:622005": {
+   "desc": "Saat memenangkan Combat, memperoleh 1 Kartu Hero dari Hero milikmu dengan Level tertinggi.",
+   "src_hash": "b8bb472588"
+  },
+  "talent:632009": {
+   "desc": "Saat pertama kali memainkan Kartu Hero tiap Round, memperoleh 1 Kartu Hero dengan Tier yang sama (tidak melebihi Player Level).",
+   "src_hash": "49e7e617c5"
+  },
+  "talent:632010": {
+   "desc": "Setiap menghabiskan 15 Energy, memperoleh 1 Kartu Accelerated Growth: pilih 1 Hero, Level-nya +5.",
+   "src_hash": "b241ca3c44"
+  },
+  "talent:622002": {
+   "desc": "Memperoleh 3 Kartu Talent Talent Search.",
+   "src_hash": "95c5f7f75e"
+  },
+  "talent:632013": {
+   "desc": "Saat menjual Hero di field, Level 1 Hero acak +3.",
+   "src_hash": "4a330d7f66"
+  },
+  "talent:632014": {
+   "desc": "Saat Combat dimulai, Hero di 2 baris belakang milikmu memperoleh 5% Attack Speed dan 5 Physical Attack tiap kali Basic Attack, maksimum 10 stack.",
+   "src_hash": "a7fde45d5a"
+  },
+  "talent:633001": {
+   "desc": "Memperoleh 8 Energy.",
+   "src_hash": "5cd56ee13d"
+  },
+  "talent:633002": {
+   "desc": "Memperoleh 2 Energy dan 2 Hero Voucher Tier 3.",
+   "src_hash": "2c6a614524"
+  },
+  "talent:615005": {
+   "desc": "Player HP -15, memperoleh 15 Energy.",
+   "src_hash": "8946bcc017"
+  },
+  "talent:633013": {
+   "desc": "Dalam Round yang sama, tiap memainkan 4 Kartu Hero dari faksi yang sama, secara acak peroleh 1 Kartu Hero dari faksi itu.",
+   "src_hash": "9be86d08ad"
+  },
+  "talent:681008": {
+   "desc": "Saat Combat dimulai, Hero dengan Level tertinggi dari kedua pihak beradu Level: jika milikmu menang, Hero itu memperoleh 1 kali Perfect Revive; jika kalah, dia berubah menjadi babi kecil selama 3 detik dan memperoleh Shield sebesar 30% Max HP.",
+   "src_hash": "517a007b84"
+  },
+  "talent:633017": {
+   "desc": "Saat Combat dimulai, Hero milikmu yang mengenakan minimal 2 Equipment memperoleh 15% bonus Damage dan 15% Damage Reduction.",
+   "src_hash": "0b4dad2cf7"
+  },
+  "talent:633018": {
+   "desc": "Saat Hero milikmu mencapai Level 30, secara acak peroleh 2 Kartu Hero dari faksinya (Hero yang sudah Level 30 bisa memicu ini lagi dengan naik 1 Level lagi).",
+   "src_hash": "9a0eebdb24"
+  },
+  "talent:681006": {
+   "desc": "Saat Combat dimulai, Hero di baris pertama milikmu memperoleh 20 Physical dan Magic Defense.",
+   "src_hash": "e9eed2bb17"
+  },
+  "talent:634001": {
+   "desc": "Memperoleh 10 Energy.",
+   "src_hash": "fe0bc6831f"
+  },
+  "talent:634012": {
+   "desc": "Memperoleh 2 Kartu Talent Limited Evolution: pilih 1 Hero Tier 1-2 untuk dihapus, lalu peroleh 1 Kartu Hero acak dengan Tier 2 lebih tinggi, yang saat dipasang memiliki Level asli +10.",
+   "src_hash": "55350ccbd8"
+  },
+  "talent:634013": {
+   "desc": "Memperoleh 1 Reinforcements: pilih 1 Hero, lalu secara acak peroleh 4 Kartu Hero dari faksi yang sama.",
+   "src_hash": "d44326deff"
+  },
+  "talent:681004": {
+   "desc": "Tiap memainkan 3 Kartu Hero dengan Tier berbeda dalam 1 Round, Level semua Hero +3.",
+   "src_hash": "4159dcee54"
+  },
+  "talent:634015": {
+   "desc": "Memperoleh 1 kartu Talent Adaptive Arms: pilih 1 Hero, lalu secara acak peroleh 2 kartu Normal Equipment yang cocok untuknya.",
+   "src_hash": "b26dda4e70"
+  },
+  "talent:634018": {
+   "desc": "Saat Combat dimulai, 3 Hero acak milikmu untuk sementara memperoleh 1 Normal Equipment dan 100 Max HP.",
+   "src_hash": "6137aedfb3"
+  },
+  "talent:634019": {
+   "desc": "Jumlah Hero yang bisa dipasang +1.",
+   "src_hash": "61854343e3"
+  },
+  "talent:614008": {
+   "desc": "Pada fase persiapan, saat total Level Hero mencapai 30, memperoleh 9 Player EXP.",
+   "src_hash": "c5e977b9b4"
+  },
+  "talent:634021": {
+   "desc": "Saat Combat dimulai, jika Energy saat ini ≤3, secara acak memperoleh 1 Kartu Hero Tier 3-4.",
+   "src_hash": "9e7d0d9282"
+  },
+  "talent:634025": {
+   "desc": "Saat Combat dimulai, Hero yang sudah Awakening memperoleh 40 Physical Attack dan 40 Magic Attack.",
+   "src_hash": "231394d0aa"
+  },
+  "talent:634026": {
+   "desc": "Saat Combat dimulai, Basic Attack Hero milikmu disertai Magic Damage sebesar 2% Max HP musuh.",
+   "src_hash": "4b5de5f120"
+  },
+  "talent:613002": {
+   "desc": "Memperoleh 1 Voucher Tier 3. Saat Round dimulai, memperoleh 1 Player EXP; setelah Level maksimum, diganti menjadi 1 Energy.",
+   "src_hash": "c204811412"
+  },
+  "talent:681003": {
+   "desc": "Memperoleh 1 kartu Normal Equipment. Dalam 5 Round berikutnya, jika berhasil memberikan total 20 Damage ke Player lain, memperoleh 10 Energy.",
+   "src_hash": "25044e1347"
+  },
+  "talent:634031": {
+   "desc": "Saat Combat dimulai, Level 1 Hero milikmu dengan Tier tertinggi +6 secara permanen.",
+   "src_hash": "0d2dec4107"
+  },
+  "talent:681002": {
+   "desc": "Memperoleh 2 kartu Mystery Hero. Saat Refresh manual, secara acak berubah menjadi kartu Hero dengan Tier tidak lebih rendah dari Tier Player saat ini. Setiap Round ada peluang 15% untuk hancur otomatis dan memperoleh 3 Energy.",
+   "src_hash": "f8a66ef02b"
+  },
+  "talent:671020": {
+   "desc": "Secara acak memperoleh 1 kartu Normal Equipment. Jika Level Player milikmu tidak berubah dalam 5 Round berikutnya, peroleh 2 kartu lagi.",
+   "src_hash": "6d5af179b8"
+  },
+  "talent:636312": {
+   "desc": "Memperoleh 1 Fierce Tiger Arena. Hero [Three Kingdoms] di dalam area Arena memperoleh 30 Physical Attack dan Magic Attack. Setiap kali musuh dikalahkan di dalam area Arena, Arena menyerap jiwanya dan permanen memberi tambahan 10 Physical Attack dan Magic Attack. Tiap 5 kali menyerap, area Arena permanen melebar 1 tile, maksimum 3 kali.",
+   "src_hash": "2821bacc5e"
+  },
+  "talent:671016": {
+   "desc": "Setiap setelah lelang, memperoleh 1 Kartu Talent Auction Replay: pilih 1 kartu dari lelang yang belum kamu dapatkan.",
+   "src_hash": "c44f91e9b3"
+  },
+  "talent:635002": {
+   "desc": "Memperoleh 1 Kartu Talent Hypergrowth: pilih 1 Hero, Level-nya +15.",
+   "src_hash": "33401fff0e"
+  },
+  "talent:614004": {
+   "desc": "Saat Combat dimulai, jika kamu memiliki minimal 3 Hero Tier 4-5, memperoleh 1 kartu Effect Lucky Bag Tier 2-3.",
+   "src_hash": "b0f8a07651"
+  },
+  "talent:671011": {
+   "desc": "Saat Player naik Level, memperoleh 1 Kartu Talent Try Your Luck: pilih 1 Hero untuk naik 5-20 Level, dengan biaya acak 1-5 Energy.",
+   "src_hash": "32734ab33d"
+  },
+  "talent:614003": {
+   "desc": "Saat Combat dimulai, 20 Temporary Level dibagikan secara acak ke Hero milikmu. Tiap Round, jumlah ini bertambah 5 Temporary Level.",
+   "src_hash": "add91db253"
+  },
+  "talent:635015": {
+   "desc": "Memperoleh 3 Energy dan 1 Li Xin.",
+   "src_hash": "caf7176332"
+  },
+  "talent:614002": {
+   "desc": "Memperoleh 10 Player HP, 1 Equipment Box.",
+   "src_hash": "13c583df29"
+  },
+  "talent:635017": {
+   "desc": "Pilih 1 dari 3 kartu (Hero [Central Plain] Tier 4 atau 5).",
+   "src_hash": "21a6977694"
+  },
+  "talent:671009": {
+   "desc": "Memperoleh 1 kartu Talent Sekali Miskin Sekali Kaya: setelah dimainkan, memperoleh 1 kartu Basic Equipment dan 1 kartu Risiko Meraih Kekayaan (selama dipegang, hadiah terkumpul saat menang; hilang jika kalah).",
+   "src_hash": "81ba22f2fc"
+  },
+  "talent:635021": {
+   "desc": "Memperoleh 2 Kartu Talent Glory of the Old Guard: pilih 1 Hero, lalu peroleh 1 Kartu Hero dari faksi yang sama dengan Tier 1-2 lebih tinggi.",
+   "src_hash": "42e472d04e"
+  },
+  "talent:635024": {
+   "desc": "Memperoleh 1 Kartu Talent Full Army Formation: pilih 1 Hero, lalu panggil Hero dari faksi yang sama hingga formasi penuh (Tier tidak melebihi yang bisa dibeli di Shop).",
+   "src_hash": "25579890fb"
+  },
+  "talent:681027": {
+   "desc": "Membeli di Shop menghabiskan tambahan 1 Energy; menjual Kartu Hero memberi tambahan 1 Energy.",
+   "src_hash": "fc7f250d37"
+  },
+  "talent:635027": {
+   "desc": "Memperoleh 3 Energy dan 1 Meng Ya.",
+   "src_hash": "1456ff8af9"
+  },
+  "talent:671007": {
+   "desc": "Saat peringkatmu bukan ke-1 atau ke-2, semua unit milikmu memperoleh Damage +10% dan Max HP +20%.",
+   "src_hash": "b9a46350a2"
+  },
+  "talent:635029": {
+   "desc": "Pilih 1 dari 3 kartu (Hero [Zhulu] Tier 4 atau 5).",
+   "src_hash": "5eb264ba5b"
+  },
+  "talent:681010": {
+   "desc": "Memperoleh 1 Talent yang bisa dibeli: bayar 8 Energy untuk +1 jumlah Hero yang bisa dipasang. Bisa dibeli hingga 2 kali.",
+   "src_hash": "9fe257d564"
+  },
+  "talent:613010": {
+   "desc": "Damage yang diterima Player berkurang 3 tiap kali.",
+   "src_hash": "47fee90903"
+  },
+  "talent:635032": {
+   "desc": "Memperoleh 3 Energy dan 1 Liu Bang.",
+   "src_hash": "9873c87c34"
+  },
+  "talent:613009": {
+   "desc": "Setelah memilih Talent ini, setiap kamu kalah 2 kali Combat, memperoleh 9 Player EXP.",
+   "src_hash": "52f636d293"
+  },
+  "talent:635034": {
+   "desc": "Pilih 1 dari 3 kartu (Hero [Riverlands] Tier 4 atau 5).",
+   "src_hash": "02d9fd9cec"
+  },
+  "talent:671002": {
+   "desc": "Saat Combat dimulai, model Hero mengecil: Attack Speed +60%, Crit Rate +40%, Max HP -20%.",
+   "src_hash": "1c628eba30"
+  },
+  "talent:613008": {
+   "desc": "Saat Player mencapai Level 5, memperoleh 8 Energy, 1 Equipment Box, dan 1 Kartu Effect tingkat lanjut.",
+   "src_hash": "c92d958391"
+  },
+  "talent:635037": {
+   "desc": "Memperoleh 3 Energy dan 1 Athena.",
+   "src_hash": "7d023419e8"
+  },
+  "talent:671001": {
+   "desc": "Memperoleh 1 Kartu Talent Equal Exchange: kurangi semua Energy yang kamu miliki saat ini, lalu dapatkan hadiah berbeda tergantung jumlah yang dikurangi.",
+   "src_hash": "7024290865"
+  },
+  "talent:635039": {
+   "desc": "Pilih 1 dari 3 kartu (Hero [Sunset Sea] Tier 4 atau 5).",
+   "src_hash": "aafae2cdc5"
+  },
+  "talent:646011": {
+   "desc": "Memperoleh Wrathgod Necklace: menambah Crit Rate, dan Magic Damage dapat Crit.",
+   "src_hash": "3c5307f4a9"
+  },
+  "talent:613004": {
+   "desc": "Player EXP yang dibutuhkan untuk naik Level -2. Tiap kali naik Level, memperoleh 1 Kartu Talent Talent Search.",
+   "src_hash": "f5436e1ca5"
+  },
+  "talent:635042": {
+   "desc": "Memperoleh 3 Energy dan 1 Xiao Qiao.",
+   "src_hash": "70812a7546"
+  },
+  "talent:646004": {
+   "desc": "Memperoleh Arcane Tide Staff: mendapatkan Magic Attack dari Hero di kotak kiri dan kanan.",
+   "src_hash": "70621d2a0f"
+  },
+  "talent:635044": {
+   "desc": "Pilih 1 dari 3 kartu (Hero [Three Kingdoms] Tier 4 atau 5).",
+   "src_hash": "5757ddb75f"
+  },
+  "talent:646003": {
+   "desc": "Memperoleh Severance: mengurangi Max HP musuh saat memberikan Damage.",
+   "src_hash": "24cef976e1"
+  },
+  "talent:646002": {
+   "desc": "Memperoleh Formation Breaker: menambah Attack Speed dan bonus Damage (khusus Hero Tier 1-3).",
+   "src_hash": "a4c219d17e"
+  },
+  "talent:636101": {
+   "desc": "Akomia Core tidak lagi membagikan Level. Saat Round dimulai, untuk setiap 30 Level yang dimiliki Core, akan secara acak memicu 1 kali efek Preparation atau Deploy dari 1 Hero di field (maksimal 100 kali per Round).",
+   "src_hash": "fbdfde1b30"
+  },
+  "talent:646001": {
+   "desc": "Memperoleh Truthseeker Blade: mendapat kemampuan True Damage, meningkatkan Movement Speed, dan kebal terhadap efek slow.",
+   "src_hash": "a7724811a2"
+  },
+  "talent:636103": {
+   "desc": "Akomia Core tidak lagi dibagikan Level. Setiap detik memberikan 6 kali Magic Damage sebesar Core Level x1 kepada 1 unit musuh acak.",
+   "src_hash": "ae136bc105"
+  },
+  "talent:638008": {
+   "desc": "Saat Flash Hero mengalahkan unit musuh, dia langsung Flash ke posisi musuh terdekat dan kebal selama 0.5 detik.",
+   "src_hash": "754f7ab076"
+  },
+  "talent:636105": {
+   "desc": "Saat Round dimulai, Level Akomia Core +3x Player Level.",
+   "src_hash": "0d41b06595"
+  },
+  "talent:636106": {
+   "desc": "Setiap kali Hero milikmu memicu efek Preparation sebanyak 5 kali, secara acak memperoleh 1 Equipment eksklusif Sunset Sea (maksimal 3).",
+   "src_hash": "d3726b4377"
+  },
+  "talent:638003": {
+   "desc": "Memperoleh 3 Kartu Talent Unfair Victory: pada Combat berikutnya, Hero milikmu +20 Temporary Level, tetapi Damage ke Player musuh -10.",
+   "src_hash": "1ad07afca5"
+  },
+  "talent:63700801": {
+   "desc": "Memperoleh 1 Marco Polo dan 1 Baili Shouyue. Saat bertarung bersama, mereka memperoleh 3 Temporary Level. Jika memenangkan Combat, hingga 20 Temporary Level yang diperoleh akan dipertahankan.",
+   "src_hash": "18f342c708"
+  },
+  "talent:636601": {
+   "desc": "Saat Round dimulai, Hero No Faction memperoleh Level yang setara dengan Player Level saat ini.",
+   "src_hash": "7c40ceb122"
+  },
+  "talent:636516": {
+   "desc": "Prophet Totem mendapat efek tambahan: tiap 5 detik memberi stun 2 detik ke 1 musuh terjauh. Jika musuh itu gugur selama stun, panggil 1 Bear Spirit dengan Level yang sama dengannya.",
+   "src_hash": "5c7ffab3ff"
+  },
+  "talent:636514": {
+   "desc": "Memanggil 1 Bond Totem Level 1.",
+   "src_hash": "c7ce76a91d"
+  },
+  "talent:636115": {
+   "desc": "Level Akomia Core +10. Tiap total 10 serangan dari Hero milikmu, Level Core +1.",
+   "src_hash": "4d0c6c4387"
+  },
+  "talent:636117": {
+   "desc": "Secara acak memperoleh 1 [Equipment Eksklusif Sunset Sea]. Setiap kali Hero milikmu mengenakan 1 [Equipment Eksklusif Sunset Sea], efek Preparation-nya akan terpicu 1 kali tambahan.",
+   "src_hash": "c60152fbce"
+  },
+  "talent:636201": {
+   "desc": "Ancient Coin hanya bisa digunakan secara aktif pada Hero non-[Central Plain]: akan berubah secara acak menjadi Hero non-[Central Plain] lain dengan Tier yang sama, Level tambahan +7.",
+   "src_hash": "14e80c620e"
+  },
+  "talent:636512": {
+   "desc": "Saat Combat dimulai, Prophet Totem, Bond Totem, dan Rebirth Totem milikmu memperoleh Shield sebesar 100x jumlah Round.",
+   "src_hash": "e233ce379b"
+  },
+  "talent:636510": {
+   "desc": "Setiap Round, secara acak memanggil 1 Totem yang bertahan sampai Round berakhir.",
+   "src_hash": "3eb9ecc281"
+  },
+  "talent:636509": {
+   "desc": "Saat Hero [Riverlands] pertama gugur dalam Combat, panggil 1 Bear Spirit dengan Level setara jumlah Level semua Hero [Riverlands] di field (tidak termasuk Temporary Level), lalu beri taunt ke musuh dalam 2 tile selama 4 detik.",
+   "src_hash": "9e1a613ec5"
+  },
+  "talent:636206": {
+   "desc": "Ancient Coin tidak lagi disertai Instant. Setiap Round dimulai, Level Ancient Coin di tangan +1 (atau +2 jika jumlahnya ≥8).",
+   "src_hash": "498f2335b9"
+  },
+  "talent:636209": {
+   "desc": "Memperoleh 1 Ancient Coin. Kartu Ancient Coin akan memberikan tambahan 2 Level.",
+   "src_hash": "ffc15e7daa"
+  },
+  "talent:636506": {
+   "desc": "Memperoleh 1 Guiguzi. Seed of Mystery mendapat efek tambahan: memulihkan 3% HP pemakai tiap detik.",
+   "src_hash": "788b9429ce"
+  },
+  "talent:636213": {
+   "desc": "Memperoleh 1 Li Xin. Temporary Level yang diberikan efek kartu Li Xin +3 tambahan. Jika Li Xin sudah Awakening, saat Hero musuh memicu Sacrifice, efek kartu Li Xin milikmu juga akan ikut terpicu.",
+   "src_hash": "9154d15b36"
+  },
+  "talent:636415": {
+   "desc": "Secara acak memperoleh 1 Kartu Hero [Zhulu]. Saat Round dimulai, dapat 1 lagi.",
+   "src_hash": "63b707bd97"
+  },
+  "talent:636215": {
+   "desc": "Ancient Coin yang kamu peroleh otomatis ditukar menjadi 2 Broken Ancient Coin yang tidak memberikan Level; Refined Ancient Coin ditukar menjadi 4.",
+   "src_hash": "a86b98c09e"
+  },
+  "talent:636413": {
+   "desc": "Saat memenangkan Combat, memperoleh 1 Advanced Simulation Tactic.",
+   "src_hash": "00054074cd"
+  },
+  "talent:636217": {
+   "desc": "Saat Hero [Central Plain] terakhir milikmu menerima Damage fatal, ia memasuki status kebal dan Attack Speed +50% selama 1 detik. Setiap kali Hero milikmu memicu efek Sacrifice selama Combat, durasi kebal bertambah 0.25 detik.",
+   "src_hash": "174141b894"
+  },
+  "talent:636218": {
+   "desc": "Setiap kali Hero milikmu memicu efek Sacrifice sebanyak 3 kali, memperoleh 1 Ancient Coin.",
+   "src_hash": "ede776e47e"
+  },
+  "talent:636412": {
+   "desc": "Memperoleh 1 Zhuang Zhou. Tiap Hero [Zhulu] menggunakan Skill 6 kali, Zhuang Zhou akan melahap 1 Hero musuh dengan Level terendah dan permanen memperoleh 30% Max HP-nya (maksimum 1 kali lahap per Combat). Jika Zhuang Zhou sudah Awakening, batas lahap menjadi 3 kali.",
+   "src_hash": "03fe2cdf06"
+  },
+  "talent:636409": {
+   "desc": "Level Summoned Unit milikmu +5. Saat setiap Round dimulai, +5 lagi.",
+   "src_hash": "b307c058a3"
+  },
+  "talent:636221": {
+   "desc": "Saat memainkan Ancient Coin, ada peluang untuk terpicu tambahan 1-3 kali.",
+   "src_hash": "22384d4981"
+  },
+  "talent:636224": {
+   "desc": "Memperoleh 1 Hero [Central Plain] Wang Wei. Pada fase persiapan, saat total Level Hero di field masing-masing mencapai 100/200/400, dapat 1 Wang Wei lagi.",
+   "src_hash": "5316966642"
+  },
+  "talent:636401": {
+   "desc": "Setiap Hero [Zhulu] menggunakan Skill 6 kali, memperoleh 1 Energy, batas maksimum 5 Energy.",
+   "src_hash": "07668830ac"
+  },
+  "talent:636317": {
+   "desc": "Saat Combat dimulai, Hero [Three Kingdoms] milikmu memperoleh tambahan 100% Max HP (hanya menaikkan batas maksimum), dan efek HP Regen serta Shield meningkat 20%.",
+   "src_hash": "b5225620bb"
+  },
+  "talent:636304": {
+   "desc": "Saat Hero milikmu memicu efek Deploy, Level 2 Hero [Three Kingdoms] acak +2.",
+   "src_hash": "38f66a0067"
+  },
+  "talent:636314": {
+   "desc": "Memperoleh 1 Lucky Bag: setelah digunakan, Kartu Hero Deploy yang dimainkan pada Round ini akan memicu efek Deploy 1 kali tambahan.",
+   "src_hash": "8287af0a70"
+  },
+  "talent:636306": {
+   "desc": "Memperoleh 1 Zhao Yun. Sebelum menggunakan Skill, Zhao Yun akan tambahan menggunakan 1 Skill Thunder Dragon; dan tiap kali HP Zhao Yun melewati ambang 70%/30%, dia akan memulihkan semua Mana.",
+   "src_hash": "48b3190d73"
+  },
+  "talent:636307": {
+   "desc": "Memperoleh 1 Zhuge Liang. Saat Hero milikmu menggunakan Skill, Hero [Three Kingdoms] lain dalam 1 tile di sekitar Zhuge Liang memperoleh 10 Mana.",
+   "src_hash": "c92a9675a2"
+  },
+  "talent:634028": {
+   "desc": "Saat Combat dimulai, 3 Hero acak milikmu untuk sementara memperoleh 2 Normal Equipment dan 300 Max HP.",
+   "src_hash": "d47ef6b297"
+  },
+  "talent:636309": {
+   "desc": "Hero [Three Kingdoms] memperoleh Sacrifice: roh Da Qiao muncul dan memberikan 1 kali serangan gelombang laut raksasa ke musuh.",
+   "src_hash": "5dfa487051"
+  },
+  "talent:636313": {
+   "desc": "Saat Hero milikmu memberikan efek CC, Hero [Three Kingdoms] milikmu memperoleh 20 Magic Attack.",
+   "src_hash": "20a5ac74d9"
+  },
+  "talent:636305": {
+   "desc": "Saat HP Hero [Three Kingdoms] di 2 baris depan milikmu 50% atau lebih rendah, mereka memulihkan 5% HP dan mendapat 50% Attack Speed tiap detik.",
+   "src_hash": "b7258af68f"
+  },
+  "talent:636315": {
+   "desc": "Saat Combat dimulai, jika jumlah Hero [Three Kingdoms] milikmu di field tepat kelipatan 3, mereka masing-masing memperoleh 33 Temporary Level.",
+   "src_hash": "655eb1001d"
+  },
+  "talent:636316": {
+   "desc": "Memperoleh 1 kartu Memimpin: pilih 1 Hero [Three Kingdoms], jadikan Level-nya sama dengan Hero [Three Kingdoms] terdekat.",
+   "src_hash": "149ae5a47e"
+  },
+  "talent:636303": {
+   "desc": "Saat Combat dimulai, jika kamu memiliki minimal 3 faksi di field, semua Hero memperoleh Temporary Level sebesar 5x Player Level.",
+   "src_hash": "3450788b9e"
+  },
+  "talent:636318": {
+   "desc": "Memperoleh 1 kartu Equipment Three Kingdoms Banner: 30% dari Damage yang diberikan dibagi rata sebagai Heal untuk semua Hero [Three Kingdoms] (hanya bisa dikenakan oleh Hero [Three Kingdoms]).",
+   "src_hash": "4bd36df295"
+  },
+  "talent:636301": {
+   "desc": "Setelah 4 Hero [Three Kingdoms] milikmu gugur, panggil Lu Bu dengan Level setara setengah dari jumlah Level Hero [Three Kingdoms] yang sudah gugur.",
+   "src_hash": "1b25dbf9c0"
+  },
+  "talent:636402": {
+   "desc": "Setiap kali Merge Hero [Zhulu] sebanyak 4 kali, memperoleh 1 kartu Effect Lucky Bag acak Tier 1-5.",
+   "src_hash": "9c1a125d50"
+  },
+  "talent:636403": {
+   "desc": "Memperoleh 1 Kartu Tactic. Saat Round dimulai, dapat 1 lagi (setelah Player mencapai Level 5, pasti berupa Tactic tingkat lanjut).",
+   "src_hash": "d7693cf40c"
+  },
+  "talent:636404": {
+   "desc": "Saat Hero [Zhulu] menggunakan Skill, panggil 1 Xuanyong Soldier dengan Level sama seperti Hero yang memanggilnya, maksimum 3 secara bersamaan.",
+   "src_hash": "4e7c237907"
+  },
+  "talent:636406": {
+   "desc": "Kartu Effect pertama yang digunakan pada Hero [Zhulu] tiap Round akan kembali ke tangan dan mendapat tambahan Instant.",
+   "src_hash": "0f5daf88ed"
+  },
+  "talent:636220": {
+   "desc": "Hero yang Revive selama Combat memperoleh 200% Attack Speed, 100% Crit Rate, dan kebal selama 1.5 detik.",
+   "src_hash": "709fc80787"
+  },
+  "talent:636410": {
+   "desc": "Setelah Player naik ke Level 5, semua Kartu Tactic yang kamu peroleh akan berubah menjadi Tactic tingkat lanjut.",
+   "src_hash": "ae5e4ad6e9"
+  },
+  "talent:636411": {
+   "desc": "Selama Hero [Zhulu] menggunakan Skill, tiap 1 detik dia memperoleh Shield sebesar 5% Max HP dirinya sendiri, bertahan 3 detik.",
+   "src_hash": "2be9a0ffbd"
+  },
+  "talent:636219": {
+   "desc": "Saat Combat dimulai, 4 Hero [Central Plain] acak memperoleh Temporary Level sebesar jumlah akumulasi penggunaan Ancient Coin (setelah memilih Talent ini).",
+   "src_hash": "61ea35a99c"
+  },
+  "talent:636216": {
+   "desc": "Memperoleh 1 Li Bai. Tiap Li Bai menerima 12 kali Ancient Coin, saat menggunakan Skill dia akan permanen mendapat tambahan 1 kali penggunaan Skill lagi.",
+   "src_hash": "66d2b0d964"
+  },
+  "talent:636214": {
+   "desc": "Tiap menjual 4 Hero di field, dapat 1 Ancient Coin; tiap menjual 1 Ancient Coin, dapat 1 Kartu Hero [Central Plain].",
+   "src_hash": "386d32eff6"
+  },
+  "talent:636417": {
+   "desc": "Saat Round dimulai, dapatkan 1 kartu dengan nama sama seperti Hero [Zhulu] yang ada di field; jika Combat sebelumnya menang, dapat 2.",
+   "src_hash": "becc6a2f7b"
+  },
+  "talent:636418": {
+   "desc": "Saat Combat dimulai, kubah akan menyerap Shield Hero di dalam areanya menjadi Shield miliknya sendiri, melindungi sekutu di dalam area dari Damage.",
+   "src_hash": "091fa85ebc"
+  },
+  "talent:636501": {
+   "desc": "Memperoleh 1 Quench with Illusions. Saat Round dimulai, tiap 2 Hero [Riverlands] di field, dapat 1 lagi.",
+   "src_hash": "1f41b9e7bc"
+  },
+  "talent:636503": {
+   "desc": "Hero No Faction memperoleh Sacrifice: memanggil 1 Hero dengan Tier dan Level yang sama seperti dirinya (tanpa efek kartu) untuk ikut bertarung.",
+   "src_hash": "24f883e65c"
+  },
+  "talent:636504": {
+   "desc": "Saat Combat dimulai, jika kamu memiliki minimal 2 Hero [Riverlands], secara acak panggil Fate Totem di sekitarnya (radius 1 tile): musuh yang mengalahkan Totem ini akan musnah.",
+   "src_hash": "df176ded80"
+  },
+  "talent:636505": {
+   "desc": "Saat Combat dimulai, Totem di sekitar 1 tile unit milikmu meningkatkan 10% Max HP dan 20% Attack Speed, dapat di-stack.",
+   "src_hash": "8e0ffb55c7"
+  },
+  "talent:636211": {
+   "desc": "Hero [Central Plain] memperoleh efek Sacrifice: semua unit sekutu +1 Temporary Level; setiap kali efek Sacrifice ini terpicu, Temporary Level-nya +1 tambahan.",
+   "src_hash": "d2ec752ea2"
+  },
+  "talent:636507": {
+   "desc": "Memperoleh 1 Ancestral Bear Spirit; dia dianggap sebagai Hero [Riverlands] dan tidak memakan slot populasi. Saat Combat dimulai, tiap unit milikmu yang lebih banyak 1 dari musuh, Ancestral Bear Spirit permanen mendapat +2 Level.",
+   "src_hash": "c908a075b2"
+  },
+  "talent:636508": {
+   "desc": "Hero [Riverlands] milikmu yang mengenakan minimal 2 Equipment, saat gugur memperoleh efek Sacrifice: memanggil 1 Bear Spirit dengan Level yang sama dengan Hero tersebut.",
+   "src_hash": "11574d0ea9"
+  },
+  "talent:636205": {
+   "desc": "Saat menggunakan Ancient Coin, Level 1 Hero acak dari tiap faksi lain +3.",
+   "src_hash": "bd415e3bfd"
+  },
+  "talent:636204": {
+   "desc": "Memanggil Coin Machine. Setiap menggunakan 4 kartu Ancient Coin padanya (Refined Ancient Coin dihitung 2 kali), peroleh berurutan: 5 kartu Hero Central Plain acak; 1 Sage's Protection. Setelah itu, secara acak memperoleh: 1 Hypergrowth, 1 kartu Normal Equipment, atau 8 Energy.",
+   "src_hash": "584af82f28"
+  },
+  "talent:636511": {
+   "desc": "Memanggil 1 Illusory Totem: saat hancur, berubah menjadi Hero [Riverlands] yang bertahan hidup dengan Level tertinggi atau Tier tertinggi di field (tanpa efek kartu).",
+   "src_hash": "fec63b99bd"
+  },
+  "talent:636203": {
+   "desc": "Memperoleh 2 Ancient Coin. Saat memenangkan Combat, Level yang diberikan kartu Ancient Coin +1 secara permanen.",
+   "src_hash": "e76445a3f7"
+  },
+  "talent:636513": {
+   "desc": "Saat Totem di field hancur, Hero [Riverlands] dengan Level tertinggi memperoleh Temporary Level sebesar setengah Level Totem tersebut.",
+   "src_hash": "2f74b3fed5"
+  },
+  "talent:636114": {
+   "desc": "Memperoleh 1 Steal Fire. Saat Round dimulai, dapat 1 lagi (Instant. Pilih 1 Hero, curi maksimum 20 Level dari Akomia Core).",
+   "src_hash": "734a7d7686"
+  },
+  "talent:636113": {
+   "desc": "Saat Round dimulai, Akomia Core kehilangan 20 Level dan memperoleh 10 Energy. Efek ini maksimum terpicu 1 kali tiap Round.",
+   "src_hash": "ed0d31adab"
+  },
+  "talent:636112": {
+   "desc": "Secara acak memperoleh 1 Firehawk Equipment, dan efek eksklusif [Sunset Sea] dari Firehawk Equipment berlaku untuk Hero mana pun yang mengenakannya.",
+   "src_hash": "cc60b0e486"
+  },
+  "talent:636602": {
+   "desc": "Summoned Unit yang masuk field selama Combat dan bertahan hidup 8 detik akan berubah menjadi pemanggilnya (tanpa efek kartu) sambil mempertahankan Level, maksimum 5 kali per Combat.",
+   "src_hash": "1f3d02b4a4"
+  },
+  "talent:636603": {
+   "desc": "Saat setiap memainkan 3 No Faction Kartu Hero, Level semua Hero +4.",
+   "src_hash": "f78a9159f0"
+  },
+  "talent:636604": {
+   "desc": "Memperoleh 1 Sun Wukong. Saat Sun Wukong menggunakan Skill, panggil 2 klon bulu monyet untuk melakukan 1 kali serangan. Saat memenangkan Combat, jumlah klon permanen +1.",
+   "src_hash": "bd31d47823"
+  },
+  "talent:637001": {
+   "desc": "Memperoleh 1 Kaizer dan 1 Luna. Saat bertarung bersama, ketika Kaizer pertama kali menggunakan Skill, Luna dapat menggunakan Skill tanpa batas selama 7 detik. Tiap kali Luna menggunakan Skill, Kaizer mendapat 40% Attack Speed.",
+   "src_hash": "0665ec9697"
+  },
+  "talent:637003": {
+   "desc": "Memperoleh 1 Pei Qin Hu dan 1 Cirrus. Saat bertarung bersama, setiap kali musuh dikalahkan, keduanya memperoleh Beast Sense: Basic Attack memberikan tambahan 100% Physical Damage selama 5 detik.",
+   "src_hash": "c62efdaee4"
+  },
+  "talent:637004": {
+   "desc": "Memperoleh 1 Milady dan 1 Meng Tian. Saat keduanya di field, panggil Azure Divine Beast dengan Level sama seperti Milady. Saat jumlah Level keduanya mencapai 100, panggil Crimson Divine Beast dengan Level sama seperti Meng Tian.",
+   "src_hash": "aaef60cfd1"
+  },
+  "talent:637006": {
+   "desc": "Saat Diao Chan dan Wan'er bertarung bersama, keduanya berbagi Mana (tanpa perubahan) dan Skill mereka berubah menjadi Skill gabungan yang bisa memberikan Damage serta efek negatif ke target.",
+   "src_hash": "f863df82d2"
+  },
+  "talent:63700601": {
+   "desc": "Memperoleh 1 Diao Chan dan 1 Shangguan Wan'er. Saat bertarung bersama, setelah ikut mengalahkan Hero musuh, keduanya sama-sama mendapat +10 Magic Attack dan +1 Level.",
+   "src_hash": "0e7b607393"
+  },
+  "talent:637007": {
+   "desc": "Memperoleh 1 Consort Yu dan 1 Arli. Saat bertarung bersama, tiap total 10 serangan, mereka melepaskan Arrow Rain ke titik terpadat musuh, masing-masing memberikan 3 kali Magic Damage sebesar 2x Level dirinya sendiri.",
+   "src_hash": "e1124a820f"
+  },
+  "talent:637008": {
+   "desc": "Saat Marco Polo dan Baili Shouyue bertarung bersama, ketika salah satu menggunakan Skill, tercipta Clone yang ikut menggunakan Skill ke arah musuh.",
+   "src_hash": "24df76ad28"
+  },
+  "talent:636108": {
+   "desc": "Tiap kali Akomia Core membagikan 1 Level, dia juga secara acak membagikan 1 Atribut: Physical & Magic Attack / Attack Speed / Mana awal (dipilih acak tiap Combat).",
+   "src_hash": "842dbe230f"
+  },
+  "talent:637010": {
+   "desc": "Memperoleh 1 Cai Yan dan 1 Dr. Bian. Saat bertarung bersama, Dr. Bian akan selalu menggunakan Skill pada Cai Yan; Cai Yan memperoleh 50% Movement Speed dan terus bergerak di dekat musuh sambil memberikan Damage (lihat panel Skill).",
+   "src_hash": "20468f27ba"
+  },
+  "talent:637011": {
+   "desc": "Memperoleh 1 Li Bai dan 1 Yao. Saat bertarung bersama, setiap Li Bai menggunakan Skill, Yao ikut meniru secara sinkron; setelah 3 kali, Yao akan memadukan kedua Skill dan menguasai jurus yang lebih kuat (lihat panel Skill).",
+   "src_hash": "3cf3d611c5"
+  },
+  "talent:637012": {
+   "desc": "Memperoleh 1 Luna dan 1 Sun Wukong. Saat bertarung bersama, jika salah satu dari mereka menerima Damage fatal, dia akan sementara keluar dari field selama 6 detik. Jika yang lain belum gugur selama itu, dia akan kembali ke medan tempur dan memulihkan seluruh HP serta Mana.",
+   "src_hash": "cfc6aee12f"
+  },
+  "talent:637016": {
+   "desc": "Memperoleh 1 Liyuan Fang dan 1 Arli. Saat bertarung bersama, keduanya berbagi Mana (tanpa perubahan) dan Skill mereka berubah menjadi Skill gabungan: Whirling Blade (lihat panel Skill). Tiap Whirling Blade memberikan Damage 2 kali, Level Liyuan Fang +1 secara permanen.",
+   "src_hash": "87d8f87a96"
+  },
+  "talent:638001": {
+   "desc": "Setiap kali Hero milikmu memicu efek Deploy sebanyak 4 kali, secara acak memperoleh 1 kartu Hero.",
+   "src_hash": "208d08b586"
+  },
+  "talent:638002": {
+   "desc": "Saat Combat dimulai, semua unit yang bukan Sacrifice menjadi tak terlihat selama 10 detik.",
+   "src_hash": "a472771b54"
+  },
+  "talent:636107": {
+   "desc": "Hero [Sunset Sea] setiap meningkatkan 10 Level, Akomia Core memperoleh 4 Level.",
+   "src_hash": "ffef89ca16"
+  },
+  "talent:638004": {
+   "desc": "Saat Round dimulai, Level Hero milikmu yang memiliki efek Preparation akan naik sebesar 2x jumlah Hero yang memiliki efek Preparation di field.",
+   "src_hash": "edeb05db47"
+  },
+  "talent:638005": {
+   "desc": "Saat Combat dimulai, Hero milikmu mencuri 33% Level dari Hero musuh dengan nama sama; tiap Hero hanya berubah Level sekali lewat efek ini. Jika lawan juga memiliki Talent ini, efek tidak akan aktif.",
+   "src_hash": "26eea29c40"
+  },
+  "talent:638006": {
+   "desc": "Saat Hero milikmu yang memiliki efek Steal mengalahkan Hero musuh, akan mencuri 3 Level musuh tersebut secara permanen.",
+   "src_hash": "3585a1e407"
+  },
+  "talent:638007": {
+   "desc": "Saat Hero yang memiliki efek Steal mengalahkan Hero musuh, jiwa musuh tersebut dihidupkan kembali (tanpa efek kartu) untuk bertarung dengan Mana penuh selama 5 detik.",
+   "src_hash": "702bb262c4"
+  },
+  "talent:636104": {
+   "desc": "Saat menjual Hero di field, Akomia Core memperoleh Level milik Hero tersebut.",
+   "src_hash": "3fe37beb18"
+  },
+  "talent:638009": {
+   "desc": "Saat Combat dimulai, Flash Hero di baris pertama tidak lagi Flash, tetapi memperoleh 30% Max HP tambahan dan 10 Physical & Magic Defense; Flash Hero di 3 baris belakang memperoleh tambahan 20% Crit Rate dan 40% Crit Damage.",
+   "src_hash": "2e357b1960"
+  },
+  "talent:638010": {
+   "desc": "4/5 Tier Summoned Unit memperoleh Perfect Revive.",
+   "src_hash": "c3423eca7f"
+  },
+  "talent:636102": {
+   "desc": "Level Akomia Core akan diprioritaskan untuk Hero [Sunset Sea] yang mengenakan Equipment terbanyak, maksimum 200 Level.",
+   "src_hash": "d21eda2605"
+  },
+  "talent:635046": {
+   "desc": "Memperoleh 1 Kartu Talent Muster the Troops: peroleh masing-masing 1 dari semua Kartu Hero yang ada di field.",
+   "src_hash": "c8d2e3b4cd"
+  },
+  "talent:635045": {
+   "desc": "Memperoleh 5 Energy dan secara acak 3 Kartu Hero [Three Kingdoms] Tier 4-5.",
+   "src_hash": "7e6c3555ae"
+  },
+  "talent:635043": {
+   "desc": "Secara acak memperoleh 3 Kartu Hero [Three Kingdoms] Tier 3-4.",
+   "src_hash": "68154621f7"
+  },
+  "talent:646005": {
+   "desc": "Memperoleh Lifeguard Orb: menambah Shield; Damage meningkat selama Shield masih ada.",
+   "src_hash": "e46e1c45b8"
+  },
+  "talent:646006": {
+   "desc": "Memperoleh Radiant Holy Armor: memperoleh HP Regen tiap detik.",
+   "src_hash": "e8adfbc036"
+  },
+  "talent:646007": {
+   "desc": "Memperoleh Soulrite Blade: menambah Attack Speed dan Lifesteal, tetapi tiap Combat dimulai dengan 50% HP.",
+   "src_hash": "a65a1c7d99"
+  },
+  "talent:646008": {
+   "desc": "Memperoleh Power of the Source: memberikan Magic Damage ke unit musuh dengan HP terendah.",
+   "src_hash": "a4ee1c93d9"
+  },
+  "talent:646009": {
+   "desc": "Memperoleh Spiritspring Necklace: Max Mana -10; dirinya sendiri dan sekutu dalam 1 tile di sekitarnya memperoleh Mana tiap detik.",
+   "src_hash": "e27eacb8f3"
+  },
+  "talent:646010": {
+   "desc": "Memperoleh Soulbreak Crown: saat pemakai gugur, memberikan True Damage berdasarkan Max HP musuh.",
+   "src_hash": "5fbb46f2fb"
+  },
+  "talent:635040": {
+   "desc": "Memperoleh 5 Energy dan secara acak 3 Kartu Hero [Sunset Sea] Tier 4-5.",
+   "src_hash": "54f692bc4d"
+  },
+  "talent:646012": {
+   "desc": "Memperoleh Bane of the Mighty: memberikan True Damage; tiap 4 kali Basic Attack memberi stun ke musuh.",
+   "src_hash": "bfbbd6591d"
+  },
+  "talent:646013": {
+   "desc": "Memperoleh Spiritspring Staff: mendapat Flash; setelah Flash, lakukan pukulan berat ke musuh.",
+   "src_hash": "4356d144c0"
+  },
+  "talent:646015": {
+   "desc": "Memperoleh Ring of Inspiration: Hero dari faksi yang sama dengan pemakai mendapat tambahan Max HP.",
+   "src_hash": "3d37e53eed"
+  },
+  "talent:646016": {
+   "desc": "Memperoleh Nightmare Fang: Magic Damage yang mengalahkan musuh memberikan Damage area.",
+   "src_hash": "6023d65288"
+  },
+  "talent:646017": {
+   "desc": "Memperoleh Apocalypse: Basic Attack mencuri HP musuh.",
+   "src_hash": "858c11cc0a"
+  },
+  "talent:635038": {
+   "desc": "Secara acak memperoleh 3 Kartu Hero [Sunset Sea] Tier 3-4.",
+   "src_hash": "e54cc42bb2"
+  },
+  "talent:635035": {
+   "desc": "Memperoleh 5 Energy dan secara acak 3 Kartu Hero [Riverlands] Tier 4-5.",
+   "src_hash": "cef2aa673c"
+  },
+  "talent:635033": {
+   "desc": "Secara acak memperoleh 3 Kartu Hero [Riverlands] Tier 3-4.",
+   "src_hash": "27693bcfdd"
+  },
+  "talent:635030": {
+   "desc": "Memperoleh 5 Energy dan secara acak 3 Kartu Hero [Zhulu] Tier 4-5.",
+   "src_hash": "f8306ecbcb"
+  },
+  "talent:635028": {
+   "desc": "Secara acak memperoleh 3 Kartu Hero [Zhulu] Tier 3-4.",
+   "src_hash": "3e459fa073"
+  },
+  "talent:671008": {
+   "desc": "Memulihkan 10 Player HP. Setelahnya, tiap 1 Player tereliminasi, memperoleh 2 Hero Voucher Tier 5.",
+   "src_hash": "2ef62beedd"
+  },
+  "talent:635018": {
+   "desc": "Memperoleh 5 Energy dan 3 Kartu Hero [Central Plain] Tier 4-5 secara acak.",
+   "src_hash": "3b74ca52b7"
+  },
+  "talent:635016": {
+   "desc": "Secara acak memperoleh 3 Kartu Hero [Central Plain] Tier 3-4.",
+   "src_hash": "136e0d692f"
+  },
+  "talent:635013": {
+   "desc": "Memperoleh 1 kartu Hero Tier 5. Saat Round dimulai, peroleh 1 lagi.",
+   "src_hash": "7aa68f0bcc"
+  },
+  "talent:635012": {
+   "desc": "Saat kamu hanya tersisa 1 Hero selama Combat, secara acak panggil 1 Hero Tier 5 dengan Equipment penuh (tanpa efek kartu) untuk bertempur, dengan Level sebesar 10x jumlah Round (minimal Level 80).",
+   "src_hash": "31dc0935f3"
+  },
+  "talent:671013": {
+   "desc": "Memperoleh 2 Hero Voucher Tier 4-5. Saat kamu memiliki minimal 5 Hero Tier 4-5 di field, semua Hero Tier 4-5 memperoleh 20 Temporary Level.",
+   "src_hash": "59c4791278"
+  },
+  "talent:635001": {
+   "desc": "Memperoleh 12 Energy.",
+   "src_hash": "64ce780966"
+  },
+  "talent:634037": {
+   "desc": "Saat Combat dimulai, Hero milikmu yang sudah Awakening memperoleh 50 Physical Attack dan 50 Magic Attack. Jika semua Hero milikmu sudah Awakening, peroleh tambahan 20% Physical dan Magic Lifesteal.",
+   "src_hash": "83b5ba95f0"
+  },
+  "talent:671018": {
+   "desc": "Saat Round dimulai, memperoleh 3 Shop Refresh gratis yang hanya bisa dipakai pada Round ini.",
+   "src_hash": "3a08ed1e58"
+  },
+  "talent:671019": {
+   "desc": "Memperoleh 5 Energy. Jika kamu adalah Player pertama yang mencapai Level 5/6, dapat 2 Hero Voucher Tier 5 di Level 5 dan 1 Talent Equipment di Level 6. Jika gagal, dapat Held Back.",
+   "src_hash": "04f096c87c"
+  },
+  "talent:634035": {
+   "desc": "Saat Combat dimulai, Level 1 Hero milikmu dengan Tier tertinggi +9 secara permanen.",
+   "src_hash": "45a8b52725"
+  },
+  "talent:671021": {
+   "desc": "Saat peringkatmu bukan ke-1 atau ke-2, semua unit milikmu memperoleh Damage +20% dan Max HP +25%.",
+   "src_hash": "b8500efc4a"
+  },
+  "talent:681001": {
+   "desc": "Memperoleh 1 Kartu Talent Stay Right There: pilih 1 posisi; tiap 2 Round, dapatkan 1 Kartu Hero yang berada di slot itu.",
+   "src_hash": "47f66d71aa"
+  },
+  "talent:634032": {
+   "desc": "Saat Combat dimulai, Basic Attack Hero milikmu disertai Magic Damage sebesar 3% Max HP musuh.",
+   "src_hash": "999ac44725"
+  },
+  "talent:634030": {
+   "desc": "Jumlah Hero yang bisa dipasang +1, sekaligus memperoleh 2 Shared Fortune.",
+   "src_hash": "18cae55780"
+  },
+  "talent:634014": {
+   "desc": "Memperoleh 1 Kartu Talent Delayed Gratification: pilih 1 Hero, Level-nya +10; setelah 3 Round, +25 lagi.",
+   "src_hash": "8e3349ee49"
+  },
+  "talent:633020": {
+   "desc": "Memperoleh 1 kartu Basic Equipment. Saat Combat dimulai, Hero milikmu yang mengenakan minimal 2 Equipment memperoleh 15% bonus Damage dan pengurangan Damage.",
+   "src_hash": "d840f4c3e0"
+  },
+  "talent:633014": {
+   "desc": "Saat Combat dimulai, jika kamu memiliki minimal 6 Hero dari faksi yang sama, mereka memperoleh 50 Physical Attack, 50 Magic Attack, dan 50% Attack Speed.",
+   "src_hash": "964068da6b"
+  },
+  "talent:632012": {
+   "desc": "Saat Round dimulai, memulihkan 3 Player HP; jika Player HP sudah penuh, dapat 4 Player EXP sebagai gantinya.",
+   "src_hash": "a0e6590c20"
+  },
+  "talent:623001": {
+   "desc": "Secara acak memperoleh 3 kartu Hero Tier 4-5.",
+   "src_hash": "e8591dcb9a"
+  },
+  "talent:681011": {
+   "desc": "Memperoleh 1 Talent yang bisa dibeli: bayar 8 Energy untuk +1 jumlah Hero yang bisa dipasang. Bisa dibeli hingga 3 kali.",
+   "src_hash": "4f440bfc54"
+  },
+  "talent:681012": {
+   "desc": "Memperoleh 1 kartu Hero yang memiliki efek Preparation. Saat Round dimulai, peroleh 1 lagi.",
+   "src_hash": "d0c4c91d55"
+  },
+  "talent:681013": {
+   "desc": "Memperoleh 1 kartu Hero yang memiliki efek Sacrifice. Saat Round dimulai, peroleh 1 lagi.",
+   "src_hash": "c9723e11eb"
+  },
+  "talent:622010": {
+   "desc": "Memainkan Kartu Hero Tier 3 memberikan tambahan +6 Level.",
+   "src_hash": "eac7948737"
+  },
+  "talent:681015": {
+   "desc": "Memperoleh 1 kartu Hero yang memiliki efek Deploy. Saat Round dimulai, peroleh 1 lagi.",
+   "src_hash": "1636dd22f1"
+  },
+  "talent:681016": {
+   "desc": "Memperoleh Chaos Rift: pilih posisi untuk memanggil rift. Sebelum Combat dimulai, rift melahap Hero di posisi itu dan permanen memperoleh Level dua kali lipat darinya. Saat Combat dimulai, panggil 1 Hero dengan Tier ≥ Level Shop dan Equipment penuh.",
+   "src_hash": "b2fbfcc050"
+  },
+  "talent:622008": {
+   "desc": "Saat Combat dimulai, jika kamu hanya memiliki Hero Tier 1-3, secara acak peroleh 1 Kartu Hero yang ada di field.",
+   "src_hash": "ec7acf5290"
+  },
+  "talent:622003": {
+   "desc": "Memperoleh 1 kartu Travel Together. Saat Round dimulai, jika Player tidak melebihi Level 3, dapat 1 lagi.",
+   "src_hash": "caa59903ff"
+  },
+  "talent:615006": {
+   "desc": "Player HP -20, memperoleh 25 Energy.",
+   "src_hash": "d91ee55b92"
+  },
+  "talent:615002": {
+   "desc": "Memperoleh 15 Player HP, 1 Equipment Box, dan 1 Voucher Tier 5.",
+   "src_hash": "6344100e7d"
+  },
+  "talent:681023": {
+   "desc": "Tiap membeli 3 kartu di Shop, memperoleh 1 Energy; jika jumlah Tier-nya berjumlah 10, secara acak dapat 1 dari kartu tersebut lagi.",
+   "src_hash": "b0cd9a4695"
+  },
+  "talent:615001": {
+   "desc": "Memperoleh 1 Superstar: secara acak pasang 1 Hero Tier 5 yang belum ada di field, dengan Level sebesar 7x Player Level. Progres Awakening-nya dimulai dari 1, dan bertambah +1 tiap 2 Round berikutnya.",
+   "src_hash": "1d71465d22"
+  },
+  "talent:614007": {
+   "desc": "Saat Combat dimulai, jika kamu memiliki minimal 3 Hero Tier 4-5, memperoleh 1 kartu Effect Lucky Bag Tier 4-5.",
+   "src_hash": "f293dc65d1"
+  },
+  "talent:614006": {
+   "desc": "Saat Round dimulai, 1 Hero acak mendapat +1 progres Awakening, tetapi kenaikan Level dari Merge Hero itu -1.",
+   "src_hash": "56c0ee92a9"
+  },
+  "talent:614001": {
+   "desc": "Saat Player Level 4, memperoleh 1 kartu Talent Veteran Headhunter: pilih 1 dari 2 kartu Tier 4, lalu pecah kartu terpilih menjadi 4 bagian.",
+   "src_hash": "ecc247863b"
+  },
+  "talent:613011": {
+   "desc": "Memperoleh 1 Voucher Tier 3. Saat Round dimulai, memperoleh 2 Player EXP; setelah Level maksimum, diganti menjadi 2 Energy.",
+   "src_hash": "309bf36067"
+  },
+  "talent:999001": {
+   "desc": "Energy dapat digunakan hingga -15. Saat Round dimulai, jika Energy sedang negatif, kamu tidak bisa memainkan Kartu Hero pada Round ini.",
+   "src_hash": "b32d059b90"
+  },
+  "talent:999002": {
+   "desc": "Saat Biron memicu efek kartu, dirinya sendiri memperoleh +10% Attack Speed.",
+   "src_hash": "920333352a"
+  },
+  "talent:999003": {
+   "desc": "Memperoleh 1 Cirrus. Saat Combat dimulai, Cirrus akan menambahkan 1 Divine Weapon kepada 1 Hero [Riverlands] terdekat. Jika Cirrus sudah Awakening, Divine Weapon yang ditambahkan menjadi maksimal 3.",
+   "src_hash": "f6c0e23f11"
+  }
+ }
+}
